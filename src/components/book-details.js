@@ -1,5 +1,8 @@
 import React from "react";
 import ReactHtmlParser from "react-html-parser";
+import SeriesInfo from "./book-details-series-info";
+import PubInfo from "./book-details-publisher-info";
+import TitleInfo from "./book-details-title";
 
 function BookDetails(props) {
   // imports cover
@@ -10,17 +13,15 @@ function BookDetails(props) {
       <div id="cover">
         <img src={coverImgSrc} alt={props.json.title + " cover"} />
       </div>
-      <div id="title">{props.json.title}</div>
-      <div id="subtitle">{props.json.subtitle}</div>
+      <TitleInfo json={props.json} />
       <div id="author">{props.json.author}</div>
-      <div id="publisher">{props.json.publisher}</div>
-      <div id="pub-year">{props.json.pubYear}</div>
       <div id="description">{ReactHtmlParser(props.json.description)}</div>
       <div id="rating">{props.json.rating}</div>
       <div id="links">
         <a href={props.json.amazonUrl}>Amazon</a>
         <a href={props.json.goodreadsUrl}>Goodreads</a>
       </div>
+      <PubInfo json={props.json} />
     </div>
   );
 }
