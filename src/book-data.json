@@ -1,9 +1,10 @@
 [
     {
         "title": "All Systems Red",
-        "subtitle": "The Murderbot Diaries",
         "author": "Martha Wells",
-        "seriesOrder": 1,
+        "seriesIndex": 1,
+        "seriesLength": 4,
+        "seriesTitle": "The Murderbot Diaries",
         "length": 155,
         "publisher": "Tor",
         "pubYear": 2017,
