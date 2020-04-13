@@ -49,5 +49,32 @@
         "readers": [
             "Tyler"
         ]
+    },
+    {
+        "title": "The Last Wish",
+        "subtitle": "Introducing the Witcher",
+        "author": "Andrzej Sapkowski",
+        "seriesIndex": 0.5,
+        "seriesLength": 6,
+        "seriesTitle": "The Witcher",
+        "length": 352,
+        "publisher": "Orbit",
+        "pubYear": 2008,
+        "genres": [
+            "Fantasy",
+            "Short Stories"
+        ],
+        "rating": 4,
+        "description": "Meet Geralt of a Rivia, a genetically modifed monster hunter with a rye wit and reluctant committment to doing good. This collection of short stories is a great introduction to the the world of <i>The Witcher</i> that became a Netflix series and smash-hit videogame.",
+        "descriptionAuthor": "Tyler",
+        "finishedDate": "2020-02-18T12:00:00.000Z",
+        "coverImg": "sapkowski-the-last-wish.jpg",
+        "goodreadsUrl": "https://www.goodreads.com/book/show/40603587-the-last-wish",
+        "amazonUrl": "https://smile.amazon.com/Last-Wish-Introducing-Witcher/dp/0316497541/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586805772&sr=1-1",
+        "ISBN10": "0316497541",
+        "ISBN13": "978-0316497541",
+        "readers": [
+            "Tyler"
+        ]
     }
 ]
