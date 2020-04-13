@@ -1,0 +1,19 @@
+[
+    {
+        "title": "All Systems Red",
+        "subtitle": "The Murderbot Diaries",
+        "author": "Martha Wells",
+        "series": true,
+        "series-order": 1,
+        "length": 155,
+        "pub-year": 2017,
+        "genres": [
+            "Science Fiction",
+            "Thriller"
+        ],
+        "rating": 5,
+        "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
+        "finished-on": "2020-04-12T12:00:00.000Z",
+        "cover-img": "wells-all-systems-red.jpg"
+    }
+]
