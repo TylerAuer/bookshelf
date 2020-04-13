@@ -3,22 +3,50 @@
         "title": "All Systems Red",
         "subtitle": "The Murderbot Diaries",
         "author": "Martha Wells",
-        "series": true,
-        "series-order": 1,
+        "seriesOrder": 1,
         "length": 155,
         "publisher": "Tor",
-        "pub-year": 2017,
+        "pubYear": 2017,
         "genres": [
             "Science Fiction",
-            "Thriller"
+            "Thriller",
+            "Novela"
         ],
         "rating": 5,
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
-        "finished-on": "2020-04-12T12:00:00.000Z",
-        "cover-img": "wells-all-systems-red.jpg",
-        "goodreads-url": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
-        "amazon-url": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1",
-        "ISBN-10": "1250214718",
-        "ISBN-13": "978-1250214713"
+        "descriptionAuthor": "Tyler",
+        "finishedDate": "2020-04-12T12:00:00.000Z",
+        "coverImg": "wells-all-systems-red.jpg",
+        "goodreadsUrl": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
+        "amazonUrl": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1",
+        "ISBN10": "1250214718",
+        "ISBN13": "978-1250214713",
+        "readers": [
+            "Tyler"
+        ]
+    },
+    {
+        "title": "Exhalation",
+        "subtitle": "Stories",
+        "author": "Ted Chiang",
+        "length": 368,
+        "publisher": "Knopf",
+        "pubYear": 2019,
+        "genres": [
+            "Science Fiction",
+            "Short Stories"
+        ],
+        "rating": 5,
+        "description": "From the author of the short story that became the hit movie <i>Arrival</i>, a beautiful, philosophical collection of nine stories exploring time travel, free will, and artificial intelligence.",
+        "descriptionAuthor": "Tyler",
+        "finishedDate": "2020-03-03T12:00:00.000Z",
+        "coverImg": "chiang-exhalation.jpg",
+        "goodreadsUrl": "https://www.goodreads.com/book/show/41160292-exhalation?from_search=true&from_srp=true&qid=N0nVjk2Q43&rank=1",
+        "amazonUrl": "https://smile.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586797323&sr=1-1",
+        "ISBN10": "1101947888",
+        "ISBN13": "978-1101947883",
+        "readers": [
+            "Tyler"
+        ]
     }
 ]
