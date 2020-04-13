@@ -1,19 +1,22 @@
+/** @jsx jsx */
 import React from "react";
 import ReactHtmlParser from "react-html-parser";
 import PubInfo from "./book-details-publisher-info";
 import TitleInfo from "./book-details-title";
+import BookCoverImg from "./book-details-cover";
+import { jsx, css } from "@emotion/core";
 
 function BookDetails(props) {
-  // imports cover
-  const coverImgSrc = require("../covers/" + props.json.coverImg);
-
   return (
-    <div className="container m-3">
-      <div id="cover">
-        <img src={coverImgSrc} alt={props.json.title + " cover"} />
-      </div>
+    <div
+      className="container"
+      css={css`
+        overflow: hidden;
+        margin: 20px auto;
+      `}
+    >
+      <BookCoverImg json={props.json} />
       <TitleInfo json={props.json} />
-      <div id="author">{props.json.author}</div>
       <div id="description">{ReactHtmlParser(props.json.description)}</div>
       <div id="rating">{props.json.rating}</div>
       <div id="links">
