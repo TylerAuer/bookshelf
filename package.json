@@ -10,6 +10,7 @@
     "isotope-layout": "^3.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
