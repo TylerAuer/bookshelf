@@ -2,14 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+import BookDetails from "./components/book-details";
+
+const bookData = require("./book-data.json");
+let bookArr = [];
+bookData.forEach((book, index) => {
+  bookArr.push(<BookDetails key={index} json={book} />);
+});
 
 ReactDOM.render(
-  <React.StrictMode>
-    {/* Navbar */}
-    {/* Categories */}
-    {/* Isotope */}
-    {/* Footer */}
-  </React.StrictMode>,
+  <React.StrictMode>{bookArr}</React.StrictMode>,
   document.getElementById("root")
 );
 
