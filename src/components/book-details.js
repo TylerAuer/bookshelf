@@ -1,16 +1,12 @@
 import React from "react";
-import ReactHtmlParser, {
-  processNodes,
-  convertNodeToElement,
-  htmlparser2,
-} from "react-html-parser";
+import ReactHtmlParser from "react-html-parser";
 
 function BookDetails(props) {
   // imports cover
   const coverImgSrc = require("../covers/" + props.json.coverImg);
 
   return (
-    <div>
+    <div className="container m-3">
       <div id="cover">
         <img src={coverImgSrc} alt={props.json.title + " cover"} />
       </div>
