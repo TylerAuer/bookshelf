@@ -1,6 +1,5 @@
 import React from "react";
 import ReactHtmlParser from "react-html-parser";
-import SeriesInfo from "./book-details-series-info";
 import PubInfo from "./book-details-publisher-info";
 import TitleInfo from "./book-details-title";
 
