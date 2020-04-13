@@ -1,4 +1,9 @@
 import React from "react";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2,
+} from "react-html-parser";
 
 function BookDetails(props) {
   // imports cover
@@ -14,7 +19,7 @@ function BookDetails(props) {
       <div id="author">{props.json.author}</div>
       <div id="publisher">{props.json.publisher}</div>
       <div id="pub-year">{props.json.pubYear}</div>
-      <div id="description">{parsedDesc.body}</div>
+      <div id="description">{ReactHtmlParser(props.json.description)}</div>
       <div id="rating">{props.json.rating}</div>
       <div id="links">
         <a href={props.json.amazonUrl}>Amazon</a>
