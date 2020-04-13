@@ -14,6 +14,10 @@
         "rating": 5,
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
         "finished-on": "2020-04-12T12:00:00.000Z",
-        "cover-img": "wells-all-systems-red.jpg"
+        "cover-img": "wells-all-systems-red.jpg",
+        "goodreads-url": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
+        "amazon-url": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1",
+        "ISBN-10": "1250214718",
+        "ISBN-13": "978-1250214713"
     }
 ]
