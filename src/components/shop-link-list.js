@@ -5,8 +5,9 @@ import { jsx, css } from "@emotion/core";
 const linkStyle = css`
   background: white;
   border-radius: 6px;
-  color: #c45ec4;
-  font-weight: 700;
+  color: black;
+  /* color: #c45ec4; */
+  font-weight: 600;
   font-size: 14px;
   padding: 4px 6px;
   margin: 3px 6px 3px 0px;
@@ -20,15 +21,21 @@ const linkStyle = css`
 `;
 
 function ShopLinkList(props) {
+  let extLinkArr = [];
+  for (let [key, value] of Object.entries(props.json.extLinks)) {
+    extLinkArr.push(
+      <li style={{ display: "inline" }}>
+        <a key={key} href={value} css={linkStyle}>
+          {key}
+        </a>
+      </li>
+    );
+  }
+
   return (
-    <div id="links">
-      <a href={props.json.amazonUrl} css={linkStyle}>
-        Amazon
-      </a>
-      <a href={props.json.goodreadsUrl} css={linkStyle}>
-        Goodreads
-      </a>
-    </div>
+    <ul id="external-links" style={{ padding: "0px" }}>
+      {extLinkArr}
+    </ul>
   );
 }
 
