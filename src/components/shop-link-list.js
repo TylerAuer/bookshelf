@@ -24,8 +24,8 @@ function ShopLinkList(props) {
   let extLinkArr = [];
   for (let [key, value] of Object.entries(props.json.extLinks)) {
     extLinkArr.push(
-      <li style={{ display: "inline" }}>
-        <a key={key} href={value} css={linkStyle}>
+      <li key={key} style={{ display: "inline" }}>
+        <a href={value} css={linkStyle}>
           {key}
         </a>
       </li>
