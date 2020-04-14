@@ -1,0 +1,30 @@
+{
+    "id": ,
+    "title": "",
+    "subtitle": "",
+    "author": "",
+    "seriesIndex": ,
+    "seriesLength": ,
+    "seriesTitle": "",
+    "length": ,
+    "pubYear": ,
+    "tags": [
+        "",
+        ""
+    ],
+    "description": "",
+    "descriptionAuthor": "",
+    "coverImg": "",
+    "extLinks": {
+        "Goodreads": "",
+        "Amazon": ""
+    },
+    "ISBN10": "",
+    "ISBN13": "",
+    "readers": [
+        {
+            "name": "Tyler",
+            "rating":
+        }
+    ]
+}
