@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "All Systems Red",
         "author": "Martha Wells",
         "seriesIndex": 1,
@@ -15,10 +16,12 @@
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
         "descriptionAuthor": "Tyler",
         "coverImg": "wells-all-systems-red.jpg",
-        "goodreadsUrl": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
-        "amazonUrl": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1",
         "ISBN10": "1250214718",
         "ISBN13": "978-1250214713",
+        "extLinks": {
+            "goodreads": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
+            "amazon": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1"
+        },
         "readers": [
             {
                 "name": "Tyler",
@@ -27,6 +30,7 @@
         ]
     },
     {
+        "id": 2,
         "title": "Exhalation",
         "subtitle": "Stories",
         "author": "Ted Chiang",
@@ -39,10 +43,12 @@
         "description": "From the author of the short story that became the hit movie <i>Arrival</i>, a beautiful, philosophical collection of nine stories exploring time travel, free will, and artificial intelligence.",
         "descriptionAuthor": "Tyler",
         "coverImg": "chiang-exhalation.jpg",
-        "goodreadsUrl": "https://www.goodreads.com/book/show/41160292-exhalation?from_search=true&from_srp=true&qid=N0nVjk2Q43&rank=1",
-        "amazonUrl": "https://smile.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586797323&sr=1-1",
         "ISBN10": "1101947888",
         "ISBN13": "978-1101947883",
+        "extLinks": {
+            "goodreads": "https://www.goodreads.com/book/show/41160292-exhalation?from_search=true&from_srp=true&qid=N0nVjk2Q43&rank=1",
+            "amazon": "https://smile.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586797323&sr=1-1"
+        },
         "readers": [
             {
                 "name": "Tyler",
@@ -51,6 +57,7 @@
         ]
     },
     {
+        "id": 3,
         "title": "The Last Wish",
         "subtitle": "Introducing the Witcher",
         "author": "Andrzej Sapkowski",
@@ -66,8 +73,10 @@
         "description": "Meet Geralt of a Rivia, a genetically modifed monster hunter with a rye wit and reluctant commitment to doing good. This collection of short stories is a great introduction to the the world of <i>The Witcher</i> that became a Netflix series and smash-hit videogame.",
         "descriptionAuthor": "Tyler",
         "coverImg": "sapkowski-the-last-wish.jpg",
-        "goodreadsUrl": "https://www.goodreads.com/book/show/40603587-the-last-wish",
-        "amazonUrl": "https://smile.amazon.com/Last-Wish-Introducing-Witcher/dp/0316497541/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586805772&sr=1-1",
+        "extLinks": {
+            "goodreads": "https://www.goodreads.com/book/show/40603587-the-last-wish",
+            "amazon": "https://smile.amazon.com/Last-Wish-Introducing-Witcher/dp/0316497541/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586805772&sr=1-1"
+        },
         "ISBN10": "0316497541",
         "ISBN13": "978-0316497541",
         "readers": [
