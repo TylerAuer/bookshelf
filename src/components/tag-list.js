@@ -6,9 +6,13 @@ import Tag from "./tag";
 function TagList(props) {
   let tagArr = [];
   props.json.tags.forEach((tag, index) => {
-    tagArr.push(<Tag key={index} title={tag} />);
+    tagArr.push(
+      <li style={{ display: "inline" }}>
+        <Tag key={index} title={tag} />
+      </li>
+    );
   });
-  return <React.Fragment>{tagArr}</React.Fragment>;
+  return <ul style={{ padding: "0px" }}>{tagArr}</ul>;
 }
 
 export default TagList;
