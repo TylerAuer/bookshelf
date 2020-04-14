@@ -7,8 +7,8 @@ function TagList(props) {
   let tagArr = [];
   props.json.tags.forEach((tag, index) => {
     tagArr.push(
-      <li style={{ display: "inline" }}>
-        <Tag key={index} title={tag} />
+      <li key={index} style={{ display: "inline" }}>
+        <Tag title={tag} />
       </li>
     );
   });
