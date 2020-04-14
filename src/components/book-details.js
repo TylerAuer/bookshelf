@@ -6,6 +6,7 @@ import { jsx, css } from "@emotion/core";
 import Description from "./book-details-description";
 import Ratings from "./book-details-ratings";
 import TagList from "./tag-list";
+import ShopLinks from "./shopLinks";
 
 function BookDetails(props) {
   return (
@@ -27,10 +28,7 @@ function BookDetails(props) {
       <div style={{ margin: "10px 0px" }}>
         <Ratings json={props.json} />
       </div>
-      <div id="links">
-        <a href={props.json.amazonUrl}>Amazon</a>
-        <a href={props.json.goodreadsUrl}>Goodreads</a>
-      </div>
+      <ShopLinks json={props.json} />
     </div>
   );
 }
