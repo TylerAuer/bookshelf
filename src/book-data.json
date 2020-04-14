@@ -8,12 +8,11 @@
         "length": 155,
         "publisher": "Tor",
         "pubYear": 2017,
-        "genres": [
+        "tags": [
             "Science Fiction",
             "Thriller",
             "Novela"
         ],
-        "rating": 5,
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
         "descriptionAuthor": "Tyler",
         "finishedDate": "2020-04-12T12:00:00.000Z",
@@ -23,7 +22,10 @@
         "ISBN10": "1250214718",
         "ISBN13": "978-1250214713",
         "readers": [
-            "Tyler"
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
         ]
     },
     {
@@ -33,11 +35,10 @@
         "length": 368,
         "publisher": "Knopf",
         "pubYear": 2019,
-        "genres": [
+        "tags": [
             "Science Fiction",
             "Short Stories"
         ],
-        "rating": 5,
         "description": "From the author of the short story that became the hit movie <i>Arrival</i>, a beautiful, philosophical collection of nine stories exploring time travel, free will, and artificial intelligence.",
         "descriptionAuthor": "Tyler",
         "finishedDate": "2020-03-03T12:00:00.000Z",
@@ -47,7 +48,10 @@
         "ISBN10": "1101947888",
         "ISBN13": "978-1101947883",
         "readers": [
-            "Tyler"
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
         ]
     },
     {
@@ -60,11 +64,10 @@
         "length": 352,
         "publisher": "Orbit",
         "pubYear": 2008,
-        "genres": [
+        "tags": [
             "Fantasy",
             "Short Stories"
         ],
-        "rating": 4,
         "description": "Meet Geralt of a Rivia, a genetically modifed monster hunter with a rye wit and reluctant commitment to doing good. This collection of short stories is a great introduction to the the world of <i>The Witcher</i> that became a Netflix series and smash-hit videogame.",
         "descriptionAuthor": "Tyler",
         "finishedDate": "2020-02-18T12:00:00.000Z",
@@ -74,7 +77,18 @@
         "ISBN10": "0316497541",
         "ISBN13": "978-0316497541",
         "readers": [
-            "Tyler"
+            {
+                "name": "Tyler",
+                "rating": 4
+            },
+            {
+                "name": "Ben",
+                "rating": 3
+            },
+            {
+                "name": "Jessica",
+                "rating": 1
+            }
         ]
     }
 ]
