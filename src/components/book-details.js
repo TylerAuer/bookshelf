@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import React from "react";
-import PubInfo from "./book-details-publisher-info";
 import TitleInfo from "./book-details-title";
 import BookCoverImg from "./book-details-cover";
 import { jsx, css } from "@emotion/core";
@@ -22,7 +21,9 @@ function BookDetails(props) {
       </div>
       <TitleInfo json={props.json} />
       <Description json={props.json} />
-      <TagList json={props.json} />
+      <div style={{ margin: "10px 0px" }}>
+        <TagList json={props.json} />
+      </div>
       <div style={{ margin: "10px 0px" }}>
         <Ratings json={props.json} />
       </div>
@@ -30,7 +31,6 @@ function BookDetails(props) {
         <a href={props.json.amazonUrl}>Amazon</a>
         <a href={props.json.goodreadsUrl}>Goodreads</a>
       </div>
-      <PubInfo json={props.json} />
     </div>
   );
 }
