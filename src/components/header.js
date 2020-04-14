@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import React from "react";
 import { jsx, css } from "@emotion/core";
-import { displayPartsToString } from "typescript";
+import { theme } from "../css-variables";
 
 const headerDivStyle = css`
-  background: #a310a3;
+  background: ${theme.mainColorDark};
   padding: 40px 20px;
   color: white;
 `;
@@ -20,7 +20,7 @@ const listItemStyle = css`
   display: inline;
   color: black;
   background: white;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
   font-size: 20px;
   padding: 6px 12px;
   margin: 5px 10px 0px 0px;
