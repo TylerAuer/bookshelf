@@ -20,14 +20,22 @@ function BookDetails(props) {
       <div style={{ float: "right", margin: "10px 5px 10px 25px" }}>
         <BookCoverImg json={props.json} />
       </div>
+
       <TitleInfo json={props.json} />
+
       <Description json={props.json} />
-      <div style={{ margin: "10px 0px" }}>
-        <TagList json={props.json} />
-        <ShopLinkList json={props.json} />
-      </div>
+
       <div style={{ margin: "10px 0px" }}>
         <Ratings json={props.json} />
+      </div>
+
+      <div style={{ margin: "10px 0px" }}>
+        <div style={{ overflow: "hidden", margin: "5px 0px" }}>
+          <TagList json={props.json} />
+        </div>
+        <div style={{ overflow: "hidden", margin: "5px 0px" }}>
+          <ShopLinkList json={props.json} />
+        </div>
       </div>
     </div>
   );

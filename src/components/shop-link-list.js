@@ -6,13 +6,13 @@ const linkStyle = css`
   background: white;
   border-radius: 6px;
   color: black;
-  /* color: #c45ec4; */
   font-weight: 600;
   font-size: 14px;
   padding: 4px 6px;
   margin: 3px 6px 3px 0px;
   border: 1px solid #c45ec4;
   transition-duration: 150ms;
+  float: left;
   &:hover {
     color: white;
     background: #c45ec4;

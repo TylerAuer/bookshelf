@@ -12,6 +12,7 @@ const tagStyle = css`
   margin: 3px 6px 3px 0px;
   border: 1px solid #c45ec4;
   transition-duration: 150ms;
+  float: left;
   &:hover {
     color: #c45ec4;
     background: white;
