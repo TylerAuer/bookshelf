@@ -11,8 +11,8 @@ const bookData = require("./book-data.json");
 ReactDOM.render(
   <React.StrictMode>
     <SiteHeader />
-    {/* <CoverGrid json={bookData} /> */}
-    <DetailsList json={bookData} />
+    <CoverGrid json={bookData} />
+    {/* <DetailsList json={bookData} /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
