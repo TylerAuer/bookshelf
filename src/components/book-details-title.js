@@ -1,12 +1,7 @@
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core";
 import React from "react";
-import SeriesInfo from "./book-details-series-info";
+import { jsx, css } from "@emotion/core";
 
-const titleDivStyle = css`
-  border-left: 4px solid #c45ec4;
-  padding-left: 5px;
-`;
 const titleStyle = css`
   font-size: 40px;
   font-weight: bold;
@@ -26,13 +21,11 @@ const authorStyle = css`
 
 function TitleInfo(props) {
   return (
-    <React.Fragment>
-      <div css={titleDivStyle}>
-        <div css={titleStyle}>{props.json.title}</div>
-        <div css={subtitleStyle}>{props.json.subtitle}</div>
-      </div>
+    <div>
+      <div css={titleStyle}>{props.json.title}</div>
+      <div css={subtitleStyle}>{props.json.subtitle}</div>
       <div css={authorStyle}>{props.json.author}</div>
-    </React.Fragment>
+    </div>
   );
 }
 
