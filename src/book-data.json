@@ -11,7 +11,8 @@
         "tags": [
             "Science Fiction",
             "Thriller",
-            "Novela"
+            "Novela",
+            "Tyler's Fave"
         ],
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
         "descriptionAuthor": "Tyler",
@@ -38,7 +39,8 @@
         "pubYear": 2019,
         "tags": [
             "Science Fiction",
-            "Short Stories"
+            "Short Stories",
+            "Tyler's Fave"
         ],
         "description": "From the author of the short story that became the hit movie <i>Arrival</i>, a beautiful, philosophical collection of nine stories exploring time travel, free will, and artificial intelligence.",
         "descriptionAuthor": "Tyler",
@@ -91,6 +93,90 @@
             {
                 "name": "Jessica",
                 "rating": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Berlin",
+        "subtitle": "City of Stones",
+        "author": "Jason Lutes",
+        "seriesIndex": 1,
+        "seriesLength": 3,
+        "seriesTitle": "Berlin #1",
+        "length": 212,
+        "pubYear": 2000,
+        "tags": [
+            "Graphic Novel",
+            "Historical Fiction"
+        ],
+        "description": "A beautiful black and white graphic novel set in 1928 Berlin that follows a wide range of characters, particularly journalist Kurt Severing and artist Marthe Muller, as tempers flare and the world darkens around them. While gorgeous and captivating at times, this felt like a slog in sections: and accomplishment for a 200-page graphic novel.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "lutes-berlin-city-of-stones.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/438068.Berlin_Vol_1",
+            "Amazon": "https://www.amazon.com/Berlin-City-Stones-Book-Part/dp/1896597297/ref=sr_1_1?dchild=1&keywords=Berlin%3A+City+of+Stones&qid=1586878368&s=books&sr=1-1"
+        },
+        "ISBN10": "1896597297",
+        "ISBN13": "978-1896597294",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Bossypants",
+        "author": "Tina Fey",
+        "length": 283,
+        "pubYear": 2011,
+        "tags": [
+            "Comedy",
+            "Memoir",
+            "Must Listen"
+        ],
+        "description": "An uproariously funny memoir of Tina Fey's childhood, early improve comedy career, and success with SNL and 30 Rock. Organized as a guide to being a successful leader of creative-types, Fey's writing bounces between insightful, reflective, and laugh-out-loud hilarous from one sentence to the next.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "fey-bossypants.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9418327-bossypants?from_search=true&from_srp=true&qid=pSKwgQEMmv&rank=1",
+            "Amazon": "https://www.amazon.com/Tina-Fey-Bossypants-2011-04-05/dp/B01FGIKGRM/ref=sr_1_3?dchild=1&keywords=Bossypants&qid=1586878894&sr=8-3",
+            "Audible": "https://www.audible.com/pd/Bossypants-Audiobook/B004RCBFII"
+        },
+        "ISBN10": "0316056863",
+        "ISBN13": "9780316056861",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Stories of Your Life and Others",
+        "author": "Ted Chiang",
+        "length": 304,
+        "pubYear": 2010,
+        "tags": [
+            "Science Fiction",
+            "Short Stories"
+        ],
+        "description": "While less focused than his second book, <i>Exhalation</i>, Chiang's first short story collection is mesmerizing. The first tale, <i>Tower of Babylon</i> was his first published story and still managed to win a Hugo. <i>Stories of Your Life</i> became the hit-movie <i>Arrival</i>. Other stories explore alternate histories in which scientific discoveries evolved differently. While always exploring high-concepts, his stories always feel grounded in human characters allowing readers to explore strange worlds that still somehow feel like the one we inhabit.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "chiang-stories-of-your-life-and-others.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/18626849-stories-of-your-life-and-others",
+            "Amazon": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/ref=tmm_pap_title_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1101972122",
+        "ISBN13": "978-1101972120",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
             }
         ]
     }
