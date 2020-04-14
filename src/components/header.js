@@ -26,6 +26,8 @@ const listItemStyle = css`
   margin: 5px 10px 0px 0px;
 `;
 
+//TODO: fix style of "pill" links at the bottom so they look like cutouts
+
 function SiteHeader(props) {
   return (
     <div className="container-fluid" css={headerDivStyle}>
@@ -33,9 +35,11 @@ function SiteHeader(props) {
       <p>
         Literary ramblings, reviews, and reflections from a herd of purple cows.
       </p>
-      <ul style={{ padding: "0px", marginBottom: "0px" }}>
-        <li css={listItemStyle}>Podcast</li>
-      </ul>
+      <div style={{ overflow: "hidden" }}>
+        <ul style={{ padding: "0px", marginBottom: "0px" }}>
+          <li css={listItemStyle}>Podcast</li>
+        </ul>
+      </div>
     </div>
   );
 }
