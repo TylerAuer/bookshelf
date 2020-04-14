@@ -6,7 +6,7 @@ import { jsx, css } from "@emotion/core";
 import Description from "./book-details-description";
 import Ratings from "./book-details-ratings";
 import TagList from "./tag-list";
-import ShopLinks from "./shopLinks";
+import ShopLinkList from "./shop-link-list";
 
 function BookDetails(props) {
   return (
@@ -24,11 +24,11 @@ function BookDetails(props) {
       <Description json={props.json} />
       <div style={{ margin: "10px 0px" }}>
         <TagList json={props.json} />
+        <ShopLinkList json={props.json} />
       </div>
       <div style={{ margin: "10px 0px" }}>
         <Ratings json={props.json} />
       </div>
-      <ShopLinks json={props.json} />
     </div>
   );
 }

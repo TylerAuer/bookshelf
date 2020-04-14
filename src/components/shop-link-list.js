@@ -19,7 +19,7 @@ const linkStyle = css`
   }
 `;
 
-function ShopLinks(props) {
+function ShopLinkList(props) {
   return (
     <div id="links">
       <a href={props.json.amazonUrl} css={linkStyle}>
@@ -32,4 +32,4 @@ function ShopLinks(props) {
   );
 }
 
-export default ShopLinks;
+export default ShopLinkList;
