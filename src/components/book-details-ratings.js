@@ -19,13 +19,21 @@ function Ratings(props) {
     let stars = [];
     for (let i = 1; i < 6; i++) {
       if (i <= reader.rating) {
-        stars.push(<span css={starsLit}>★</span>);
+        stars.push(
+          <span key={i} css={starsLit}>
+            ★
+          </span>
+        );
       } else {
-        stars.push(<span css={starsDim}>★</span>);
+        stars.push(
+          <span key={i} css={starsDim}>
+            ★
+          </span>
+        );
       }
     }
     readerRatings.push(
-      <div css={ratingStyle}>
+      <div key={reader.name} css={ratingStyle}>
         <b>{reader.name}</b>: {stars}
       </div>
     );
