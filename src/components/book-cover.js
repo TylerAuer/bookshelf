@@ -2,8 +2,10 @@
 import { jsx, css } from "@emotion/core";
 
 const coverImgStyle = css`
-  width: 200px;
+  width: 100%;
+  max-width: 250px;
   height: auto;
+  margin: 0px auto;
 `;
 
 function BookCoverImg(props) {
