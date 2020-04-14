@@ -2,16 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import BookDetails from "./components/book-details";
+import DetailsList from "./components/details-list";
+import CoverGrid from "./components/cover-grid";
+import SiteHeader from "./components/header";
 
 const bookData = require("./book-data.json");
-let bookArr = [];
-bookData.forEach((book, index) => {
-  bookArr.push(<BookDetails key={index} json={book} />);
-});
 
 ReactDOM.render(
-  <React.StrictMode>{bookArr}</React.StrictMode>,
+  <React.StrictMode>
+    <SiteHeader />
+    {/* <CoverGrid json={bookData} /> */}
+    <DetailsList json={bookData} />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
