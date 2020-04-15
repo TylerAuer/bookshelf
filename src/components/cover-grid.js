@@ -23,7 +23,7 @@ function CoverGrid(props) {
   let coverArr = [];
   props.json.forEach((book, index) => {
     coverArr.push(
-      <div>
+      <div key={index}>
         <BookCoverImg json={book} />
       </div>
     );
