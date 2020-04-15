@@ -7,14 +7,14 @@
     "seriesIndex": ,
     "seriesLength": ,
     "seriesTitle": "",
-    "length": ,
+    "pages": ,
     "pubYear": ,
     "tags": [
         "",
         ""
     ],
     "description": "",
-    "descriptionAuthor": "",
+    "descriptionAuthor": "Tyler",
     "coverImg": "",
     "extLinks": {
         "Goodreads": "",
@@ -28,4 +28,4 @@
             "rating":
         }
     ]
-},
+}

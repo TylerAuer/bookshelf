@@ -8,7 +8,7 @@
         "seriesIndex": 1,
         "seriesLength": 2,
         "seriesTitle": "A Targaryen History",
-        "length": 736,
+        "pages": 736,
         "pubYear": 2018,
         "tags": [
             "Fantasy",
@@ -37,7 +37,7 @@
         "seriesIndex": 1,
         "seriesLength": 4,
         "seriesTitle": "The Murderbot Diaries",
-        "length": 155,
+        "pages": 155,
         "pubYear": 2017,
         "tags": [
             "Science Fiction",
@@ -69,7 +69,7 @@
         "seriesIndex": 1,
         "seriesLength": 3,
         "seriesTitle": "Berlin #1",
-        "length": 212,
+        "pages": 212,
         "pubYear": 2000,
         "tags": [
             "Graphic Novel",
@@ -95,7 +95,7 @@
         "id": "20TA015",
         "title": "Bossypants",
         "author": "Tina Fey",
-        "length": 283,
+        "pages": 283,
         "pubYear": 2011,
         "tags": [
             "Comedy",
@@ -124,7 +124,7 @@
         "id": "20TA014",
         "title": "Stories of Your Life and Others",
         "author": "Ted Chiang",
-        "length": 304,
+        "pages": 304,
         "pubYear": 2010,
         "tags": [
             "Science Fiction",
@@ -151,7 +151,7 @@
         "title": "Talking to Strangers",
         "subtitle": "What We Should Know about the People We Don't Know",
         "author": "Malcom Gladwell",
-        "length": 388,
+        "pages": 388,
         "pubYear": 2019,
         "tags": [
             "Nonfiction",
@@ -176,11 +176,66 @@
         ]
     },
     {
+        "id": "20TA12",
+        "title": "In the Garden of Beasts",
+        "subtitle": "Love, Terror, and an American Family in Hitler's Berlin",
+        "author": "Erik Larson",
+        "pages": 448,
+        "pubYear": 2011,
+        "tags": [
+            "Nonfiction",
+            "History",
+            "World War II"
+        ],
+        "description": "A meticulously researched portrait of a country descending into Nazisms through the eyes of the American ambassador and his family. While some parts were fascinating, all but the most curious World War II buffs will find this one a bit slow.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "larson-in-the-garden.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9938498-in-the-garden-of-beasts",
+            "Amazon": "https://www.amazon.com/Garden-Beasts-Terror-American-Hitlers/dp/0307408841/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0307408841",
+        "ISBN13": "9780307408846",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA11",
+        "title": "Home After Dark",
+        "subtitle": "A Novel",
+        "author": "David Small",
+        "pages": 416,
+        "pubYear": 2018,
+        "tags": [
+            "Graphic Novel",
+            "Literary Fiction"
+        ],
+        "description": "Small's works are always beautiful and this novel tells the story of Russel Pruitt. After his mother's abandonment, Russell and his father pack the car and make for California, eventually settling in remote Marshfield. Once there Russel is left to fend for himself as he discovers what it means to grow into a young man. This book might appeal to graphic novel skeptics looking for more literature and less comic book.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "small-home-after-dark.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/38730623-home-after-dark",
+            "Amazon": "https://www.amazon.com/dp/B07H41BY1R/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+        },
+        "ISBN10": "0871403153",
+        "ISBN13": "9780871403155",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
         "id": "20TA010",
         "title": "Exhalation",
         "subtitle": "Stories",
         "author": "Ted Chiang",
-        "length": 368,
+        "pages": 368,
         "pubYear": 2019,
         "tags": [
             "Science Fiction",
@@ -204,6 +259,86 @@
         ]
     },
     {
+        "id": "20TA009",
+        "title": "Blood, Sweat, and Pixels",
+        "subtitle": "The Triumphant, Turbulent Stories Behind How Video Games Are Made",
+        "author": "Jason Schreier",
+        "pages": 304,
+        "pubYear": 2017,
+        "tags": [
+            "Games",
+            "Nonfiction"
+        ],
+        "description": "<i>Blood, Sweat, and Pixels</i> is a compelling read for fans of video games. Schreier tells the story of how 10 games -- from triple-A, big budget games like Diablo III to one-person projects like Stardew Valley -- get made (or not) and all of the corporate politics and challenges that get in the way. If you’ve ever wondered how a development team can spend years and millions on a game that is obviously terrible, this book will help you understand. ",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "schreier-blood-sweat-pixels.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels",
+            "Amazon": "https://www.amazon.com/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234/ref=tmm_pap_title_0?_encoding=UTF8&amp;qid=&amp;sr="
+        },
+        "ISBN10": "0062651234",
+        "ISBN13": "9780062651235",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA008",
+        "title": "Un-Trumping America",
+        "subtitle": "A Plan to Make America a Democracy Again",
+        "author": "Dan Pfeiffer",
+        "pages": 273,
+        "pubYear": 2020,
+        "tags": [
+            "Politics and Economics",
+            "Left-leaning"
+        ],
+        "description": "A much stronger work than his first book, <i>Yes We (Still) Can</i>, host of the popular lefty podcast, <i>Pod Save America</i>, outlines a vision for how Democrats can regain power in American politics. Mixing media strategy expertise, White House experience, and hard-hitting humor, Pfeiffer makes a compelling case for more aggressive tactics by Democrats.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pfeiffer-untrumping-america.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/51203727-un-trumping-america",
+            "Amazon": "https://www.amazon.com/Trumping-America-Plan-Democracy-Again/dp/1538733552/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1538733552",
+        "ISBN13": "9781538733554",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA007",
+        "title": "Caffeine",
+        "subtitle": "How Caffeine Created the Modern World",
+        "author": "Michael Pollan",
+        "pubYear": 2020,
+        "tags": [
+            "Nonfiction",
+            "Food and Drink",
+            "Short",
+            "Fascinating"
+        ],
+        "description": "The famous food and drug writer tackles caffeine in this just-for-audible audiobook. With his usual mix of curiosity, clever writing, and self-experimentation, Pollan shares how coffee (really its psychoactive compounds) spread across the world from the Middle East and revolutionized society all the while sharing his personal experience of giving up his daily dose (or doses) of the drug.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pollan-caffeine.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52300107-caffeine",
+            "Audible": "https://www.amazon.com/Caffeine-How-Created-Modern-World/dp/B083MYJXZT"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
         "id": "20TA006",
         "title": "The Last Wish",
         "subtitle": "Introducing the Witcher",
@@ -211,7 +346,7 @@
         "seriesIndex": 0.5,
         "seriesLength": 6,
         "seriesTitle": "The Witcher",
-        "length": 352,
+        "pages": 352,
         "pubYear": 2008,
         "tags": [
             "Fantasy",
@@ -230,14 +365,149 @@
             {
                 "name": "Tyler",
                 "rating": 4
-            },
+            }
+        ]
+    },
+    {
+        "id": "20TA005",
+        "title": "Why We're Polarized",
+        "author": "Ezra Klein",
+        "pages": 312,
+        "pubYear": 2020,
+        "tags": [
+            "Politics and Economics",
+            "History",
+            "Psychology",
+            "Nonfiction",
+            "Fascinating"
+        ],
+        "description": "I’ve learned more from Ezra Klein and his podcast than perhaps any other person. So it is no surprise that Klein has crafted an insightful and original analysis of our current politics. Klein clearly articulates how our identities, once broken into many unrelated parts, have now aligned dramatically at two poles. Weaving in historical research, social psychology, and modern politics, Klein’s new book manages to live up to the promise of its title without retreading the same gut-feeling explanations seen elsewhere.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "klein-why-were-polarized.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52098718-why-we-re-polarized",
+            "Amazon": "https://www.amazon.com/Why-Were-Polarized-Ezra-Klein/dp/147670032X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "147670032X",
+        "ISBN13": "9781476700328",
+        "readers": [
             {
-                "name": "Ben",
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA004",
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "pages": 391,
+        "pubYear": 2011,
+        "tags": [
+            "Fantasy",
+            "Literary Fiction",
+            "Magic"
+        ],
+        "description": "A whimsical tale full of magic, mystery, and romance, <i>The Night Circus</i> is unlike any other fantasy novel you’ve read. It tells the story of two magicians playing a game they don’t really understand. This novel is packed with curious characters who hold their secrets close until the very end.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "morgenstern-night-circus.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9361589-the-night-circus",
+            "Amazon": "https://www.amazon.com/Night-Circus-Erin-Morgenstern/dp/0385534639/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0385534639",
+        "ISBN13": "9780385534635",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA003",
+        "title": "Daytripper",
+        "author": "Gabriel Ba and Fabio Moon",
+        "seriesIndex": 1,
+        "seriesLength": 6,
+        "seriesTitle": "Daytripper",
+        "pages": 256,
+        "pubYear": 2011,
+        "tags": [
+            "Graphic Novel",
+            "Literary Fiction",
+            "Series"
+        ],
+        "description": "<i>Daytripper</i> visits alternate realities of Bras de Olivias Dominguez’s life. Each chapter is a what-if, exploring the spiraling, haunting repercussions of the choices we all make each day.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "ba-daytripper.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/8477057-daytripper",
+            "Amazon": "https://www.amazon.com/Daytripper-Gabriel-Ba/dp/1401229697/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1401229697",
+        "ISBN13": "9781401229696",
+        "readers": [
+            {
+                "name": "Tyler",
                 "rating": 3
-            },
+            }
+        ]
+    },
+    {
+        "id": "20TA002",
+        "title": "Light of the Stars",
+        "subtitle": "Alien Worlds and the Fate of the Earth",
+        "author": "Adam Frank",
+        "pages": 272,
+        "pubYear": 2018,
+        "tags": [
+            "Science",
+            "Space",
+            "Big Ideas"
+        ],
+        "description": "There are 40 billion habitable planets in the Milky Way, our local galaxy. If only 0.01 percent of those planets have intelligent life, there should be 4 million intelligent civilizations in our galaxy alone. So, where is everybody? This is the Fermi paradox, the crucial idea driving research into extraterrestrial life. Frank’s book serves as a history of the study of aliens, from ancient Greece to modern day. While enjoyable for those already curious about the subject, this is not the most captivating account of the supremely interesting subject.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "frank-light-of-the-stars.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/36236156-light-of-the-stars",
+            "Amazon": "https://www.amazon.com/Light-Stars-Alien-Worlds-Earth/dp/0393609014"
+        },
+        "ISBN10": "0393609014",
+        "ISBN13": "9780393609011",
+        "readers": [
             {
-                "name": "Jessica",
-                "rating": 1
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA001",
+        "title": "Blindspot",
+        "subtitle": "Hidden Biases of Good People",
+        "author": "Mahzarin R. Banaji and Anthony G. Greenwald",
+        "pages": 254,
+        "pubYear": 2013,
+        "tags": [
+            "Psychology",
+            "Big Ideas",
+            "Fascinating",
+            "Nonfiction"
+        ],
+        "description": "Your mind does not work the way you think. In fact, most of your brain’s labor is subconscious, hidden and mysterious. We all accept that our brain pumps our blood and blinks our eyes, but we underestimate the power our subconscious has over our opinions and impulses. The magic of this book is the collection of simple experiments you can try that make the power of your subconscious visible. <i>Blind Spot</i> provides indisputable evidence of your implicit biases but is perhaps a bit too much review for those who have taken a collegiate psychology class.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "banaji-blind-spot.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/13131582-blindspot",
+            "Amazon": "https://www.amazon.com/Blindspot-Hidden-Biases-Good-People/dp/0553804642/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0553804642",
+        "ISBN13": "9780553804645",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
             }
         ]
     }
