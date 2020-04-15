@@ -5,7 +5,8 @@ import { theme } from "../css-variables";
 
 const headerDivStyle = css`
   background: ${theme.mainColorDark};
-  padding: 40px 20px;
+  padding: 40px 20px 0px 20px;
+  margin-bottom: 10px;
   color: white;
 `;
 
@@ -14,14 +15,23 @@ const titleStyle = css`
   font-weight: bolder;
   line-height: 1;
 `;
+const subtitleStyle = css`
+  font-size: 18px;
+  line-height: 1;
+`;
 
-const listItemStyle = css`
-  float: left;
+const navDivStyle = css`
+  position: relative;
+  bottom: 4px;
+`;
+
+const linkStyle = css`
   display: inline;
-  color: black;
+  color: ${theme.mainColorLight};
+  font-weight: bold;
   background: white;
   border-radius: 5px 5px 0px 0px;
-  font-size: 20px;
+  font-size: 22px;
   padding: 6px 12px;
   margin: 5px 10px 0px 0px;
 `;
@@ -31,14 +41,19 @@ const listItemStyle = css`
 function SiteHeader(props) {
   return (
     <div className="container-fluid" css={headerDivStyle}>
-      <h1 css={titleStyle}>Purple Cow Books</h1>
-      <p>
-        Literary ramblings, reviews, and reflections from a herd of purple cows.
-      </p>
-      <div style={{ overflow: "hidden" }}>
-        <ul style={{ padding: "0px", marginBottom: "0px" }}>
-          <li css={listItemStyle}>Podcast</li>
-        </ul>
+      <div className="m-3">
+        <h1 css={titleStyle}>The Purple Herd</h1>
+      </div>
+      <div className="m-3 mb-5">
+        <span css={subtitleStyle}>
+          Udderly fantastic ramblings, reviews, and reflections from a herd of
+          purple cows.
+        </span>
+      </div>
+      <div id="nav-links" css={navDivStyle}>
+        <div css={linkStyle}>Covers</div>
+        <div css={linkStyle}>List</div>
+        <div css={linkStyle}>Podcast</div>
       </div>
     </div>
   );
