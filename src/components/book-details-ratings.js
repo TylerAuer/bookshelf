@@ -13,6 +13,13 @@ const starsDim = css`
   color: darkgrey;
 `;
 
+// TODO: Add tooltip explaining ranking
+// 1 star - You should probably know the author or have written it yourself
+// 2 star - This better be right in your genre wheelhouse
+// 3 star - If this piques your interest, you'll probably like it
+// 4 star - Most will enjoy this unless it is genre they hate
+// 5 star - Amazing, recomended to everyone even if it is a genre you rarely read
+
 function Ratings(props) {
   let readerRatings = [];
   props.json.readers.forEach((reader) => {
