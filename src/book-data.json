@@ -1,6 +1,37 @@
 [
     {
-        "id": 1,
+        "id": "20TA18",
+        "title": "Fire & Blood",
+        "subtitle": "A Targaryen History #1",
+        "author": "George R. R. Martin",
+        "illustrator": "Doug Wheatley",
+        "seriesIndex": 1,
+        "seriesLength": 2,
+        "seriesTitle": "A Targaryen History",
+        "length": 736,
+        "pubYear": 2018,
+        "tags": [
+            "Fantasy",
+            "Looong"
+        ],
+        "description": "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons until Aegon III comes of age. <i>Fire and Blood</i> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really, though, this book is just for fans in love with the world of Fire and Ice who just crave more epic worldbuilding.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "martin-fire-and-blood.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/39943621-fire-blood",
+            "Amazon": "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586925987&sr=1-1"
+        },
+        "ISBN10": "152479628X",
+        "ISBN13": "978-1524796280",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA017",
         "title": "All Systems Red",
         "author": "Martha Wells",
         "seriesIndex": 1,
@@ -31,7 +62,121 @@
         ]
     },
     {
-        "id": 2,
+        "id": "20TA016",
+        "title": "Berlin",
+        "subtitle": "City of Stones",
+        "author": "Jason Lutes",
+        "seriesIndex": 1,
+        "seriesLength": 3,
+        "seriesTitle": "Berlin #1",
+        "length": 212,
+        "pubYear": 2000,
+        "tags": [
+            "Graphic Novel",
+            "Historical Fiction"
+        ],
+        "description": "A beautiful black and white graphic novel set in 1928 Berlin that follows a wide range of characters, particularly journalist Kurt Severing and artist Marthe Muller, as tempers flare and the world darkens around them. While gorgeous and captivating at times, this felt like a slog in sections: and accomplishment for a 200-page graphic novel.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "lutes-berlin-city-of-stones.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/438068.Berlin_Vol_1",
+            "Amazon": "https://www.amazon.com/Berlin-City-Stones-Book-Part/dp/1896597297/ref=sr_1_1?dchild=1&keywords=Berlin%3A+City+of+Stones&qid=1586878368&s=books&sr=1-1"
+        },
+        "ISBN10": "1896597297",
+        "ISBN13": "978-1896597294",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA015",
+        "title": "Bossypants",
+        "author": "Tina Fey",
+        "length": 283,
+        "pubYear": 2011,
+        "tags": [
+            "Comedy",
+            "Memoir",
+            "Must Listen",
+            "Great Cover"
+        ],
+        "description": "An uproariously funny memoir of Tina Fey's childhood, early improve comedy career, and success with SNL and 30 Rock. Organized as a guide to being a successful leader of creative-types, Fey's writing bounces between insightful, reflective, and laugh-out-loud hilarous from one sentence to the next.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "fey-bossypants.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9418327-bossypants?from_search=true&from_srp=true&qid=pSKwgQEMmv&rank=1",
+            "Amazon": "https://www.amazon.com/Tina-Fey-Bossypants-2011-04-05/dp/B01FGIKGRM/ref=sr_1_3?dchild=1&keywords=Bossypants&qid=1586878894&sr=8-3",
+            "Audible": "https://www.audible.com/pd/Bossypants-Audiobook/B004RCBFII"
+        },
+        "ISBN10": "0316056863",
+        "ISBN13": "9780316056861",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA014",
+        "title": "Stories of Your Life and Others",
+        "author": "Ted Chiang",
+        "length": 304,
+        "pubYear": 2010,
+        "tags": [
+            "Science Fiction",
+            "Short Stories"
+        ],
+        "description": "While less focused than his second book, <i>Exhalation</i>, Chiang's first short story collection is mesmerizing. The first tale, <i>Tower of Babylon</i> was his first published story and still managed to win a Hugo. <i>Stories of Your Life</i> became the hit-movie <i>Arrival</i>. Other stories explore alternate histories in which scientific discoveries evolved differently. Despite the high-concepts, his stories always feel grounded in human characters allowing readers to explore strange worlds that still somehow feel like the one we inhabit.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "chiang-stories-of-your-life-and-others.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/18626849-stories-of-your-life-and-others",
+            "Amazon": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/ref=tmm_pap_title_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1101972122",
+        "ISBN13": "978-1101972120",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA13",
+        "title": "Talking to Strangers",
+        "subtitle": "What We Should Know about the People We Don't Know",
+        "author": "Malcom Gladwell",
+        "length": 388,
+        "pubYear": 2019,
+        "tags": [
+            "Nonfiction",
+            "Social Science",
+            "Must Listen"
+        ],
+        "description": "You know Gladwell's shtick. Take one part social psychology study, another part of a current event reinterpreted, finally add a heaping spoonful of rhetorical questions and you've got a Gladwell book. Yet, I can't help but find myself curiosity piqued by the stories and research he juxtaposes. Am I always convince by his conclusions? No. But, this book is by far his most thought provoking for how it frames infamous public figures -- Amanda Knox, Brock Turner, Jerry Sandusky. For me, this stands with <i>The Tipping Point</i> as his best works.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "gladwell-talking-to-strangers.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2",
+            "Amazon": "https://www.amazon.com/Talking-Strangers-Should-about-People/dp/0316478520/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=",
+            "Audible": "https://www.amazon.com/Talking-Strangers-Should-About-People/dp/B07NJCG1XS/ref=sr_1_1?dchild=1&keywords=Talking+to+Strangers&qid=1586926832&s=audible&sr=1-1"
+        },
+        "ISBN10": "0316478520",
+        "ISBN13": "9780316478526",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA010",
         "title": "Exhalation",
         "subtitle": "Stories",
         "author": "Ted Chiang",
@@ -59,7 +204,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": "20TA006",
         "title": "The Last Wish",
         "subtitle": "Introducing the Witcher",
         "author": "Andrzej Sapkowski",
@@ -93,91 +238,6 @@
             {
                 "name": "Jessica",
                 "rating": 1
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Berlin",
-        "subtitle": "City of Stones",
-        "author": "Jason Lutes",
-        "seriesIndex": 1,
-        "seriesLength": 3,
-        "seriesTitle": "Berlin #1",
-        "length": 212,
-        "pubYear": 2000,
-        "tags": [
-            "Graphic Novel",
-            "Historical Fiction"
-        ],
-        "description": "A beautiful black and white graphic novel set in 1928 Berlin that follows a wide range of characters, particularly journalist Kurt Severing and artist Marthe Muller, as tempers flare and the world darkens around them. While gorgeous and captivating at times, this felt like a slog in sections: and accomplishment for a 200-page graphic novel.",
-        "descriptionAuthor": "Tyler",
-        "coverImg": "lutes-berlin-city-of-stones.jpg",
-        "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/438068.Berlin_Vol_1",
-            "Amazon": "https://www.amazon.com/Berlin-City-Stones-Book-Part/dp/1896597297/ref=sr_1_1?dchild=1&keywords=Berlin%3A+City+of+Stones&qid=1586878368&s=books&sr=1-1"
-        },
-        "ISBN10": "1896597297",
-        "ISBN13": "978-1896597294",
-        "readers": [
-            {
-                "name": "Tyler",
-                "rating": 2
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Bossypants",
-        "author": "Tina Fey",
-        "length": 283,
-        "pubYear": 2011,
-        "tags": [
-            "Comedy",
-            "Memoir",
-            "Must Listen",
-            "Great Cover"
-        ],
-        "description": "An uproariously funny memoir of Tina Fey's childhood, early improve comedy career, and success with SNL and 30 Rock. Organized as a guide to being a successful leader of creative-types, Fey's writing bounces between insightful, reflective, and laugh-out-loud hilarous from one sentence to the next.",
-        "descriptionAuthor": "Tyler",
-        "coverImg": "fey-bossypants.jpg",
-        "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/9418327-bossypants?from_search=true&from_srp=true&qid=pSKwgQEMmv&rank=1",
-            "Amazon": "https://www.amazon.com/Tina-Fey-Bossypants-2011-04-05/dp/B01FGIKGRM/ref=sr_1_3?dchild=1&keywords=Bossypants&qid=1586878894&sr=8-3",
-            "Audible": "https://www.audible.com/pd/Bossypants-Audiobook/B004RCBFII"
-        },
-        "ISBN10": "0316056863",
-        "ISBN13": "9780316056861",
-        "readers": [
-            {
-                "name": "Tyler",
-                "rating": 4
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Stories of Your Life and Others",
-        "author": "Ted Chiang",
-        "length": 304,
-        "pubYear": 2010,
-        "tags": [
-            "Science Fiction",
-            "Short Stories"
-        ],
-        "description": "While less focused than his second book, <i>Exhalation</i>, Chiang's first short story collection is mesmerizing. The first tale, <i>Tower of Babylon</i> was his first published story and still managed to win a Hugo. <i>Stories of Your Life</i> became the hit-movie <i>Arrival</i>. Other stories explore alternate histories in which scientific discoveries evolved differently. Despite the high-concepts, his stories always feel grounded in human characters allowing readers to explore strange worlds that still somehow feel like the one we inhabit.",
-        "descriptionAuthor": "Tyler",
-        "coverImg": "chiang-stories-of-your-life-and-others.jpg",
-        "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/18626849-stories-of-your-life-and-others",
-            "Amazon": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/ref=tmm_pap_title_0?_encoding=UTF8&qid=&sr="
-        },
-        "ISBN10": "1101972122",
-        "ISBN13": "978-1101972120",
-        "readers": [
-            {
-                "name": "Tyler",
-                "rating": 4
             }
         ]
     }
