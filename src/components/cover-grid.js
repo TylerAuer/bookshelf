@@ -1,14 +1,10 @@
 import React from "react";
 import Masonry from "react-masonry-css";
-import cover from "../covers/chiang-exhalation.jpg";
 import "./cover-grid.css";
 import BookCoverImg from "./book-cover";
 
-// TODO: test with different size cover images
 // TODO: set up infinite scroll
-
 function CoverGrid(props) {
-  // BUG: Make sure these values garuntee the width is <= 250px;
   const breakpointColumnsObj = {
     default: 9,
     2200: 8,

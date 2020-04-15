@@ -4,6 +4,13 @@
   display: flex;
   margin-left: -5px; /* gutter size offset */
   width: auto;
+  max-width: 2450px;
+}
+@media (min-width: 2450px) {
+  .my-masonry-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .my-masonry-grid_column {
   padding-left: 5px; /* gutter size */
