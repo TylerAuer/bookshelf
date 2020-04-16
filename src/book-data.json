@@ -411,8 +411,7 @@
         "pubYear": 2011,
         "tags": [
             "Fantasy",
-            "Literary Fiction",
-            "Magic"
+            "Literary Fiction"
         ],
         "description": "A whimsical tale full of magic, mystery, and romance, <i>The Night Circus</i> is unlike any other fantasy novel you’ve read. It tells the story of two magicians playing a game they don’t really understand. This novel is packed with curious characters who hold their secrets close until the very end.",
         "descriptionAuthor": "Tyler",
@@ -574,6 +573,36 @@
             {
                 "name": "Tyler",
                 "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "CPB0001",
+        "title": "The Storm Whale",
+        "subtitle": "",
+        "author": "Benji Davies",
+        "seriesIndex": 1,
+        "seriesLength": 3,
+        "seriesTitle": "Stormwhale Series",
+        "pages": 32,
+        "pubYear": 2011,
+        "tags": [
+            "Picture Book",
+            "Out at Sea"
+        ],
+        "description": "Noi is lonely when his father is away fishing all day. So, when a whale washes up on the beach near his home, he does the only reasonable thing and brings it home to his bathtub. With gorgeous art and a tale that will tug on your heartstrings, <i>The Storm Whale</i> is a must share with preschoolers.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "davies-storm-whale.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/20518879-the-storm-whale",
+            "Amazon": "https://www.amazon.com/Storm-Whale-Benji-Davies/dp/0805099670/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0805099670",
+        "ISBN13": "9780805099676",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
             }
         ]
     }
