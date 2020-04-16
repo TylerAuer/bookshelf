@@ -4,7 +4,11 @@ import { jsx, css } from "@emotion/core";
 import { theme } from "../css-variables";
 
 const headerContentDivStyle = css`
-  background: ${theme.mainColorDark};
+  background-image: linear-gradient(
+    90deg,
+    ${theme.mainColorDark} 0%,
+    ${theme.mainColorLight} 75%
+  );
   max-width: 2450px;
   position: relative;
   overflow: hidden;
@@ -15,6 +19,7 @@ const headerContentDivStyle = css`
   }
 `;
 
+// TODO: Play with max-width and media queries for looks
 const titleDiv = css`
   color: white;
   padding: 30px 5px 5px 15px;
@@ -40,15 +45,26 @@ const linkStyle = css`
   color: ${theme.mainColorLight};
   font-weight: bold;
   text-align: center;
-  background: white;
-  border-radius: 6px 6px 0px 0px;
-  border: none;
+  border: none; /* resets border */
+  border-top: 3px solid ${theme.mainColorLight};
   padding: 3px 9px;
   margin: 5px 10px 0px 0px;
-  transition-duration: 150ms;
+  background-size: 100% 200%;
+  background-image: linear-gradient(
+    to bottom,
+    white 50%,
+    ${theme.mainColorLight} 50%
+  );
+  -webkit-transition: background-position 0.5s;
+  -moz-transition: background-position 0.5s;
+  transition: background-position 0.5s, color 0.125s 0.125s, border-top 1s;
   &:hover {
-    background-color: ${theme.mainColorLight};
     color: white;
+    background-position: 0 -100%;
+    border-top: 3px solid ${theme.mainColorDark};
+  }
+  &:focus {
+    outline: none;
   }
 `;
 
