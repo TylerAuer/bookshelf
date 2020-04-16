@@ -21,13 +21,29 @@ function CoverGrid(props) {
   // cross-references with json
   // sort order will be another challenge
   let coverArr = [];
-  props.json.forEach((book, index) => {
-    coverArr.push(
-      <div key={index}>
-        <BookCoverImg json={book} />
-      </div>
-    );
-  });
+
+  // if filters are being applied
+  if (props.active.length > 0) {
+    props.json.forEach((book, index) => {
+      let intersection = book.tags.filter((x) => props.active.includes(x));
+      if (intersection.length > 0) {
+        coverArr.push(
+          <div key={index}>
+            <BookCoverImg json={book} />
+          </div>
+        );
+      }
+    });
+    // default to showing all if no filters are active
+  } else {
+    props.json.forEach((book, index) => {
+      coverArr.push(
+        <div key={index}>
+          <BookCoverImg json={book} />
+        </div>
+      );
+    });
+  }
 
   return (
     // add max-width (2400px) and auto side margins with media query
