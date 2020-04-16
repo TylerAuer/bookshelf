@@ -12,7 +12,8 @@
         "pubYear": 2018,
         "tags": [
             "Fantasy",
-            "Looong"
+            "Looooong",
+            "Series"
         ],
         "description": "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons until Aegon III comes of age. <i>Fire and Blood</i> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really, though, this book is just for fans in love with the World of Ice and Fire who crave more epic worldbuilding.",
         "descriptionAuthor": "Tyler",
@@ -43,7 +44,8 @@
             "Science Fiction",
             "Thriller",
             "Short",
-            "Tyler's Fave"
+            "Tyler's Fave",
+            "Series"
         ],
         "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
         "descriptionAuthor": "Tyler",
@@ -127,6 +129,7 @@
         "pages": 304,
         "pubYear": 2010,
         "tags": [
+            "Diverse Authors",
             "Science Fiction",
             "Short Stories"
         ],
@@ -154,6 +157,7 @@
         "pages": 388,
         "pubYear": 2019,
         "tags": [
+            "Diverse Authors",
             "Nonfiction",
             "Social Science",
             "Must Listen"
@@ -184,8 +188,7 @@
         "pubYear": 2011,
         "tags": [
             "Nonfiction",
-            "History",
-            "World War II"
+            "History"
         ],
         "description": "A meticulously researched portrait of a country descending into Nazisms through the eyes of the American ambassador and his family. While some parts were fascinating, all but the most curious World War II buffs will find this one a bit slow.",
         "descriptionAuthor": "Tyler",
@@ -238,6 +241,7 @@
         "pages": 368,
         "pubYear": 2019,
         "tags": [
+            "Diverse Authors",
             "Science Fiction",
             "Short Stories",
             "Tyler's Fave"
@@ -349,8 +353,10 @@
         "pages": 352,
         "pubYear": 2008,
         "tags": [
+            "Diverse Authors",
             "Fantasy",
-            "Short Stories"
+            "Short Stories",
+            "Series"
         ],
         "description": "Meet Geralt of a Rivia, a genetically modifed monster hunter with a rye wit and reluctant commitment to doing good. This collection of short stories is a great introduction to the the world of <i>The Witcher</i> that became a Netflix series and smash-hit videogame.",
         "descriptionAuthor": "Tyler",
@@ -434,6 +440,7 @@
         "pages": 256,
         "pubYear": 2011,
         "tags": [
+            "Diverse Authors",
             "Graphic Novel",
             "Literary Fiction",
             "Series"
@@ -490,6 +497,7 @@
         "pages": 254,
         "pubYear": 2013,
         "tags": [
+            "Diverse Authors",
             "Psychology",
             "Big Ideas",
             "Fascinating",
@@ -508,6 +516,34 @@
             {
                 "name": "Tyler",
                 "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "19TA056",
+        "title": "Nimona",
+        "author": "Noelle Stevenson",
+        "pages": 272,
+        "pubYear": 2015,
+        "tags": [
+            "Graphic Novel",
+            "Young Adult",
+            "Fantasy",
+            "Tyler's Fave"
+        ],
+        "description": "I’ve never been so quickly and thoroughly charmed as I was by <i>Nimona</i>. What begins as a cute story about a shapeshifter who latches on as a villain's sidekick quickly grows into a beautiful story of identity, distorting genre tropes over and again. I love this book.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "stevenson-nimona.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/19351043-nimona",
+            "Amazon": "https://www.amazon.com/Nimona-Noelle-Stevenson/dp/0062278223"
+        },
+        "ISBN10": "0062278223",
+        "ISBN13": "978-0062278227",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
             }
         ]
     }
