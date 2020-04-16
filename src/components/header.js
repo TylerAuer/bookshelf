@@ -26,9 +26,14 @@ const titleDiv = css`
 `;
 
 const titleStyle = css`
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bolder;
-  line-height: 1;
+  text-align: center;
+  line-height: 1.1;
+  @media (min-width: 576px) {
+    font-size: 60px;
+    text-align: left;
+  }
 `;
 
 const subtitleStyle = css`
