@@ -3,6 +3,18 @@ import Masonry from "react-masonry-css";
 import "./cover-grid.css";
 import BookCoverImg from "./book-cover";
 
+/**
+ * Fisher-Yates shuffle algorithm
+ * Shuffles array in place. ES6 version
+ */
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 // TODO: set up infinite scroll
 function CoverGrid(props) {
   const breakpointColumnsObj = {
@@ -43,6 +55,7 @@ function CoverGrid(props) {
         </div>
       );
     });
+    shuffle(coverArr);
   }
 
   return (
