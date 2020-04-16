@@ -546,5 +546,35 @@
                 "rating": 5
             }
         ]
+    },
+    {
+        "id": "19TA55",
+        "title": "The Color of Magic",
+        "subtitle": "Discworld #1",
+        "author": "Terry Pratchett",
+        "seriesIndex": 1,
+        "seriesLength": 75,
+        "seriesTitle": "Discworld",
+        "pages": 293,
+        "pubYear": 1983,
+        "tags": [
+            "Fantasy",
+            "Series"
+        ],
+        "description": "The first novel in a 70+ book collection in the Discworld setting of Terry Pratchett, <i>The Color of Magic</i> is a charming, messy novel. Much of the story drags but there are epic moments of world building -- like a civilization that walks on the ceiling using installed rings and hooked shoes -- as well as Pratchett’s effervescent humor. I didn’t particularly take to this book, but I put it down eager to read of Sir Terry’s work in the future.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pratchett-color-of-magic.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/34497.The_Color_of_Magic",
+            "Amazon": "https://www.amazon.com/Color-Magic-Discworld-Terry-Pratchett/dp/0062225677"
+        },
+        "ISBN10": "0060855924",
+        "ISBN13": "9780060855925",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
     }
 ]
