@@ -31,14 +31,16 @@ function CoverGrid(props) {
 
   return (
     // add max-width (2400px) and auto side margins with media query
-    <div style={{ margin: "10px 5px" }}>
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
-        {coverArr}
-      </Masonry>
+    <div style={{ position: "relative" }}>
+      <div style={{ margin: "10px 5px" }}>
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {coverArr}
+        </Masonry>
+      </div>
     </div>
   );
 }
