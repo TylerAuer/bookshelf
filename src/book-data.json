@@ -606,5 +606,57 @@
                 "rating": 5
             }
         ]
+    },
+    {
+        "id": "19TA054",
+        "title": "Has Anyone Seen the President?",
+        "author": "Michael Lewis",
+        "pubYear": 2018,
+        "tags": [
+            "Short",
+            "Politics and Economics",
+            "Must Listen",
+            "Nonfiction",
+            "Left-leaning"
+        ],
+        "description": "Reading his article from <i>Bloomberg View</i>, Lewis paints a vivid (and terrifying) portrait of the populist politics of Trump and Bannon. For those unfamiliar with Lewis’ work, this short audiobook gives you a taste of his incredible ability to weave stories. He has many better works, but this one is fascinating for the authentic window into the mind of Steve Bannon.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "lewis-has-anyone-seen.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/en/book/show/40539428",
+            "Audible": "https://www.amazon.com/Has-Anyone-Seen-the-President/dp/B07DLL62N4/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "150826726X",
+        "ISBN13": "9781508267263",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "19TA053",
+        "title": "You Have Arrived at Your Destination",
+        "author": "Amor Towles",
+        "pages": 46,
+        "pubYear": 2019,
+        "tags": [
+            "Short Story",
+            "Science Fiction"
+        ],
+        "description": "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "towles-you-have-arrived.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination",
+            "Amazon": "https://www.amazon.com/Have-Arrived-Destination-Forward-collection-ebook/dp/B07VBCYTGR"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
     }
 ]
