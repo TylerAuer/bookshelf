@@ -23,6 +23,8 @@ function BookCoverImg(props) {
       css={coverImgStyle}
       src={coverImgSrc}
       alt={props.json.title + " cover"}
+      onClick={props.onClick}
+      id={props.json.id}
     />
   );
 }
