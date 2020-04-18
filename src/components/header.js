@@ -19,7 +19,6 @@ const headerContentDivStyle = css`
   }
 `;
 
-// TODO: Play with max-width and media queries for looks
 const titleDiv = css`
   color: white;
   padding: 30px 5px 5px 15px;
@@ -28,11 +27,9 @@ const titleDiv = css`
 const titleStyle = css`
   font-size: 45px;
   font-weight: bolder;
-  text-align: center;
   line-height: 1.1;
   @media (min-width: 576px) {
     font-size: 60px;
-    text-align: left;
   }
 `;
 
@@ -72,8 +69,6 @@ const linkStyle = css`
     outline: none;
   }
 `;
-
-//TODO: fix style of "pill" links at the bottom so they look like cutouts
 
 function SiteHeader(props) {
   return (
