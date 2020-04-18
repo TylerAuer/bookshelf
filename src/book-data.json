@@ -685,5 +685,34 @@
                 "rating": 2
             }
         ]
+    },
+    {
+        "id": "19TA051",
+        "title": "The Encyclopedia of Early Earth",
+        "author": "Isabel Greenberg",
+        "seriesIndex": 1,
+        "seriesLength": 2,
+        "seriesTitle": "Early Earth",
+        "pages": 176,
+        "pubYear": 2013,
+        "tags": [
+            "Graphic Novel",
+            "Quirky"
+        ],
+        "description": "I’ve been staring at a blank page for a few minutes now trying to decide how to explain <i>The Encyclopedia of Early Earth</i>. It’s an allegory. A love story. A fable. A fantasy novel. Except it’s not really any of those things. Following a young man who strikes out from his home at the north pole, the story feels like a Greek epic poem rendered in cute and stunning art. None of this sounds like it should work. But, it does. It really does.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "greenberg-encyclopedia-of-early.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/17412749-the-encyclopedia-of-early-earth",
+            "Amazon": "https://www.amazon.com/Encyclopedia-Early-Earth-Novel/dp/0316225819"
+        },
+        "ISBN10": "0385678150",
+        "ISBN13": "9780385678155",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
     }
 ]
