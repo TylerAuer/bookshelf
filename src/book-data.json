@@ -714,5 +714,31 @@
                 "rating": 4
             }
         ]
+    },
+    {
+        "id": "CPB0002",
+        "title": "Giraffes Can't Dance",
+        "author": "Giles Andreae",
+        "illustrator": "Guy Parker-Rees",
+        "pages": 32,
+        "pubYear": 2001,
+        "tags": [
+            "Picture Book"
+        ],
+        "description": "<i>Giraffes Can’t Dance</i> is a charming, poetic storybook about poor Gerald, a giraffes who’s told he can’t dance by all of the other animals of the jungle. While a little long for the youngest kids, your two- and three-year olds will appreciate the images of the lions and rhinos dancing.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "andreae-giraffes-cant-dance.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/765148.Giraffes_Can_t_Dance",
+            "Amazon": "https://www.amazon.com/Giraffes-Cant-Dance-Giles-Andreae/dp/0439287197/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0439287197",
+        "ISBN13": "9780439287197",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
     }
 ]
