@@ -100,7 +100,7 @@
         "pages": 283,
         "pubYear": 2011,
         "tags": [
-            "Comedy",
+            "Funny",
             "Memoir",
             "Must Listen",
             "Great Cover"
@@ -652,6 +652,33 @@
             "Goodreads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination",
             "Amazon": "https://www.amazon.com/Have-Arrived-Destination-Forward-collection-ebook/dp/B07VBCYTGR"
         },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "19TA052",
+        "title": "Dear Girls",
+        "subtitle": "Intimate Tales, Untold Secrets, & Advice for Living Your Best Life",
+        "author": "Ali Wong and Justin Hakuta",
+        "pages": 240,
+        "pubYear": 2019,
+        "tags": [
+            "Memoir",
+            "Funny"
+        ],
+        "description": "Ali Wong’s two Netflix Comedy Specials are among the funniest things I have experienced -- hitting me at just the right time of having young children. So, I had high, probably unfair, expectations for Wong’s first book, <i>Dear Girls</i>. While it didn’t live up to my expectations, there were still many laugh-out-loud moments, particularly in her descriptions of her early comedy career in New York. Wong fans will likely enjoy this, but just don’t expect a book version of her stand up specials.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "wong-dear-girls.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/44600621-dear-girls",
+            "Amazon": "https://www.amazon.com/Dear-Girls-Intimate-Untold-Secrets/dp/052550883X"
+        },
+        "ISBN10": "052550883X",
+        "ISBN13": "9780525508830",
         "readers": [
             {
                 "name": "Tyler",
