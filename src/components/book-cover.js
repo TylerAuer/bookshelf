@@ -1,6 +1,8 @@
 /** @jsx jsx */
+import React, { useState } from "react";
 import { jsx, css } from "@emotion/core";
 import { theme } from "../css-variables";
+import BookDetailsModal from "./book-details-modal";
 
 const coverImgStyle = css`
   width: 100%;
@@ -15,17 +17,26 @@ const coverImgStyle = css`
 `;
 
 function BookCoverImg(props) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   // imports cover
   const coverImgSrc = require("../covers/" + props.json.coverImg);
 
   return (
-    <img
-      css={coverImgStyle}
-      src={coverImgSrc}
-      alt={props.json.title + " cover"}
-      onClick={props.onClick}
-      id={props.json.id}
-    />
+    <React.Fragment>
+      <img
+        css={coverImgStyle}
+        src={coverImgSrc}
+        alt={props.json.title + " cover"}
+        id={props.json.id}
+        onClick={() => setIsModalOpen(true)}
+      />
+      <BookDetailsModal
+        open={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        json={props.json}
+      />
+    </React.Fragment>
   );
 }
 

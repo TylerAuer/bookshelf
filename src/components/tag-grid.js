@@ -8,6 +8,7 @@ const tagDivStyle = css`
   max-width: 2400px;
 `;
 
+//BUG: Outline doesn't appear on most recently clicked button
 const tagBtnStyle = css`
   background-image: linear-gradient(
     90deg,

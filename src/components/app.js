@@ -3,7 +3,6 @@ import DetailsList from "./details-list";
 import CoverGrid from "./cover-grid";
 import SiteHeader from "./header";
 import TagListFull from "./tag-grid";
-import BookDetailsModal from "./book-details-modal";
 
 let bookData = require("../book-data.json");
 // Fisher-Yates shuffle algorithm (shuffles array in place)
@@ -21,12 +20,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.tagOnClick = this.tagOnClick.bind(this);
-    this.onCloseModal = this.onCloseModal.bind(this);
-    this.onClickBookCover = this.onClickBookCover.bind(this);
     this.state = {
       activeTagArr: [],
-      isModalOpen: false,
-      curBook: null,
     };
   }
 
@@ -43,30 +38,9 @@ class App extends React.Component {
     });
   }
 
-  onClickBookCover(e) {
-    const idMatches = (book) => book.id === e.target.id;
-    const clickedBookJson = bookData[bookData.findIndex(idMatches)];
-    console.log(clickedBookJson);
-    this.setState({
-      isModalOpen: true,
-      curBook: clickedBookJson,
-    });
-  }
-
-  onCloseModal() {
-    this.setState({
-      isModalOpen: false,
-    });
-  }
-
   render() {
     return (
       <React.Fragment>
-        <BookDetailsModal
-          open={this.state.isModalOpen}
-          onClose={this.onCloseModal}
-          json={this.state.curBook}
-        />
         <SiteHeader />
         <div className="container-fluid">
           <div className="row">

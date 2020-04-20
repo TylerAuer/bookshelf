@@ -1,8 +1,8 @@
 import React from "react";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-import BookDetails from "./book-details";
 import "./modal.css";
+import BookDetails from "./book-details";
 
 function BookDetailsModal(props) {
   return (
