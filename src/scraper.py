@@ -8,7 +8,11 @@ import re
 #############
 
 # Should be hardcover where available
-bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2"
+# Fire and Blood
+bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
+# Talking to Strongers
+# bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
+
 readersAndRating = [["Tyler", 5]]  # list of lists with reader and rating
 desc = ""  # Can include HTML tags like <b>Bold text</b>
 descAuth = "Tyler"
@@ -21,13 +25,18 @@ soup = BeautifulSoup(page.content, 'html.parser')
 # .strip() removes leading + trailing whitespaces
 # slicing (ex: [:-6] ) removes unneeded words like "pages"
 
-# TODO: Split into title and subtitle
-title = soup.find(id="bookTitle").text.strip()
-
+# Splits title into title and subtitle
+titleAndSubtitleList = soup.find(id="bookTitle").text.strip().split(":")
+title = titleAndSubtitleList[0]
+if len(titleAndSubtitleList) > 1:
+    subtitle = titleAndSubtitleList[1][1:]
 
 # TODO: For loop for multiple authors
 # TODO: Illustrators, which have (Illustrations) or (Illustrator) after name
-authors = soup.find("a", class_="authorName").text.strip()
+authorsList = soup.find_all("div", class_="authorName__container")
+for author in authorsList:
+    print(author)
+    print("----------")
 
 #
 # Details Section - <div> with lots of info: publisher, pages, ISBNs, Awards
@@ -41,7 +50,6 @@ pages = detailsSection.find("span", itemprop="numberOfPages").text.strip()[:-6]
 pubHTML = detailsSection.contents[3]
 pubYearList = re.findall('\d{4}', str(pubHTML))
 pubYear = int(min(pubYearList))
-print(pubYear)
 
 
 # ISBNs
