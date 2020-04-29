@@ -16,10 +16,10 @@ import re
 # bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
 
 # Three-Body Problem
-# bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
+bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
 
 # The Boy Who Loved Math
-bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
+# bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
 
 # list of lists with str:readers and int:ratings
 readersAndRating = [["Tyler", 5]]
@@ -94,14 +94,14 @@ pubYear = int(min(pubYearList))
 # ISBNs, and series info
 descListRows = descListSection.find_all(class_="clearFloats")
 for child in descListRows:
-    title = child.find(class_="infoBoxRowTitle").text.strip()
-    if title == "ISBN":
+    titleDiv = child.find(class_="infoBoxRowTitle").text.strip()
+    if titleDiv == "ISBN":
         # Makes list of child tags
         data = child.find(class_="infoBoxRowItem").contents
         isbn10 = data[0].strip()
         # Returns first group of 13 digits
         isbn13 = re.search('\d{13}', data[1].text).group(0)
-    elif title == "Series":
+    elif titleDiv == "Series":
         # Some books fall under multiple series. This only uses the first
         seriesStr = child.find("a").text
         indexIndex = seriesStr.find("#")
@@ -114,9 +114,15 @@ for child in descListRows:
 ##########################
 
 # Cover IMG URL
-print(soup.find(id="coverImage")['src'])
-# Download cover image
-# Save to folder with useful name
+imgUrl = soup.find(id="coverImage")['src']
+
+# Save to covers folder
+img_data = requests.get(imgUrl).content
+imgName = authors[0].split(" ")[1] + "-" + title.replace(" ", "-") + ".jpg"
+# TODO: Switch to "covers" folder when ready to run for real
+with open('./src/covers-test/' + imgName, 'wb') as handler:
+    handler.write(img_data)
+
 # Reference in JSON output
 
 
