@@ -21,9 +21,12 @@ bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_sea
 # The Boy Who Loved Math
 # bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
 
-readersAndRating = [["Tyler", 5]]  # list of lists with reader and rating
-desc = ""  # Can include HTML tags like <b>Bold text</b>
+# list of lists with str:readers and int:ratings
+readersAndRating = [["Tyler", 5]]
 descAuth = "Tyler"
+desc = ""  # Can include HTML tags like <b>Bold text</b>
+amazonUrl = ""
+seriesLength = ""
 
 ####################
 # Variables for JSON
@@ -39,7 +42,6 @@ isbn10 = ""
 isbn13 = ""
 seriesTitle = ""
 seriesIndex = ""
-seriesLength = ""
 
 ##############################
 # Collect relavent information
@@ -89,9 +91,9 @@ pubHTML = detailsSection.contents[3]
 pubYearList = re.findall('\d{4}', str(pubHTML))
 pubYear = int(min(pubYearList))
 
-# ISBNs
-isbnHTML = descListSection.find_all(class_="clearFloats")
-for child in isbnHTML:
+# ISBNs, and series info
+descListRows = descListSection.find_all(class_="clearFloats")
+for child in descListRows:
     title = child.find(class_="infoBoxRowTitle").text.strip()
     if title == "ISBN":
         # Makes list of child tags
@@ -99,11 +101,13 @@ for child in isbnHTML:
         isbn10 = data[0].strip()
         # Returns first group of 13 digits
         isbn13 = re.search('\d{13}', data[1].text).group(0)
+    elif title == "Series":
+        # Some books fall under multiple series. This only uses the first
+        seriesStr = child.find("a").text
+        indexIndex = seriesStr.find("#")
+        seriesTitle = seriesStr[:indexIndex - 2]
+        seriesIndex = seriesStr[indexIndex + 1:]
 
-# Series Title
-
-# Series Index
-# Series Length
 
 ##########################
 # Save Cover IMG to folder
@@ -123,15 +127,15 @@ for child in isbnHTML:
 # Testing
 #########
 
-# print("title: %s" % title)
-# print("subtitle: %s" % subtitle)
-# print("authors: %s" % authors)
-# print("illustrators: %s" % illustrators)
-# print("translators: %s" % translators)
-# print("pages: %s" % pages)
-# print("pubYear: %s" % pubYear)
-# print("isbn10: %s" % isbn10)
-# print("isbn13: %s" % isbn13)
-# print("seriesTitle: %s" % seriesTitle)
-# print("seriesIndex: %s" % seriesIndex)
-# print("seriesLength: %s" % seriesLength)
+print("title: %s" % title)
+print("subtitle: %s" % subtitle)
+print("authors: %s" % authors)
+print("illustrators: %s" % illustrators)
+print("translators: %s" % translators)
+print("pages: %s" % pages)
+print("pubYear: %s" % pubYear)
+print("isbn10: %s" % isbn10)
+print("isbn13: %s" % isbn13)
+print("seriesTitle: %s" % seriesTitle)
+print("seriesIndex: %s" % seriesIndex)
+print("seriesLength: %s" % seriesLength)
