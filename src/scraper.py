@@ -10,13 +10,13 @@ import re
 # Should be hardcover where available
 
 # Fire and Blood
-# bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
+bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
 
 # Talking to Strangers
 # bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
 
 # Three-Body Problem
-bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
+# bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
 
 # The Boy Who Loved Math
 # bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
@@ -25,11 +25,31 @@ readersAndRating = [["Tyler", 5]]  # list of lists with reader and rating
 desc = ""  # Can include HTML tags like <b>Bold text</b>
 descAuth = "Tyler"
 
+####################
+# Variables for JSON
+####################
+title = ""
+subtitle = ""
+authors = []
+illustrators = []
+translators = []
+pages = None
+pubYear = None
+isbn10 = ""
+isbn13 = ""
+seriesTitle = ""
+seriesIndex = ""
+seriesLength = ""
+
 ##############################
 # Collect relavent information
 ##############################
 page = requests.get(bookUrl)
 soup = BeautifulSoup(page.content, 'html.parser')
+# Contains pub year and pub date
+detailsSection = soup.find(id="details")
+# Contains description list of title, ISBNs, editions, characters, awards...
+descListSection = detailsSection.find(class_="buttons")
 
 # Splits title into title and subtitle
 titleAndSubtitleList = soup.find(id="bookTitle").text.strip().split(":")
@@ -40,9 +60,6 @@ if len(titleAndSubtitleList) > 1:
 # TODO: Need to remove "," from list
 # Parses authors into authors, illustrators, and translators
 authorsList = soup.find_all("div", class_="authorName__container")
-authors = []
-illustrators = []
-translators = []
 for author in authorsList:
     author = author.text.strip()
 
@@ -63,12 +80,8 @@ for author in authorsList:
     else:
         authors.append(author[:sliceIndex])
 
-#
-# Details Section - <div> with lots of info: publisher, pages, ISBNs, Awards
-#
-detailsSection = soup.find(id="details")
 
-# pages in book
+# Pages in book
 pages = detailsSection.find("span", itemprop="numberOfPages").text.strip()[:-6]
 
 # First pub year
@@ -76,18 +89,27 @@ pubHTML = detailsSection.contents[3]
 pubYearList = re.findall('\d{4}', str(pubHTML))
 pubYear = int(min(pubYearList))
 
-
 # ISBNs
-# Cover IMG URL
+isbnHTML = descListSection.find_all(class_="clearFloats")
+for child in isbnHTML:
+    title = child.find(class_="infoBoxRowTitle").text.strip()
+    if title == "ISBN":
+        # Makes list of child tags
+        data = child.find(class_="infoBoxRowItem").contents
+        isbn10 = data[0].strip()
+        # Returns first group of 13 digits
+        isbn13 = re.search('\d{13}', data[1].text).group(0)
+
 # Series Title
+
 # Series Index
 # Series Length
-# All blank JSON values
 
 ##########################
 # Save Cover IMG to folder
 ##########################
 
+# Cover IMG URL
 # Download cover image
 # Save to folder with useful name
 # Reference in JSON output
@@ -96,3 +118,20 @@ pubYear = int(min(pubYearList))
 ##################
 # Export JSON Data
 ##################
+
+#########
+# Testing
+#########
+
+# print("title: %s" % title)
+# print("subtitle: %s" % subtitle)
+# print("authors: %s" % authors)
+# print("illustrators: %s" % illustrators)
+# print("translators: %s" % translators)
+# print("pages: %s" % pages)
+# print("pubYear: %s" % pubYear)
+# print("isbn10: %s" % isbn10)
+# print("isbn13: %s" % isbn13)
+# print("seriesTitle: %s" % seriesTitle)
+# print("seriesIndex: %s" % seriesIndex)
+# print("seriesLength: %s" % seriesLength)
