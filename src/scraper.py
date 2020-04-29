@@ -10,7 +10,7 @@ import re
 # Should be hardcover where available
 
 # Fire and Blood
-bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
+# bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
 
 # Talking to Strangers
 # bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
@@ -19,7 +19,7 @@ bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_sea
 # bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
 
 # The Boy Who Loved Math
-# bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
+bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
 
 # list of lists with str:readers and int:ratings
 readersAndRating = [["Tyler", 5]]
@@ -114,6 +114,7 @@ for child in descListRows:
 ##########################
 
 # Cover IMG URL
+print(soup.find(id="coverImage")['src'])
 # Download cover image
 # Save to folder with useful name
 # Reference in JSON output
