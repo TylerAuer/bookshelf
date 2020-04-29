@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+import json
 
 #############
 # Custom Data
@@ -10,23 +11,31 @@ import re
 # Should be hardcover where available
 
 # Fire and Blood
-# bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
+bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
 
 # Talking to Strangers
 # bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
 
 # Three-Body Problem
-bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
+# bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
 
 # The Boy Who Loved Math
 # bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
 
 # list of lists with str:readers and int:ratings
-readersAndRating = [["Tyler", 5]]
-descAuth = "Tyler"
+readersAndRating = [{"Tyler": 5}]
+descAuthor = "Tyler"
 desc = ""  # Can include HTML tags like <b>Bold text</b>
 amazonUrl = ""
 seriesLength = ""
+bookID = "2020TA007"
+
+#######################
+# Tags ################
+#######################
+# Uncomment to add tags
+tags = []
+tags.append("Quirky")
 
 ####################
 # Variables for JSON
@@ -105,7 +114,7 @@ for child in descListRows:
         # Some books fall under multiple series. This only uses the first
         seriesStr = child.find("a").text
         indexIndex = seriesStr.find("#")
-        seriesTitle = seriesStr[:indexIndex - 2]
+        seriesTitle = seriesStr[:indexIndex - 1]
         seriesIndex = seriesStr[indexIndex + 1:]
 
 
@@ -118,7 +127,7 @@ imgUrl = soup.find(id="coverImage")['src']
 
 # Save to covers folder
 img_data = requests.get(imgUrl).content
-imgName = authors[0].split(" ")[1] + "-" + title.replace(" ", "-") + ".jpg"
+imgName = authors[0].split(" ")[-1] + "-" + title.replace(" ", "-") + ".jpg"
 # TODO: Switch to "covers" folder when ready to run for real
 with open('./src/covers-test/' + imgName, 'wb') as handler:
     handler.write(img_data)
@@ -129,20 +138,52 @@ with open('./src/covers-test/' + imgName, 'wb') as handler:
 ##################
 # Export JSON Data
 ##################
+print(
+    json.dumps(
+        {
+            bookID: {
+                "title": title,
+                "subtitle": subtitle,
+                "seriesTitle": seriesTitle,
+                "seriesIndex": seriesIndex,
+                "seriesLength": seriesLength,
+                "authors": authors,
+                "illustrators": illustrators,
+                "translators": translators,
+                "pages": pages,
+                "pubYear": pubYear,
+                "isbn10": isbn10,
+                "isbn13": isbn13,
+                "extLinks": {
+                    "Amazon": amazonUrl,
+                    "GoodReads": bookUrl,
+                    "IndieBound": "https://www.indiebound.org/book/" + isbn13,
+                    "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=" + isbn13,
+                    "Library": "https://www.worldcat.org/search?q=" + isbn13,
+                },
+                "coverImgFileName": imgName,
+                "desc": desc,
+                "descAuthor": descAuthor,
+                "ratings": readersAndRating,
+                "tags": tags,
+            }
+        },
+        sort_keys=False, indent=4)
+)
 
 #########
 # Testing
 #########
 
-print("title: %s" % title)
-print("subtitle: %s" % subtitle)
-print("authors: %s" % authors)
-print("illustrators: %s" % illustrators)
-print("translators: %s" % translators)
-print("pages: %s" % pages)
-print("pubYear: %s" % pubYear)
-print("isbn10: %s" % isbn10)
-print("isbn13: %s" % isbn13)
-print("seriesTitle: %s" % seriesTitle)
-print("seriesIndex: %s" % seriesIndex)
-print("seriesLength: %s" % seriesLength)
+# print("title: %s" % title)
+# print("subtitle: %s" % subtitle)
+# print("authors: %s" % authors)
+# print("illustrators: %s" % illustrators)
+# print("translators: %s" % translators)
+# print("pages: %s" % pages)
+# print("pubYear: %s" % pubYear)
+# print("isbn10: %s" % isbn10)
+# print("isbn13: %s" % isbn13)
+# print("seriesTitle: %s" % seriesTitle)
+# print("seriesIndex: %s" % seriesIndex)
+# print("seriesLength: %s" % seriesLength)
