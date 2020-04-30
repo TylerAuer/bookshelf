@@ -161,37 +161,47 @@ with open('./src/covers-test/' + imgName, 'wb') as handler:
 #############################
 # Add JSON Data to Book Lists
 #############################
-# Load File
-# Convert File to Python Dict
-# Figure out next bookID based on length of element
-# Generate JSON Output
-newBook = json.dumps(
-    {
-        bookID: {
-            "title": title,
-            "subtitle": subtitle,
-            "seriesTitle": seriesTitle,
-            "seriesIndex": seriesIndex,
-            "seriesLength": seriesLength,
-            "authors": authors,
-            "illustrators": illustrators,
-            "translators": translators,
-            "pages": pages,
-            "pubYear": pubYear,
-            "isbn10": isbn10,
-            "isbn13": isbn13,
-            "extLinks": {
-                "Amazon": amazonUrl,
-                "GoodReads": bookUrl,
-                "IndieBound": "https://www.indiebound.org/book/" + isbn13,
-                "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=" + isbn13,
-                "Library": "https://www.worldcat.org/search?q=" + isbn13,
-            },
-            "coverImgFileName": imgName,
-            "desc": desc,
-            "descAuthor": descAuthor,
-            "ratings": readersAndRating,
-            "tags": tags,
-        }
-    }, indent=4)
-print(newBook)
+# Generate new JSON to add
+
+
+# Open data file
+# TODO: Switch to "book-data.json" when ready to run for real
+with open('./src/book-data-new.json', 'r+') as f:
+    data = json.load(f)
+    # Creates new ID number based on count of current books + 1
+    bookID = str(1 + len(data))
+    # Add new book to dict version of the JSON
+    data[bookID] = {
+        "title": title,
+        "subtitle": subtitle,
+        "seriesTitle": seriesTitle,
+        "seriesIndex": seriesIndex,
+        "seriesLength": seriesLength,
+        "authors": authors,
+        "illustrators": illustrators,
+        "translators": translators,
+        "pages": pages,
+        "pubYear": pubYear,
+        "isbn10": isbn10,
+        "isbn13": isbn13,
+        "extLinks": {
+            "Amazon": amazonUrl,
+            "GoodReads": bookUrl,
+            "IndieBound": "https://www.indiebound.org/book/" + isbn13,
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=" + isbn13,
+            "Library": "https://www.worldcat.org/search?q=" + isbn13,
+        },
+        "coverImgFileName": imgName,
+        "desc": desc,
+        "descAuthor": descAuthor,
+        "ratings": readersAndRating,
+        "tags": tags,
+    }
+    # Go to the start of JSON file
+    f.seek(0)
+    # Dumps the data at the start of the JSON file
+    json.dump(data, f, indent=4)
+    # Removes any extra JSON after the dump.
+    # Though this shouldn't be necessary, I've left it here as a reference
+    # in case this approach is used in the future
+    f.truncate()
