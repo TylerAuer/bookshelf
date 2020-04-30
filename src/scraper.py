@@ -92,7 +92,6 @@ title = titleAndSubtitleList[0]
 if len(titleAndSubtitleList) > 1:
     subtitle = titleAndSubtitleList[1][1:]
 
-# TODO: Need to remove "," from list
 # Parses authors into authors, illustrators, and translators
 authorsList = soup.find_all("div", class_="authorName__container")
 for author in authorsList:
@@ -152,8 +151,7 @@ imgUrl = soup.find(id="coverImage")['src']
 # Save to covers folder
 img_data = requests.get(imgUrl).content
 imgName = authors[0].split(" ")[-1] + "-" + title.replace(" ", "-") + ".jpg"
-# TODO: Switch to "covers" folder when ready to run for real
-with open('./src/covers-test/' + imgName, 'wb') as handler:
+with open('./src/covers/' + imgName, 'wb') as handler:
     handler.write(img_data)
 
 # Reference in JSON output
@@ -166,8 +164,7 @@ with open('./src/covers-test/' + imgName, 'wb') as handler:
 
 
 # Open data file
-# TODO: Switch to "book-data.json" when ready to run for real
-with open('./src/book-data-new.json', 'r+') as f:
+with open('./src/book-data.json', 'r+') as f:
     data = json.load(f)
     # Creates new ID number based on count of current books + 1
     bookID = str(1 + len(data))
