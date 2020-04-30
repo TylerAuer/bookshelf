@@ -1,0 +1,745 @@
+[
+    {
+        "id": "20TA18",
+        "title": "Fire & Blood",
+        "subtitle": "A Targaryen History #1",
+        "author": "George R. R. Martin",
+        "illustrator": "Doug Wheatley",
+        "seriesIndex": 1,
+        "seriesLength": 2,
+        "seriesTitle": "A Targaryen History",
+        "pages": 736,
+        "pubYear": 2018,
+        "tags": [
+            "Fantasy",
+            "Looooong",
+            "Series"
+        ],
+        "description": "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons until Aegon III comes of age. <i>Fire and Blood</i> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really, though, this book is just for fans in love with the World of Ice and Fire who crave more epic worldbuilding.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "martin-fire-and-blood.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/39943621-fire-blood",
+            "Amazon": "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586925987&sr=1-1"
+        },
+        "ISBN10": "152479628X",
+        "ISBN13": "978-1524796280",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA017",
+        "title": "All Systems Red",
+        "author": "Martha Wells",
+        "seriesIndex": 1,
+        "seriesLength": 5,
+        "seriesTitle": "The Murderbot Diaries",
+        "pages": 155,
+        "pubYear": 2017,
+        "tags": [
+            "Science Fiction",
+            "Thriller",
+            "Short",
+            "Tyler's Fave",
+            "Series"
+        ],
+        "description": "A fast-paced novella about a Deadpool-esque sentient security robot who, against its best wishes, cares for its human companions as they try to survive on a remote planet where everything is not as it seems.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "wells-all-systems-red.jpg",
+        "ISBN10": "1250214718",
+        "ISBN13": "978-1250214713",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/33387769-all-systems-red",
+            "Amazon": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": "20TA016",
+        "title": "Berlin",
+        "subtitle": "City of Stones",
+        "author": "Jason Lutes",
+        "seriesIndex": 1,
+        "seriesLength": 3,
+        "seriesTitle": "Berlin #1",
+        "pages": 212,
+        "pubYear": 2000,
+        "tags": [
+            "Graphic Novel",
+            "Historical Fiction"
+        ],
+        "description": "A beautiful black and white graphic novel set in 1928 Berlin that follows a wide range of characters, particularly journalist Kurt Severing and artist Marthe Muller, as tempers flare and the world darkens around them. While gorgeous and captivating at times, this felt like a slog in sections: and accomplishment for a 200-page graphic novel.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "lutes-berlin-city-of-stones.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/438068.Berlin_Vol_1",
+            "Amazon": "https://www.amazon.com/Berlin-City-Stones-Book-Part/dp/1896597297/ref=sr_1_1?dchild=1&keywords=Berlin%3A+City+of+Stones&qid=1586878368&s=books&sr=1-1"
+        },
+        "ISBN10": "1896597297",
+        "ISBN13": "978-1896597294",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA015",
+        "title": "Bossypants",
+        "author": "Tina Fey",
+        "pages": 283,
+        "pubYear": 2011,
+        "tags": [
+            "Funny",
+            "Memoir",
+            "Must Listen",
+            "Great Cover"
+        ],
+        "description": "An uproariously funny memoir of Tina Fey's childhood, early improve comedy career, and success with SNL and 30 Rock. Organized as a guide to being a successful leader of creative-types, Fey's writing bounces between insightful, reflective, and laugh-out-loud hilarous from one sentence to the next.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "fey-bossypants.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9476337-bossypants",
+            "Amazon": "https://www.amazon.com/Tina-Fey-Bossypants-2011-04-05/dp/B01FGIKGRM/ref=sr_1_3?dchild=1&keywords=Bossypants&qid=1586878894&sr=8-3",
+            "Audible": "https://www.audible.com/pd/Bossypants-Audiobook/B004RCBFII"
+        },
+        "ISBN10": "0316056863",
+        "ISBN13": "9780316056861",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA014",
+        "title": "Stories of Your Life and Others",
+        "author": "Ted Chiang",
+        "pages": 304,
+        "pubYear": 2010,
+        "tags": [
+            "Diverse Authors",
+            "Science Fiction",
+            "Short Stories"
+        ],
+        "description": "While less focused than his second book, <i>Exhalation</i>, Chiang's first short story collection is mesmerizing. The first tale, <i>Tower of Babylon</i> was his first published story and still managed to win a Hugo. <i>Stories of Your Life</i> became the hit-movie <i>Arrival</i>. Other stories explore alternate histories in which scientific discoveries evolved differently. Despite the high-concepts, his stories always feel grounded in human characters allowing readers to explore strange worlds that still somehow feel like the one we inhabit.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "chiang-stories-of-your-life-and-others.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/28503870-stories-of-your-life-and-others",
+            "Amazon": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/ref=tmm_pap_title_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1101972122",
+        "ISBN13": "978-1101972120",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA13",
+        "title": "Talking to Strangers",
+        "subtitle": "What We Should Know about the People We Don't Know",
+        "author": "Malcom Gladwell",
+        "pages": 388,
+        "pubYear": 2019,
+        "tags": [
+            "Diverse Authors",
+            "Nonfiction",
+            "Social Science",
+            "Must Listen"
+        ],
+        "description": "You know Gladwell's shtick. Take one part social psychology study, another part of a current event reinterpreted, finally add a heaping spoonful of rhetorical questions and you've got a Gladwell book. Yet, I can't help but find myself curiosity piqued by the stories and research he juxtaposes. Am I always convince by his conclusions? No. But, this book is by far his most thought provoking for how it frames infamous public figures -- Amanda Knox, Brock Turner, Jerry Sandusky. For me, this stands with <i>The Tipping Point</i> as his best works.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "gladwell-talking-to-strangers.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2",
+            "Amazon": "https://www.amazon.com/Talking-Strangers-Should-about-People/dp/0316478520/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=",
+            "Audible": "https://www.amazon.com/Talking-Strangers-Should-About-People/dp/B07NJCG1XS/ref=sr_1_1?dchild=1&keywords=Talking+to+Strangers&qid=1586926832&s=audible&sr=1-1"
+        },
+        "ISBN10": "0316478520",
+        "ISBN13": "9780316478526",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA12",
+        "title": "In the Garden of Beasts",
+        "subtitle": "Love, Terror, and an American Family in Hitler's Berlin",
+        "author": "Erik Larson",
+        "pages": 448,
+        "pubYear": 2011,
+        "tags": [
+            "Nonfiction",
+            "History"
+        ],
+        "description": "A meticulously researched portrait of a country descending into Nazisms through the eyes of the American ambassador and his family. While some parts were fascinating, all but the most curious World War II buffs will find this one a bit slow.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "larson-in-the-garden.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9938498-in-the-garden-of-beasts",
+            "Amazon": "https://www.amazon.com/Garden-Beasts-Terror-American-Hitlers/dp/0307408841/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0307408841",
+        "ISBN13": "9780307408846",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA11",
+        "title": "Home After Dark",
+        "subtitle": "A Novel",
+        "author": "David Small",
+        "pages": 416,
+        "pubYear": 2018,
+        "tags": [
+            "Graphic Novel",
+            "Literary Fiction"
+        ],
+        "description": "Small's works are always beautiful and this novel tells the story of Russel Pruitt. After his mother's abandonment, Russell and his father pack the car and make for California, eventually settling in remote Marshfield. Once there Russel is left to fend for himself as he discovers what it means to grow into a young man. This book might appeal to graphic novel skeptics looking for more literature and less comic book.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "small-home-after-dark.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/38730623-home-after-dark",
+            "Amazon": "https://www.amazon.com/dp/B07H41BY1R/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+        },
+        "ISBN10": "0871403153",
+        "ISBN13": "9780871403155",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA010",
+        "title": "Exhalation",
+        "subtitle": "Stories",
+        "author": "Ted Chiang",
+        "pages": 368,
+        "pubYear": 2019,
+        "tags": [
+            "Diverse Authors",
+            "Science Fiction",
+            "Short Stories",
+            "Tyler's Fave"
+        ],
+        "description": "From the author of the short story that became the hit movie <i>Arrival</i>, a beautiful, philosophical collection of nine stories exploring time travel, free will, and artificial intelligence.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "chiang-exhalation.jpg",
+        "ISBN10": "1101947888",
+        "ISBN13": "978-1101947883",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52222275-exhalation",
+            "Amazon": "https://smile.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586797323&sr=1-1"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": "20TA009",
+        "title": "Blood, Sweat, and Pixels",
+        "subtitle": "The Triumphant, Turbulent Stories Behind How Video Games Are Made",
+        "author": "Jason Schreier",
+        "pages": 304,
+        "pubYear": 2017,
+        "tags": [
+            "Games",
+            "Nonfiction"
+        ],
+        "description": "<i>Blood, Sweat, and Pixels</i> is a compelling read for fans of video games. Schreier tells the story of how 10 games -- from triple-A, big budget games like Diablo III to one-person projects like Stardew Valley -- get made (or not) and all of the corporate politics and challenges that get in the way. If you’ve ever wondered how a development team can spend years and millions on a game that is obviously terrible, this book will help you understand. ",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "schreier-blood-sweat-pixels.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/33640770-blood-sweat-and-pixels",
+            "Amazon": "https://www.amazon.com/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234/ref=tmm_pap_title_0?_encoding=UTF8&amp;qid=&amp;sr="
+        },
+        "ISBN10": "0062651234",
+        "ISBN13": "9780062651235",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA008",
+        "title": "Un-Trumping America",
+        "subtitle": "A Plan to Make America a Democracy Again",
+        "author": "Dan Pfeiffer",
+        "pages": 273,
+        "pubYear": 2020,
+        "tags": [
+            "Politics and Economics",
+            "Left-leaning"
+        ],
+        "description": "A much stronger work than his first book, <i>Yes We (Still) Can</i>, host of the popular lefty podcast, <i>Pod Save America</i>, outlines a vision for how Democrats can regain power in American politics. Mixing media strategy expertise, White House experience, and hard-hitting humor, Pfeiffer makes a compelling case for more aggressive tactics by Democrats.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pfeiffer-untrumping-america.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/51203727-un-trumping-america",
+            "Amazon": "https://www.amazon.com/Trumping-America-Plan-Democracy-Again/dp/1538733552/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1538733552",
+        "ISBN13": "9781538733554",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA006",
+        "title": "The Last Wish",
+        "subtitle": "Introducing the Witcher",
+        "author": "Andrzej Sapkowski",
+        "seriesIndex": 0.5,
+        "seriesLength": 6,
+        "seriesTitle": "The Witcher",
+        "pages": 352,
+        "pubYear": 2008,
+        "tags": [
+            "Diverse Authors",
+            "Fantasy",
+            "Short Stories",
+            "Series"
+        ],
+        "description": "Meet Geralt of a Rivia, a genetically modifed monster hunter with a rye wit and reluctant commitment to doing good. This collection of short stories is a great introduction to the the world of <i>The Witcher</i> that became a Netflix series and smash-hit videogame.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "sapkowski-the-last-wish.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/33784346-the-last-wish",
+            "Amazon": "https://smile.amazon.com/Last-Wish-Introducing-Witcher/dp/0316497541/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586805772&sr=1-1"
+        },
+        "ISBN10": "0316497541",
+        "ISBN13": "978-0316497541",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA005",
+        "title": "Why We're Polarized",
+        "author": "Ezra Klein",
+        "pages": 312,
+        "pubYear": 2020,
+        "tags": [
+            "Politics and Economics",
+            "History",
+            "Psychology",
+            "Nonfiction",
+            "Fascinating"
+        ],
+        "description": "I’ve learned more from Ezra Klein and his podcast than perhaps any other person. So it is no surprise that Klein has crafted an insightful and original analysis of our current politics. Klein clearly articulates how our identities, once broken into many unrelated parts, have now aligned dramatically at two poles. Weaving in historical research, social psychology, and modern politics, Klein’s new book manages to live up to the promise of its title without retreading the same gut-feeling explanations seen elsewhere.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "klein-why-were-polarized.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52098718-why-we-re-polarized",
+            "Amazon": "https://www.amazon.com/Why-Were-Polarized-Ezra-Klein/dp/147670032X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "147670032X",
+        "ISBN13": "9781476700328",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA004",
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "pages": 391,
+        "pubYear": 2011,
+        "tags": [
+            "Fantasy",
+            "Literary Fiction"
+        ],
+        "description": "A whimsical tale full of magic, mystery, and romance, <i>The Night Circus</i> is unlike any other fantasy novel you’ve read. It tells the story of two magicians playing a game they don’t really understand. This novel is packed with curious characters who hold their secrets close until the very end.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "morgenstern-night-circus.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/9361589-the-night-circus",
+            "Amazon": "https://www.amazon.com/Night-Circus-Erin-Morgenstern/dp/0385534639/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0385534639",
+        "ISBN13": "9780385534635",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "20TA003",
+        "title": "Daytripper",
+        "author": "Gabriel Ba and Fabio Moon",
+        "seriesIndex": 1,
+        "seriesLength": 6,
+        "seriesTitle": "Daytripper",
+        "pages": 256,
+        "pubYear": 2011,
+        "tags": [
+            "Diverse Authors",
+            "Graphic Novel",
+            "Literary Fiction",
+            "Series"
+        ],
+        "description": "<i>Daytripper</i> visits alternate realities of Bras de Olivias Dominguez’s life. Each chapter is a what-if, exploring the spiraling, haunting repercussions of the choices we all make each day.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "ba-daytripper.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/8477057-daytripper",
+            "Amazon": "https://www.amazon.com/Daytripper-Gabriel-Ba/dp/1401229697/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "1401229697",
+        "ISBN13": "9781401229696",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "20TA002",
+        "title": "Light of the Stars",
+        "subtitle": "Alien Worlds and the Fate of the Earth",
+        "author": "Adam Frank",
+        "pages": 272,
+        "pubYear": 2018,
+        "tags": [
+            "Science",
+            "Space",
+            "Big Ideas"
+        ],
+        "description": "There are 40 billion habitable planets in the Milky Way, our local galaxy. If only 0.01 percent of those planets have intelligent life, there should be 4 million intelligent civilizations in our galaxy alone. So, where is everybody? This is the Fermi paradox, the crucial idea driving research into extraterrestrial life. Frank’s book serves as a history of the study of aliens, from ancient Greece to modern day. While enjoyable for those already curious about the subject, this is not the most captivating account of the supremely interesting subject.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "frank-light-of-the-stars.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/36236156-light-of-the-stars",
+            "Amazon": "https://www.amazon.com/Light-Stars-Alien-Worlds-Earth/dp/0393609014"
+        },
+        "ISBN10": "0393609014",
+        "ISBN13": "9780393609011",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA001",
+        "title": "Blindspot",
+        "subtitle": "Hidden Biases of Good People",
+        "author": "Mahzarin R. Banaji and Anthony G. Greenwald",
+        "pages": 254,
+        "pubYear": 2013,
+        "tags": [
+            "Diverse Authors",
+            "Psychology",
+            "Big Ideas",
+            "Fascinating",
+            "Nonfiction"
+        ],
+        "description": "Your mind does not work the way you think. In fact, most of your brain’s labor is subconscious, hidden and mysterious. We all accept that our brain pumps our blood and blinks our eyes, but we underestimate the power our subconscious has over our opinions and impulses. The magic of this book is the collection of simple experiments you can try that make the power of your subconscious visible. <i>Blind Spot</i> provides indisputable evidence of your implicit biases but is perhaps a bit too much review for those who have taken a collegiate psychology class.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "banaji-blind-spot.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/13131582-blindspot",
+            "Amazon": "https://www.amazon.com/Blindspot-Hidden-Biases-Good-People/dp/0553804642/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0553804642",
+        "ISBN13": "9780553804645",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "id": "19TA056",
+        "title": "Nimona",
+        "author": "Noelle Stevenson",
+        "pages": 272,
+        "pubYear": 2015,
+        "tags": [
+            "Graphic Novel",
+            "Young Adult",
+            "Fantasy",
+            "Tyler's Fave"
+        ],
+        "description": "I’ve never been so quickly and thoroughly charmed as I was by <i>Nimona</i>. What begins as a cute story about a shapeshifter who latches on as a villain's sidekick quickly grows into a beautiful story of identity, distorting genre tropes over and again. I love this book.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "stevenson-nimona.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/23131088-nimona",
+            "Amazon": "https://www.amazon.com/Nimona-Noelle-Stevenson/dp/0062278223"
+        },
+        "ISBN10": "0062278223",
+        "ISBN13": "978-0062278227",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": "19TA55",
+        "title": "The Color of Magic",
+        "subtitle": "Discworld #1",
+        "author": "Terry Pratchett",
+        "seriesIndex": 1,
+        "seriesLength": 75,
+        "seriesTitle": "Discworld",
+        "pages": 293,
+        "pubYear": 1983,
+        "tags": [
+            "Fantasy",
+            "Series"
+        ],
+        "description": "The first novel in a 70+ book collection in the Discworld setting of Terry Pratchett, <i>The Color of Magic</i> is a charming, messy novel. Much of the story drags but there are epic moments of world building -- like a civilization that walks on the ceiling using installed rings and hooked shoes -- as well as Pratchett’s effervescent humor. I didn’t particularly take to this book, but I put it down eager to read of Sir Terry’s work in the future.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pratchett-color-of-magic.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/34497.The_Color_of_Magic",
+            "Amazon": "https://www.amazon.com/Color-Magic-Discworld-Terry-Pratchett/dp/0062225677"
+        },
+        "ISBN10": "0060855924",
+        "ISBN13": "9780060855925",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "CPB0001",
+        "title": "The Storm Whale",
+        "subtitle": "",
+        "author": "Benji Davies",
+        "seriesIndex": 1,
+        "seriesLength": 3,
+        "seriesTitle": "Stormwhale Series",
+        "pages": 32,
+        "pubYear": 2011,
+        "tags": [
+            "Picture Book",
+            "Out at Sea",
+            "Great Cover"
+        ],
+        "description": "Noi is lonely when his father is away fishing all day. So, when a whale washes up on the beach near his home, he does the only reasonable thing and brings it home to his bathtub. With gorgeous art and a tale that will tug on your heartstrings, <i>The Storm Whale</i> is a must share with preschoolers.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "davies-storm-whale.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/20518879-the-storm-whale",
+            "Amazon": "https://www.amazon.com/Storm-Whale-Benji-Davies/dp/0805099670/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0805099670",
+        "ISBN13": "9780805099676",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": "19TA054",
+        "title": "Has Anyone Seen the President?",
+        "author": "Michael Lewis",
+        "pubYear": 2018,
+        "tags": [
+            "Short",
+            "Politics and Economics",
+            "Must Listen",
+            "Nonfiction",
+            "Left-leaning"
+        ],
+        "description": "Reading his article from <i>Bloomberg View</i>, Lewis paints a vivid (and terrifying) portrait of the populist politics of Trump and Bannon. For those unfamiliar with Lewis’ work, this short audiobook gives you a taste of his incredible ability to weave stories. He has many better works, but this one is fascinating for the authentic window into the mind of Steve Bannon.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "lewis-has-anyone-seen.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/en/book/show/40539428",
+            "Amazon": "https://www.amazon.com/Has-Anyone-Seen-the-President/dp/B07DLL62N4/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "150826726X",
+        "ISBN13": "9781508267263",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "19TA052",
+        "title": "Dear Girls",
+        "subtitle": "Intimate Tales, Untold Secrets, & Advice for Living Your Best Life",
+        "author": "Ali Wong and Justin Hakuta",
+        "pages": 240,
+        "pubYear": 2019,
+        "tags": [
+            "Memoir",
+            "Funny"
+        ],
+        "description": "Ali Wong’s two Netflix Comedy Specials are among the funniest things I have experienced -- hitting me at just the right time of having young children. So, I had high, probably unfair, expectations for Wong’s first book, <i>Dear Girls</i>. While it didn’t live up to my expectations, there were still many laugh-out-loud moments, particularly in her descriptions of her early comedy career in New York. Wong fans will likely enjoy this, but just don’t expect a book version of her stand up specials.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "wong-dear-girls.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/44600621-dear-girls",
+            "Amazon": "https://www.amazon.com/Dear-Girls-Intimate-Untold-Secrets/dp/052550883X"
+        },
+        "ISBN10": "052550883X",
+        "ISBN13": "9780525508830",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "19TA051",
+        "title": "The Encyclopedia of Early Earth",
+        "author": "Isabel Greenberg",
+        "seriesIndex": 1,
+        "seriesLength": 2,
+        "seriesTitle": "Early Earth",
+        "pages": 176,
+        "pubYear": 2013,
+        "tags": [
+            "Graphic Novel",
+            "Quirky"
+        ],
+        "description": "I’ve been staring at a blank page for a few minutes now trying to decide how to explain <i>The Encyclopedia of Early Earth</i>. It’s an allegory. A love story. A fable. A fantasy novel. Except it’s not really any of those things. Following a young man who strikes out from his home at the north pole, the story feels like a Greek epic poem rendered in cute and stunning art. None of this sounds like it should work. But, it does. It really does.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "greenberg-encyclopedia-of-early.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/17412749-the-encyclopedia-of-early-earth",
+            "Amazon": "https://www.amazon.com/Encyclopedia-Early-Earth-Novel/dp/0316225819"
+        },
+        "ISBN10": "0385678150",
+        "ISBN13": "9780385678155",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "CPB0002",
+        "title": "Giraffes Can't Dance",
+        "author": "Giles Andreae",
+        "illustrator": "Guy Parker-Rees",
+        "pages": 32,
+        "pubYear": 2001,
+        "tags": [
+            "Picture Book"
+        ],
+        "description": "<i>Giraffes Can’t Dance</i> is a charming, poetic storybook about poor Gerald, a giraffes who’s told he can’t dance by all of the other animals of the jungle. While a little long for the youngest kids, your two- and three-year olds will appreciate the images of the lions and rhinos dancing.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "andreae-giraffes-cant-dance.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/765148.Giraffes_Can_t_Dance",
+            "Amazon": "https://www.amazon.com/Giraffes-Cant-Dance-Giles-Andreae/dp/0439287197/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+        },
+        "ISBN10": "0439287197",
+        "ISBN13": "9780439287197",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "19TA053",
+        "title": "You Have Arrived at Your Destination",
+        "author": "Amor Towles",
+        "pages": 46,
+        "pubYear": 2019,
+        "tags": [
+            "Short Story",
+            "Science Fiction"
+        ],
+        "description": "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "towles-you-have-arrived.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination",
+            "Amazon": "https://www.amazon.com/Have-Arrived-Destination-Forward-collection-ebook/dp/B07VBCYTGR"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA007",
+        "title": "Caffeine",
+        "subtitle": "How Caffeine Created the Modern World",
+        "author": "Michael Pollan",
+        "pubYear": 2020,
+        "tags": [
+            "Nonfiction",
+            "Food and Drink",
+            "Short",
+            "Fascinating"
+        ],
+        "description": "The famous food and drug writer tackles caffeine in this just-for-audible audiobook. With his usual mix of curiosity, clever writing, and self-experimentation, Pollan shares how coffee (really its psychoactive compounds) spread across the world from the Middle East and revolutionized society all the while sharing his personal experience of giving up his daily dose (or doses) of the drug.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pollan-caffeine.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52300107-caffeine",
+            "Audible": "https://www.amazon.com/Caffeine-How-Created-Modern-World/dp/B083MYJXZT",
+            "Amazon": null
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    }
+]
