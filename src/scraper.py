@@ -19,7 +19,6 @@ desc = "The first of two volumes (I'll believe it when I see it, George), Fire a
 # Amazon doesn't use ISBN so can't generate automatically
 amazonUrl = "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X"
 seriesLength = "2"  # Can't scrape from Goodreads
-bookID = 1
 
 #######################
 # Tags ################
