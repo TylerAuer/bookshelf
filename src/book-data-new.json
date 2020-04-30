@@ -1,0 +1,40 @@
+{
+    "1": {
+        "title": "Fire & Blood",
+        "subtitle": "",
+        "seriesTitle": "A Targaryen History",
+        "seriesIndex": "1",
+        "seriesLength": "2",
+        "authors": [
+            "George R.R. Martin"
+        ],
+        "illustrators": [
+            "Doug Wheatley"
+        ],
+        "translators": [],
+        "pages": "719",
+        "pubYear": 2018,
+        "isbn10": "152479628X",
+        "isbn13": "9781524796280",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X",
+            "GoodReads": "https://www.goodreads.com/book/show/39943621-fire-blood",
+            "IndieBound": "https://www.indiebound.org/book/9781524796280",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781524796280",
+            "Library": "https://www.worldcat.org/search?q=9781524796280"
+        },
+        "coverImgFileName": "Martin-Fire-&-Blood.jpg",
+        "desc": "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons up until Aegon III comes of age. <cite>Fire and Blood</cite> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really though, this book is just for fans in love with the World of Ice and Fire who crave more epic worldbuilding.",
+        "descAuthor": "Tyler",
+        "ratings": [
+            {
+                "Tyler": 3
+            }
+        ],
+        "tags": [
+            "Fantasy",
+            "Loooooooong",
+            "Series"
+        ]
+    }
+}
