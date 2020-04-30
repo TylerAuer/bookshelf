@@ -8,17 +8,19 @@ import json
 # Custom Data
 #############
 
-# Goodreads URL for the English hardcover version of the book where available
+# Goodreads URL with
+# ... most popular cover
+# ... ISBN numbers!
 bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood"
 
 # list of lists with str:readers and int:ratings
-readersAndRating = [{"Tyler": 3}]
+readersAndRating = {"Tyler": 2}
 descAuthor = "Tyler"
 # Can include HTML tags like <b> or <cite>
-desc = "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons up until Aegon III comes of age. <cite>Fire and Blood</cite> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really though, this book is just for fans in love with the World of Ice and Fire who crave more epic worldbuilding."
+desc = "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying."
 # Amazon doesn't use ISBN so can't generate automatically
 amazonUrl = "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X"
-seriesLength = "2"  # Can't scrape from Goodreads
+seriesLength = "2"  # Use None if not series
 
 #######################
 # Tags ################
@@ -27,7 +29,7 @@ seriesLength = "2"  # Can't scrape from Goodreads
 tags = []
 # tags.append("Big Ideas")
 # tags.append("Diverse Authors")
-tags.append("Fantasy")
+# tags.append("Fantasy")
 # tags.append("Fascinating")
 # tags.append("Food and Drink")
 # tags.append("Funny")
@@ -38,7 +40,7 @@ tags.append("Fantasy")
 # tags.append("History")
 # tags.append("Left-leaning")
 # tags.append("Literary Fiction")
-tags.append("Loooooooong")
+# tags.append("Looooong")
 # tags.append("Memoir")
 # tags.append("Must Listen")
 # tags.append("Nonfiction")
@@ -48,10 +50,10 @@ tags.append("Loooooooong")
 # tags.append("Psychology")
 # tags.append("Quirky")
 # tags.append("Science")
-# tags.append("Science Fiction")
-tags.append("Series")
+tags.append("Science Fiction")
+# tags.append("Series")
 # tags.append("Short")
-# tags.append("Short Stories")
+tags.append("Short Stories")
 # tags.append("Short Story")
 # tags.append("Social Science")
 # tags.append("Space")
