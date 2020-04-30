@@ -8,34 +8,57 @@ import json
 # Custom Data
 #############
 
-# Should be hardcover where available
-
-# Fire and Blood
-bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood?ac=1&from_search=true&qid=h9pHLLo8VW&rank=1"
-
-# Talking to Strangers
-# bookUrl = "https://www.goodreads.com/book/show/43848929-talking-to-strangers?ac=1&from_search=true&qid=gWUQar3bfI&rank=2#"
-
-# Three-Body Problem
-# bookUrl = "https://www.goodreads.com/book/show/20518872-the-three-body-problem?from_search=true&from_srp=true&qid=69eZnTcpEu&rank=1"
-
-# The Boy Who Loved Math
-# bookUrl = "https://www.goodreads.com/book/show/16002003-the-boy-who-loved-math?ac=1&from_search=true&qid=NQi6MWr8KT&rank=1"
+# Goodreads URL for the English hardcover version of the book where available
+bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood"
 
 # list of lists with str:readers and int:ratings
-readersAndRating = [{"Tyler": 5}]
+readersAndRating = [{"Tyler": 3}]
 descAuthor = "Tyler"
-desc = ""  # Can include HTML tags like <b>Bold text</b>
-amazonUrl = ""
-seriesLength = ""
-bookID = "2020TA007"
+# Can include HTML tags like <b> or <cite>
+desc = "The first of two volumes (I'll believe it when I see it, George), Fire and Blood tells the story of the Targaryens from Aegon the Conqueror's landing in Westeros through the Dance of the Dragons up until Aegon III comes of age. <cite>Fire and Blood</cite> feels encyclopedic. The writing is terse and matter of fact, though Martin's clever prose sneak through. Really though, this book is just for fans in love with the World of Ice and Fire who crave more epic worldbuilding."
+# Amazon doesn't use ISBN so can't generate automatically
+amazonUrl = "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X"
+seriesLength = "2"  # Can't scrape from Goodreads
+bookID = 1
 
 #######################
 # Tags ################
 #######################
 # Uncomment to add tags
 tags = []
-tags.append("Quirky")
+# tags.append("Big Ideas")
+# tags.append("Diverse Authors")
+tags.append("Fantasy")
+# tags.append("Fascinating")
+# tags.append("Food and Drink")
+# tags.append("Funny")
+# tags.append("Games")
+# tags.append("Graphic Novel")
+# tags.append("Great Cover")
+# tags.append("Historical Fiction")
+# tags.append("History")
+# tags.append("Left-leaning")
+# tags.append("Literary Fiction")
+tags.append("Loooooooong")
+# tags.append("Memoir")
+# tags.append("Must Listen")
+# tags.append("Nonfiction")
+# tags.append("Out at Sea")
+# tags.append("Picture Book")
+# tags.append("Politics and Economics")
+# tags.append("Psychology")
+# tags.append("Quirky")
+# tags.append("Science")
+# tags.append("Science Fiction")
+tags.append("Series")
+# tags.append("Short")
+# tags.append("Short Stories")
+# tags.append("Short Story")
+# tags.append("Social Science")
+# tags.append("Space")
+# tags.append("Thriller")
+# tags.append("Tyler's Fave")
+# tags.append("Young Adult")
 
 ####################
 # Variables for JSON
@@ -135,55 +158,40 @@ with open('./src/covers-test/' + imgName, 'wb') as handler:
 # Reference in JSON output
 
 
-##################
-# Export JSON Data
-##################
-print(
-    json.dumps(
-        {
-            bookID: {
-                "title": title,
-                "subtitle": subtitle,
-                "seriesTitle": seriesTitle,
-                "seriesIndex": seriesIndex,
-                "seriesLength": seriesLength,
-                "authors": authors,
-                "illustrators": illustrators,
-                "translators": translators,
-                "pages": pages,
-                "pubYear": pubYear,
-                "isbn10": isbn10,
-                "isbn13": isbn13,
-                "extLinks": {
-                    "Amazon": amazonUrl,
-                    "GoodReads": bookUrl,
-                    "IndieBound": "https://www.indiebound.org/book/" + isbn13,
-                    "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=" + isbn13,
-                    "Library": "https://www.worldcat.org/search?q=" + isbn13,
-                },
-                "coverImgFileName": imgName,
-                "desc": desc,
-                "descAuthor": descAuthor,
-                "ratings": readersAndRating,
-                "tags": tags,
-            }
-        },
-        sort_keys=False, indent=4)
-)
-
-#########
-# Testing
-#########
-
-# print("title: %s" % title)
-# print("subtitle: %s" % subtitle)
-# print("authors: %s" % authors)
-# print("illustrators: %s" % illustrators)
-# print("translators: %s" % translators)
-# print("pages: %s" % pages)
-# print("pubYear: %s" % pubYear)
-# print("isbn10: %s" % isbn10)
-# print("isbn13: %s" % isbn13)
-# print("seriesTitle: %s" % seriesTitle)
-# print("seriesIndex: %s" % seriesIndex)
-# print("seriesLength: %s" % seriesLength)
+#############################
+# Add JSON Data to Book Lists
+#############################
+# Load File
+# Convert File to Python Dict
+# Figure out next bookID based on length of element
+# Generate JSON Output
+newBook = json.dumps(
+    {
+        bookID: {
+            "title": title,
+            "subtitle": subtitle,
+            "seriesTitle": seriesTitle,
+            "seriesIndex": seriesIndex,
+            "seriesLength": seriesLength,
+            "authors": authors,
+            "illustrators": illustrators,
+            "translators": translators,
+            "pages": pages,
+            "pubYear": pubYear,
+            "isbn10": isbn10,
+            "isbn13": isbn13,
+            "extLinks": {
+                "Amazon": amazonUrl,
+                "GoodReads": bookUrl,
+                "IndieBound": "https://www.indiebound.org/book/" + isbn13,
+                "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=" + isbn13,
+                "Library": "https://www.worldcat.org/search?q=" + isbn13,
+            },
+            "coverImgFileName": imgName,
+            "desc": desc,
+            "descAuthor": descAuthor,
+            "ratings": readersAndRating,
+            "tags": tags,
+        }
+    }, indent=4)
+print(newBook)
