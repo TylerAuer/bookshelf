@@ -850,7 +850,7 @@
             "GoodReads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination"
         },
         "coverImgFileName": "Towles-You-Have-Arrived-at-Your-Destination.jpg",
-        "desc": "Towles short story, <cite>You Have Arrived at your Destination</cite>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <cite>You Have Arrived at your Destination</cite> asks big questions but stops short of investigating them in a way that is satisfying.",
+        "desc": "Towles short story, <cite>You Have Arrived at your Destination</cite>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child\u2019s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <cite>You Have Arrived at your Destination</cite> asks big questions but stops short of investigating them in a way that is satisfying.",
         "descAuthor": "Tyler",
         "ratings": {
             "Tyler": 2
@@ -877,7 +877,7 @@
         "isbn13": null,
         "extLinks": {
             "Amazon": "https://www.amazon.com/Caffeine-How-Created-Modern-World/dp/B083MYJXZT",
-            "GoodReads": "https://www.goodreads.com/book/show/52300107-caffeine",
+            "GoodReads": "https://www.goodreads.com/book/show/52300107-caffeine"
         },
         "coverImgFileName": "Pollan-Caffeine.jpg",
         "desc": "The famous food and drug writer tackles caffeine in this just-for-audible audiobook. With his usual mix of curiosity, clever writing, and self-experimentation, Pollan shares how coffee (really its psychoactive compounds) spread across the world from the Middle East and revolutionized society all the while sharing his personal experience of giving up his daily dose (or doses) of the drug.",
@@ -892,4 +892,38 @@
             "Fascinating"
         ]
     },
+    "27": {
+        "title": "Artificial Condition",
+        "subtitle": "",
+        "seriesTitle": "The Murderbot Diaries",
+        "seriesIndex": "2",
+        "seriesLength": "5",
+        "authors": [
+            "Martha Wells"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "158",
+        "pubYear": 2018,
+        "isbn10": "1250186927",
+        "isbn13": "9781250186928",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1250186927",
+            "GoodReads": "https://www.goodreads.com/book/show/36223860-artificial-condition",
+            "IndieBound": "https://www.indiebound.org/book/9781250186928",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781250186928",
+            "Library": "https://www.worldcat.org/search?q=9781250186928"
+        },
+        "coverImgFileName": "Wells-Artificial-Condition.jpg",
+        "desc": "Picking up right where <cite>All Systems Red</cite> left off, <cite>Artificial Condition</cite> shares the same snarky thriller vibe of the first book in the series. Yet this book lacks a little of its predecessor\u2019s magic with the exception of Murderbot\u2019s new overbearing, obsessive AI friend. If you loved book one, you\u2019ll enjoy this too. But, there\u2019s not much new to be discovered here.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 3
+        },
+        "tags": [
+            "Science Fiction",
+            "Series",
+            "Short"
+        ]
+    }
 }

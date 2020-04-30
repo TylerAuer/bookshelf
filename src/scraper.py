@@ -11,20 +11,21 @@ import json
 # Goodreads URL with
 # ... most popular cover
 # ... ISBN numbers!
-bookUrl = "https://www.goodreads.com/book/show/39943621-fire-blood"
+bookUrl = ""
 
 # list of lists with str:readers and int:ratings
-readersAndRating = {"Tyler": 2}
+readersAndRating = {"Tyler": 3}
 descAuthor = "Tyler"
 # Can include HTML tags like <b> or <cite>
-desc = "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying."
+desc = ""
 # Amazon doesn't use ISBN so can't generate automatically
-amazonUrl = "https://www.amazon.com/Fire-Blood-Thrones-Targaryen-History/dp/152479628X"
-seriesLength = "2"  # Use None if not series
+amazonUrl = ""
+seriesLength = ""  # Use None if not series
 
 #######################
 # Tags ################
 #######################
+#  TODO: Systematically plan and clean tags
 # Uncomment to add tags
 tags = []
 # tags.append("Big Ideas")
@@ -50,13 +51,11 @@ tags = []
 # tags.append("Psychology")
 # tags.append("Quirky")
 # tags.append("Science")
-tags.append("Science Fiction")
+# tags.append("Science Fiction")
 # tags.append("Series")
 # tags.append("Short")
-tags.append("Short Stories")
-# tags.append("Short Story")
+# tags.append("Short Stories")
 # tags.append("Social Science")
-# tags.append("Space")
 # tags.append("Thriller")
 # tags.append("Tyler's Fave")
 # tags.append("Young Adult")
