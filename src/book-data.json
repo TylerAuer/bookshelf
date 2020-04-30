@@ -53,7 +53,7 @@
         "ISBN10": "1250214718",
         "ISBN13": "978-1250214713",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=TIghNmWUJz&rank=1",
+            "Goodreads": "https://www.goodreads.com/book/show/33387769-all-systems-red",
             "Amazon": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/1250214718/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586794755&sr=1-1"
         },
         "readers": [
@@ -109,7 +109,7 @@
         "descriptionAuthor": "Tyler",
         "coverImg": "fey-bossypants.jpg",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/9418327-bossypants?from_search=true&from_srp=true&qid=pSKwgQEMmv&rank=1",
+            "Goodreads": "https://www.goodreads.com/book/show/9476337-bossypants",
             "Amazon": "https://www.amazon.com/Tina-Fey-Bossypants-2011-04-05/dp/B01FGIKGRM/ref=sr_1_3?dchild=1&keywords=Bossypants&qid=1586878894&sr=8-3",
             "Audible": "https://www.audible.com/pd/Bossypants-Audiobook/B004RCBFII"
         },
@@ -137,7 +137,7 @@
         "descriptionAuthor": "Tyler",
         "coverImg": "chiang-stories-of-your-life-and-others.jpg",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/18626849-stories-of-your-life-and-others",
+            "Goodreads": "https://www.goodreads.com/book/show/28503870-stories-of-your-life-and-others",
             "Amazon": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/ref=tmm_pap_title_0?_encoding=UTF8&qid=&sr="
         },
         "ISBN10": "1101972122",
@@ -252,7 +252,7 @@
         "ISBN10": "1101947888",
         "ISBN13": "978-1101947883",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/41160292-exhalation?from_search=true&from_srp=true&qid=N0nVjk2Q43&rank=1",
+            "Goodreads": "https://www.goodreads.com/book/show/52222275-exhalation",
             "Amazon": "https://smile.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586797323&sr=1-1"
         },
         "readers": [
@@ -277,7 +277,7 @@
         "descriptionAuthor": "Tyler",
         "coverImg": "schreier-blood-sweat-pixels.jpg",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels",
+            "Goodreads": "https://www.goodreads.com/book/show/33640770-blood-sweat-and-pixels",
             "Amazon": "https://www.amazon.com/Blood-Sweat-Pixels-Triumphant-Turbulent/dp/0062651234/ref=tmm_pap_title_0?_encoding=UTF8&amp;qid=&amp;sr="
         },
         "ISBN10": "0062651234",
@@ -317,32 +317,6 @@
         ]
     },
     {
-        "id": "20TA007",
-        "title": "Caffeine",
-        "subtitle": "How Caffeine Created the Modern World",
-        "author": "Michael Pollan",
-        "pubYear": 2020,
-        "tags": [
-            "Nonfiction",
-            "Food and Drink",
-            "Short",
-            "Fascinating"
-        ],
-        "description": "The famous food and drug writer tackles caffeine in this just-for-audible audiobook. With his usual mix of curiosity, clever writing, and self-experimentation, Pollan shares how coffee (really its psychoactive compounds) spread across the world from the Middle East and revolutionized society all the while sharing his personal experience of giving up his daily dose (or doses) of the drug.",
-        "descriptionAuthor": "Tyler",
-        "coverImg": "pollan-caffeine.jpg",
-        "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/52300107-caffeine",
-            "Audible": "https://www.amazon.com/Caffeine-How-Created-Modern-World/dp/B083MYJXZT"
-        },
-        "readers": [
-            {
-                "name": "Tyler",
-                "rating": 4
-            }
-        ]
-    },
-    {
         "id": "20TA006",
         "title": "The Last Wish",
         "subtitle": "Introducing the Witcher",
@@ -362,7 +336,7 @@
         "descriptionAuthor": "Tyler",
         "coverImg": "sapkowski-the-last-wish.jpg",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/40603587-the-last-wish",
+            "Goodreads": "https://www.goodreads.com/book/show/33784346-the-last-wish",
             "Amazon": "https://smile.amazon.com/Last-Wish-Introducing-Witcher/dp/0316497541/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586805772&sr=1-1"
         },
         "ISBN10": "0316497541",
@@ -534,7 +508,7 @@
         "descriptionAuthor": "Tyler",
         "coverImg": "stevenson-nimona.jpg",
         "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/19351043-nimona",
+            "Goodreads": "https://www.goodreads.com/book/show/23131088-nimona",
             "Amazon": "https://www.amazon.com/Nimona-Noelle-Stevenson/dp/0062278223"
         },
         "ISBN10": "0062278223",
@@ -624,34 +598,10 @@
         "coverImg": "lewis-has-anyone-seen.jpg",
         "extLinks": {
             "Goodreads": "https://www.goodreads.com/en/book/show/40539428",
-            "Audible": "https://www.amazon.com/Has-Anyone-Seen-the-President/dp/B07DLL62N4/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr="
+            "Amazon": "https://www.amazon.com/Has-Anyone-Seen-the-President/dp/B07DLL62N4/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr="
         },
         "ISBN10": "150826726X",
         "ISBN13": "9781508267263",
-        "readers": [
-            {
-                "name": "Tyler",
-                "rating": 2
-            }
-        ]
-    },
-    {
-        "id": "19TA053",
-        "title": "You Have Arrived at Your Destination",
-        "author": "Amor Towles",
-        "pages": 46,
-        "pubYear": 2019,
-        "tags": [
-            "Short Story",
-            "Science Fiction"
-        ],
-        "description": "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying.",
-        "descriptionAuthor": "Tyler",
-        "coverImg": "towles-you-have-arrived.jpg",
-        "extLinks": {
-            "Goodreads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination",
-            "Amazon": "https://www.amazon.com/Have-Arrived-Destination-Forward-collection-ebook/dp/B07VBCYTGR"
-        },
         "readers": [
             {
                 "name": "Tyler",
@@ -734,6 +684,57 @@
         },
         "ISBN10": "0439287197",
         "ISBN13": "9780439287197",
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": "19TA053",
+        "title": "You Have Arrived at Your Destination",
+        "author": "Amor Towles",
+        "pages": 46,
+        "pubYear": 2019,
+        "tags": [
+            "Short Story",
+            "Science Fiction"
+        ],
+        "description": "Towles short story, <i>You Have Arrived at your Destination</i>, is part of the Forward Collection of science fiction short stories organized by Blake Crouch and, unfortunately, only available on Kindle and Audible. Towles story explores the near future in which parents can see their child’s future before they are born and select a fetus with the life they want. High in concept, but a bit short to really explore it, <i>You Have Arrived at your Destination</i> asks big questions but stops short of investigating them in a way that is satisfying.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "towles-you-have-arrived.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination",
+            "Amazon": "https://www.amazon.com/Have-Arrived-Destination-Forward-collection-ebook/dp/B07VBCYTGR"
+        },
+        "readers": [
+            {
+                "name": "Tyler",
+                "rating": 2
+            }
+        ]
+    },
+    {
+        "id": "20TA007",
+        "title": "Caffeine",
+        "subtitle": "How Caffeine Created the Modern World",
+        "author": "Michael Pollan",
+        "pubYear": 2020,
+        "tags": [
+            "Nonfiction",
+            "Food and Drink",
+            "Short",
+            "Fascinating"
+        ],
+        "description": "The famous food and drug writer tackles caffeine in this just-for-audible audiobook. With his usual mix of curiosity, clever writing, and self-experimentation, Pollan shares how coffee (really its psychoactive compounds) spread across the world from the Middle East and revolutionized society all the while sharing his personal experience of giving up his daily dose (or doses) of the drug.",
+        "descriptionAuthor": "Tyler",
+        "coverImg": "pollan-caffeine.jpg",
+        "extLinks": {
+            "Goodreads": "https://www.goodreads.com/book/show/52300107-caffeine",
+            "Audible": "https://www.amazon.com/Caffeine-How-Created-Modern-World/dp/B083MYJXZT",
+            "Amazon": null
+        },
         "readers": [
             {
                 "name": "Tyler",
