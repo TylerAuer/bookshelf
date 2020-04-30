@@ -925,5 +925,38 @@
             "Series",
             "Short"
         ]
+    },
+    "28": {
+        "title": "Winners Take All",
+        "subtitle": "The Elite Charade of Changing the World",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Anand Giridharadas"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "288",
+        "pubYear": 2018,
+        "isbn10": "0451493249",
+        "isbn13": "9780451493248",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0451493249",
+            "GoodReads": "https://www.goodreads.com/book/show/37506348-winners-take-all",
+            "IndieBound": "https://www.indiebound.org/book/9780451493248",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780451493248",
+            "Library": "https://www.worldcat.org/search?q=9780451493248"
+        },
+        "coverImgFileName": "Giridharadas-Winners-Take-All.jpg",
+        "desc": "In the 2016 and 2020 Democratic Primary campaigns, Bernie Sanders routinely described the US\u2019s economic systems as rigged for Wall Street and top 1%. Anand Giridharadas\u2019 <cite>Winners Take All</cite> fills in the details of Sander\u2019s message, persuasively explaining how the wealthy manage to hold onto power while still claiming to change the world. Taking sharp aim at philanthropists and professional Ted-talkers, Giridharadas pushes back against the individual-blaming and privatized solutions to societal challenges, advocating instead for a recommitment to political and public approaches.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Left-leaning",
+            "Politics and Economics"
+        ]
     }
 }
