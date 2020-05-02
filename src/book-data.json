@@ -491,7 +491,7 @@
             "F\u00e1bio Moon",
             "Gabriel B\u00e1",
             "Craig Thompson",
-            "Dave    Stewart",
+            "Dave Stewart",
             "Sean Konot"
         ],
         "illustrators": [],
@@ -715,7 +715,7 @@
             "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781508267263",
             "Library": "https://www.worldcat.org/search?q=9781508267263"
         },
-        "coverImgFileName": "Lewis-Has-Anyone-Seen-the-President?.jpg",
+        "coverImgFileName": "Lewis-Has-Anyone-Seen-the-President.jpg",
         "desc": "Reading his article from <cite>Bloomberg View</cite>, Lewis paints a vivid (and terrifying) portrait of the populist politics of Trump and Bannon. For those unfamiliar with Lewis\u2019 work, this short audiobook gives you a taste of his incredible ability to weave stories. He has many better works, but this one is fascinating for the authentic window into the mind of Steve Bannon.",
         "descAuthor": "Tyler",
         "ratings": {
@@ -956,6 +956,80 @@
         },
         "tags": [
             "Left-leaning",
+            "Politics and Economics"
+        ]
+    },
+    "29": {
+        "title": "Born a Crime",
+        "subtitle": "Stories From a South African Childhood",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Trevor Noah"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "285",
+        "pubYear": 2016,
+        "isbn10": "0385689225",
+        "isbn13": "9780385689229",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0385689225",
+            "GoodReads": "https://www.goodreads.com/book/show/29780253-born-a-crime",
+            "IndieBound": "https://www.indiebound.org/book/9780385689229",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780385689229",
+            "Library": "https://www.worldcat.org/search?q=9780385689229"
+        },
+        "coverImgFileName": "Noah-Born-a-Crime.jpg",
+        "desc": "Trevor Noah\u2019s hilarious and insightful memoir, <cite>Born a Crime</cite>, is chock full of moving and often hilarious stories of a childhood in apartheid South Africa. Noah, the host of The Daily Show, lends his voice to the audiobook, moving in-and-out of multitude of languages and accents of South Africa and making this story a must-listen. This book is not just funny, it\u2019s instructive, painting a detailed portrait of the culture and poverty of the region in the \u201880s and \u201890s.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Funny",
+            "History",
+            "Memoir",
+            "Must Listen",
+            "Nonfiction",
+            "Tyler's Fave"
+        ]
+    },
+    "30": {
+        "title": "The Education of an Idealist",
+        "subtitle": "A Memoir",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Samantha Power"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "592",
+        "pubYear": 2019,
+        "isbn10": "0062820710",
+        "isbn13": "9780062820716",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Education-Idealist-Memoir-Samantha-Power/dp/0062820699",
+            "GoodReads": "https://www.goodreads.com/book/show/42872088-the-education-of-an-idealist",
+            "IndieBound": "https://www.indiebound.org/book/9780062820716",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780062820716",
+            "Library": "https://www.worldcat.org/search?q=9780062820716"
+        },
+        "coverImgFileName": "Power-The-Education-of-an-Idealist.jpg",
+        "desc": "Samantha Power\u2019s moving memoir traces the arc of her life from war correspondent, to Pulitzer Prize winning author, to the Obama White House, and then the United Nations as she wrestles with how to prevent mass atrocities and genocide acroos the globe. As Power transitions from outspoken critic of the US government to policy maker, she wrestles with how to affect the change she so desperately wants, shedding light on how and why it is often so hard for the government to do the right thing.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "History",
+            "Left-leaning",
+            "Looooong",
+            "Memoir",
+            "Nonfiction",
             "Politics and Economics"
         ]
     }
