@@ -9,7 +9,7 @@ const descStyle = css`
 `;
 
 function Description(props) {
-  return <div css={descStyle}>{ReactHtmlParser(props.json.description)}</div>;
+  return <div css={descStyle}>{ReactHtmlParser(props.json.desc)}</div>;
 }
 
 export default Description;

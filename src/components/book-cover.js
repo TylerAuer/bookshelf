@@ -20,7 +20,7 @@ function BookCoverImg(props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // imports cover
-  const coverImgSrc = require("../covers/" + props.json.coverImg);
+  const coverImgSrc = require("../covers/" + props.json.coverImgFileName);
 
   return (
     <React.Fragment>

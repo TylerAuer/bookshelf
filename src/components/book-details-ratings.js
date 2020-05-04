@@ -22,10 +22,12 @@ const starsDim = css`
 
 function Ratings(props) {
   let readerRatings = [];
-  props.json.readers.forEach((reader) => {
+  // ex arr: [["Tyler", 4], ["Jessica", 2]]
+  const ratingsKeyValueArr = Object.entries(props.json.ratings);
+  ratingsKeyValueArr.forEach((reader) => {
     let stars = [];
     for (let i = 1; i < 6; i++) {
-      if (i <= reader.rating) {
+      if (i <= reader[1]) {
         stars.push(
           <span key={i} css={starsLit}>
             ★
@@ -40,8 +42,8 @@ function Ratings(props) {
       }
     }
     readerRatings.push(
-      <div key={reader.name} css={ratingStyle}>
-        <b>{reader.name}</b>: {stars}
+      <div key={reader[0]} css={ratingStyle}>
+        <b>{reader[0]}</b>: {stars}
       </div>
     );
   });

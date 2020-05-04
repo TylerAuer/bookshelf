@@ -4,7 +4,11 @@ import CoverGrid from "./cover-grid";
 import SiteHeader from "./header";
 import TagListFull from "./tag-grid";
 
-let bookData = require("../book-data.json");
+let bookJSON = require("../book-data.json");
+
+// Turn JSON into array of book objects
+const bookData = Object.values(bookJSON);
+
 // Fisher-Yates shuffle algorithm (shuffles array in place)
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
