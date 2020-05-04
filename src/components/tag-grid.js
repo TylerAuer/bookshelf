@@ -59,6 +59,7 @@ const tagBtnActiveStyle = css`
 `;
 
 function TagListFull(props) {
+  // Collects list of all tags used in book-data.json
   let tagArr = [];
   props.json.forEach((book, index) => {
     for (let tag of book.tags) {
@@ -67,8 +68,8 @@ function TagListFull(props) {
       }
     }
   });
-
   tagArr.sort();
+
   const tagElementList = tagArr.map((tag, index) => {
     if (props.active.includes(tag)) {
       return (

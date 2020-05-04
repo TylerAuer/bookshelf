@@ -47,22 +47,18 @@ class App extends React.Component {
       <React.Fragment>
         <SiteHeader />
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-3 col-xl-2" style={{ padding: "0px" }}>
-              <TagListFull
-                json={bookData}
-                active={this.state.activeTagArr}
-                onClick={this.tagOnClick}
-              />
-            </div>
-            <div className="col-md-9 col-xl-10">
-              <CoverGrid
-                json={bookData}
-                active={this.state.activeTagArr}
-                onClick={this.onClickBookCover}
-              />
-            </div>
-          </div>
+          <TagListFull
+            json={bookData}
+            active={this.state.activeTagArr}
+            onClick={this.tagOnClick}
+          />
+        </div>
+        <div className="container-fluid">
+          <CoverGrid
+            json={bookData}
+            active={this.state.activeTagArr}
+            onClick={this.onClickBookCover}
+          />
         </div>
         {/* <DetailsList json={bookData} /> */}
       </React.Fragment>
