@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 """
 This script takes the JSON files from the original data file
 and reformats that data for the new JSON format. It also
