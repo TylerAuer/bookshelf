@@ -1,0 +1,53 @@
+.single__cover {
+  float: right;
+  max-height: 35rem;
+  margin: 1rem 0 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.single__header {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.single__titles {
+  margin-bottom: 2rem;
+}
+
+.single__title {
+  font-size: 4rem;
+  color: black;
+  /* margin: 5px 0px; */
+}
+
+.single__subtitle {
+  font-size: 2rem;
+  color: var(--grey-dark);
+  font-weight: normal;
+  font-style: italic;
+  /* margin: 5px 0px; */
+}
+
+.single__creators {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  /* padding-left: 1rem;
+  border-left: 2px solid var(--primary); */
+}
+
+.single__authors {
+  font-size: 2.2rem;
+  color: var(--primary);
+  /* margin: 5px 0px; */
+}
+.single__ill-and-trans {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: normal;
+  /* margin: 5px 0px; */
+}
+
+.single__body {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
