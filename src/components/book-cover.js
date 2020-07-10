@@ -10,7 +10,6 @@ const coverImgStyle = css`
   height: auto;
   margin: 0px auto;
   &:hover {
-    /* border: 2px solid ${theme.mainColorLight}; */
     webkit-filter: blur(2px); /* Chrome, Safari, Opera */
     filter: blur(2px);
   }

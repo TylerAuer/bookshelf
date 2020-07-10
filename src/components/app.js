@@ -2,7 +2,7 @@ import React from "react";
 import DetailsList from "./details-list";
 import CoverGrid from "./cover-grid";
 import SiteHeader from "./header";
-import TagListFull from "./tag-grid";
+import TagListFull from "./tag-list-full";
 
 let bookJSON = require("../book-data.json");
 
@@ -46,12 +46,14 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <SiteHeader />
-        <div className="container-fluid">
-          <TagListFull
-            json={bookData}
-            active={this.state.activeTagArr}
-            onClick={this.tagOnClick}
-          />
+        <div id="tagsDiv" className="container-fluid">
+          <div className="col-md-10 offset-md-1">
+            <TagListFull
+              json={bookData}
+              active={this.state.activeTagArr}
+              onClick={this.tagOnClick}
+            />
+          </div>
         </div>
         <div className="container-fluid">
           <CoverGrid
