@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
+import About from './About';
 
 const App = (props) => {
   return (
@@ -9,7 +10,7 @@ const App = (props) => {
         <Header />
         <Switch>
           <Route path="/single/:id" />
-          <Route path="/about" />
+          <Route path="/about" component={About} />
           <Route path="/books/list" />
           <Route path="/books/covers" />
           <Route path="/">
@@ -17,7 +18,6 @@ const App = (props) => {
           </Route>
         </Switch>
       </HashRouter>
-      <footer>This is the footer</footer>
     </>
   );
 };

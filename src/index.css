@@ -15,14 +15,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
+  --primary: rgb(128, 9, 179);
+  --secondary: rgb(9, 128, 179);
   --grey-dark: hsla(33, 0%, 10%, 1);
   --grey-medium: rgb(96, 96, 96);
   --grey-light: hsla(34, 0%, 79%, 1);
-  --blue-dark: hsla(240, 42%, 23%, 1);
-  --blue-light: hsla(232, 30%, 41%, 1);
-  --heather: hsla(309, 9%, 60%, 1);
-  --paper-dark: hsla(11, 17%, 79%, 1);
-  --paper-light: hsla(21, 6%, 95%, 1);
 }
 
 body {
@@ -31,6 +28,22 @@ body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+Typography
+*/
+
+h2 {
+  color: var(--primary);
+}
+
+/* 
+Layout
+*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .my-masonry-grid {

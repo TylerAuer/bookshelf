@@ -9,7 +9,7 @@
 .header__title,
 .header__title {
   font-size: 6rem;
-  color: var(--blue-dark);
+  color: var(--primary);
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 1.2;
@@ -28,13 +28,14 @@
 }
 
 .header__nav-link {
-  color: var(--grey-dark);
+  font-weight: 700;
+  color: var(--secondary);
   margin: 0 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .header__nav-link--active {
-  color: purple;
-  border-bottom: 1.5px solid purple;
+  color: var(--primary);
+  border-bottom: 1.5px solid var(--primary);
 }
