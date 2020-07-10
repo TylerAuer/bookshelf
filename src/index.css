@@ -1,9 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&?family=IBM+Plex+Mono:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&?family=IBM+Plex+Mono:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  --grey-dark: hsla(33, 0%, 10%, 1);
+  --grey-medium: rgb(96, 96, 96);
+  --grey-light: hsla(34, 0%, 79%, 1);
+  --blue-dark: hsla(240, 42%, 23%, 1);
+  --blue-light: hsla(232, 30%, 41%, 1);
+  --heather: hsla(309, 9%, 60%, 1);
+  --paper-dark: hsla(11, 17%, 79%, 1);
+  --paper-light: hsla(21, 6%, 95%, 1);
+}
 
 body {
-  margin: 0 auto;
-  max-width: 2450px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

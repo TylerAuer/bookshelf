@@ -1,0 +1,40 @@
+.header {
+  text-align: center;
+  padding: 3rem 0;
+}
+.header__title-container a {
+  text-decoration: none;
+}
+
+.header__title,
+.header__title {
+  font-size: 6rem;
+  color: var(--blue-dark);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+
+.header__subtitle {
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--grey-medium);
+}
+
+.header__nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__nav-link {
+  color: var(--grey-dark);
+  margin: 0 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__nav-link--active {
+  color: purple;
+  border-bottom: 1.5px solid purple;
+}
