@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -163,12 +162,12 @@ with open('./src/covers/' + imgName, 'wb') as handler:
 
 
 # Open data file
-with open('./src/book-data.json', 'r+') as f:
-    data = json.load(f)
+with open('./src/data.json', 'r+') as file:
+    data = json.load(file)
     # Creates new ID number based on count of current books + 1
-    bookID = str(1 + len(data))
+    bookID = str(1 + len(data.books))
     # Add new book to dict version of the JSON
-    data[bookID] = {
+    data.books[bookID] = {
         "title": title,
         "subtitle": subtitle,
         "seriesTitle": seriesTitle,
