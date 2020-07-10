@@ -6,7 +6,9 @@ import './Single.css';
 const BookInfo = ({ data }) => {
   console.log(data);
 
-  // TODO: Refactor this to make it simpler
+  ////////////////////////////////////////////////////////
+  // Author, Illustrator, and Translator Lists
+  ////////////////////////////////////////////////////////
   const prettyListGenerator = (arr) => {
     let jsxArr = [];
     let contributorArr = arr.slice();
@@ -63,19 +65,69 @@ const BookInfo = ({ data }) => {
       </React.Fragment>
     );
   });
-
   const translators = data.translators.map((trans) => {
     return (
       <React.Fragment>
         {trans}{' '}
-        <span style={{ color: 'grey', fontWeight: 'normal' }}>
+        <span
+          style={{
+            color: 'grey',
+            fontWeight: 'normal',
+          }}
+        >
           (Translation)
         </span>
       </React.Fragment>
     );
   });
-
   const illAndTrans = prettyListGenerator([...illustrators, ...translators]);
+
+  ////////////////////////////////////////////////////////
+  // Stars for Ratings
+  ////////////////////////////////////////////////////////
+  let stars = [];
+  for (let i = 1; i < 6; i++) {
+    if (i <= data.ratings.Tyler) {
+      stars.push(
+        <span key={i} className="single__star single__star--lit">
+          ★
+        </span>
+      );
+    } else {
+      stars.push(
+        <span key={i} className="single__star single__star--dim">
+          ★
+        </span>
+      );
+    }
+  }
+
+  ////////////////////////////////////////////////////////
+  // Tags and External Links
+  ////////////////////////////////////////////////////////
+
+  const tags = data.tags.map((tag) => {
+    // link to covers with query for the tag
+    return (
+      <Link
+        to={{
+          pathname: '/books/covers',
+          search: tag,
+        }}
+        className="single__tag"
+      >
+        {tag}
+      </Link>
+    );
+  });
+
+  const externalLinks = Object.entries(data.extLinks).map((link) => {
+    return (
+      <a className="single__tag single__tag--external" href={link[1]}>
+        {link[0]}
+      </a>
+    );
+  });
 
   return (
     <div className="single">
@@ -101,17 +153,24 @@ const BookInfo = ({ data }) => {
       </div>
 
       <div className="single__footer">
-        <div className="single__length">
-          <b>Length:</b> {data.pages} pages
-        </div>
-        <div className="single__series">
-          <b>Series:</b> {data.seriesIndex}
-        </div>
-        <div className="single__rating">
-          <b>Rating:</b> {data.ratings.Tyler}
-        </div>
-        <div className="single__tags">{data.tags}</div>
-        <div className="single__links">External Links</div>
+        {data.pages && (
+          <div className="single__length">
+            <b>Length:</b> {data.pages} pages
+          </div>
+        )}
+        {data.seriesIndex && (
+          <div className="single__series">
+            <b>Series:</b> {data.seriesIndex} of {data.seriesLength} in{' '}
+            {data.seriesTitle}
+          </div>
+        )}
+        {data.ratings.Tyler && (
+          <div className="single__ratings">
+            <b>Rating: {stars}</b>
+          </div>
+        )}
+        <div className="single__tag-list">{tags}</div>
+        <div className="single__tag-list">{externalLinks}</div>
       </div>
     </div>
   );
@@ -123,12 +182,22 @@ const Single = ({ books }) => {
   return (
     <div className="container">
       <BookInfo data={books[parseInt(id) - 1]} />
-      <Link as="button" to={`/single/${id - 1}`}>
-        Previous
-      </Link>
-      <Link as="button" to={`/single/${parseInt(id) + 1}`}>
-        Next
-      </Link>
+      <nav className="single__bottom-nav">
+        <Link
+          className="single__bottom-nav-btn single__bottom-nav-btn--previous"
+          as="button"
+          to={`/single/${id - 1}`}
+        >
+          Previous
+        </Link>
+        <Link
+          className="single__bottom-nav-btn single__bottom-nav-btn--next"
+          as="button"
+          to={`/single/${parseInt(id) + 1}`}
+        >
+          Next
+        </Link>
+      </nav>
     </div>
   );
 };

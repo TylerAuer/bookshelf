@@ -49,5 +49,81 @@
 
 .single__body {
   margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.single__footer {
   font-size: 1.8rem;
+}
+
+.single__star {
+}
+
+.single__star--lit {
+  color: var(--primary);
+}
+
+.single__star--dim {
+  color: var(--grey-light);
+}
+
+.single__tag-list {
+  margin: 1rem 0;
+}
+
+.single__tag,
+.single__tag:visited {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--primary-light);
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.single__tag:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.single__tag:hover,
+.single__tag:visited:hover {
+  background-color: var(--primary);
+}
+
+.single__tag--external,
+.single__tag--external:visited {
+  background-color: var(--secondary-light);
+}
+
+.single__tag--external:hover,
+.single__tag--external:visited:hover {
+  background-color: var(--secondary);
+}
+
+.single__bottom-nav a,
+.single__bottom-nav a:visited {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--primary-light);
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  margin-top: 3rem;
+}
+
+.single__bottom-nav a:hover,
+.single__bottom-nav a:visited:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.single__bottom-nav-btn--previous {
+  float: left;
+}
+.single__bottom-nav-btn--next {
+  float: right;
 }
