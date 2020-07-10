@@ -7,7 +7,7 @@ import json
 # Custom Data
 #############
 
-# Goodreads URL with
+# Goodreads URL. Must have:
 # ... most popular cover
 # ... ISBN numbers!
 bookUrl = ""
@@ -21,9 +21,9 @@ desc = ""
 amazonUrl = ""
 seriesLength = ""  # Use None if not series
 
-#######################
-# Tags ################
-#######################
+#########
+# Tags
+#########
 #  TODO: Systematically plan and clean tags
 # Uncomment to add tags
 tags = []
@@ -42,6 +42,7 @@ tags = []
 # tags.append("Literary Fiction")
 # tags.append("Looooong")
 # tags.append("Memoir")
+# tags.append("Mystery")
 # tags.append("Must Listen")
 # tags.append("Nonfiction")
 # tags.append("Out at Sea")
@@ -165,9 +166,10 @@ with open('./src/covers/' + imgName, 'wb') as handler:
 with open('./src/data.json', 'r+') as file:
     data = json.load(file)
     # Creates new ID number based on count of current books + 1
-    bookID = str(1 + len(data.books))
+    bookID = 1 + len(data['books'])
     # Add new book to dict version of the JSON
-    data.books[bookID] = {
+    data['books'].append({
+        "id": bookID,
         "title": title,
         "subtitle": subtitle,
         "seriesTitle": seriesTitle,
@@ -192,12 +194,12 @@ with open('./src/data.json', 'r+') as file:
         "descAuthor": descAuthor,
         "ratings": readersAndRating,
         "tags": tags,
-    }
+    })
     # Go to the start of JSON file
-    f.seek(0)
+    file.seek(0)
     # Dumps the data at the start of the JSON file
-    json.dump(data, f, indent=4)
+    json.dump(data, file, indent=4)
     # Removes any extra JSON after the dump.
     # Though this shouldn't be necessary, I've left it here as a reference
     # in case this approach is used in the future
-    f.truncate()
+    file.truncate()

@@ -121,7 +121,7 @@ def processBookJSON(goodreadsURL, amazonUrl, seriesLength, rating, desc, tags):
 
     # Open data file
     # TODO: Switch to "book-data.json" when ready to run for real
-    with open('./src/book-data-new.json', 'r+') as f:
+    with open('./src/data.json', 'r+') as f:
         data = json.load(f)
         # Creates new ID number based on count of current books + 1
         bookID = str(1 + len(data))
@@ -162,19 +162,19 @@ def processBookJSON(goodreadsURL, amazonUrl, seriesLength, rating, desc, tags):
         f.truncate()
 
 
-# Load old file
-with open('./src/book-data.json', 'r') as oldJSON:
-    oldData = json.load(oldJSON)
-    for book in oldData:
-        seriesLength = ""
-        if "seriesLength" in book:
-            seriesLength = book["seriesLength"]
+# # Load old file
+# with open('./src/book-data.json', 'r') as oldJSON:
+#     oldData = json.load(oldJSON)
+#     for book in oldData:
+#         seriesLength = ""
+#         if "seriesLength" in book:
+#             seriesLength = book["seriesLength"]
 
-        processBookJSON(book["extLinks"]["Goodreads"],
-                        book["extLinks"]["Amazon"],
-                        seriesLength,
-                        book["readers"][0]["rating"],
-                        book["description"].replace(
-                            "<i>", "<cite>").replace("</i>", "</cite>"),
-                        book["tags"]
-                        )
+#         processBookJSON(book["extLinks"]["Goodreads"],
+#                         book["extLinks"]["Amazon"],
+#                         seriesLength,
+#                         book["readers"][0]["rating"],
+#                         book["description"].replace(
+#                             "<i>", "<cite>").replace("</i>", "</cite>"),
+#                         book["tags"]
+#                         )

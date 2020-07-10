@@ -426,7 +426,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": 13,
             "title": "Why We're Polarized",
             "subtitle": "",
             "seriesTitle": null,
@@ -463,7 +463,7 @@
             ]
         },
         {
-            "id": 15,
+            "id": 14,
             "title": "The Night Circus",
             "subtitle": "",
             "seriesTitle": null,
@@ -497,7 +497,7 @@
             ]
         },
         {
-            "id": 16,
+            "id": 15,
             "title": "Daytripper",
             "subtitle": "",
             "seriesTitle": "Daytripper",
@@ -534,7 +534,7 @@
             ]
         },
         {
-            "id": 17,
+            "id": 16,
             "title": "Light of the Stars",
             "subtitle": "Alien Worlds and the Fate of the Earth",
             "seriesTitle": null,
@@ -569,7 +569,7 @@
             ]
         },
         {
-            "id": 18,
+            "id": 17,
             "title": "Blindspot",
             "subtitle": "Hidden Biases of Good People",
             "seriesTitle": null,
@@ -607,7 +607,7 @@
             ]
         },
         {
-            "id": 19,
+            "id": 18,
             "title": "Nimona",
             "subtitle": "",
             "seriesTitle": null,
@@ -643,7 +643,7 @@
             ]
         },
         {
-            "id": 20,
+            "id": 19,
             "title": "The Color of Magic",
             "subtitle": "",
             "seriesTitle": "Discworld",
@@ -677,7 +677,7 @@
             ]
         },
         {
-            "id": 21,
+            "id": 20,
             "title": "The Storm Whale",
             "subtitle": "",
             "seriesTitle": "The Storm Whale",
@@ -712,7 +712,7 @@
             ]
         },
         {
-            "id": 22,
+            "id": 21,
             "title": "Has Anyone Seen the President?",
             "subtitle": "",
             "seriesTitle": null,
@@ -749,7 +749,7 @@
             ]
         },
         {
-            "id": 23,
+            "id": 22,
             "title": "Dear Girls",
             "subtitle": "Intimate Tales, Untold Secrets, & Advice for Living Your Best Life",
             "seriesTitle": null,
@@ -784,7 +784,7 @@
             ]
         },
         {
-            "id": 24,
+            "id": 23,
             "title": "The Encyclopedia of Early Earth",
             "subtitle": "",
             "seriesTitle": "Early Ear",
@@ -818,7 +818,7 @@
             ]
         },
         {
-            "id": 25,
+            "id": 24,
             "title": "Giraffes Can't Dance",
             "subtitle": "",
             "seriesTitle": null,
@@ -853,7 +853,7 @@
             ]
         },
         {
-            "id": 26,
+            "id": 25,
             "title": "You Have Arrived at Your Destination",
             "subtitle": "",
             "seriesTitle": "Forward",
@@ -884,7 +884,7 @@
             ]
         },
         {
-            "id": 27,
+            "id": 26,
             "title": "Caffeine",
             "subtitle": "How Caffeine Created the Modern World",
             "seriesTitle": null,
@@ -917,7 +917,7 @@
             ]
         },
         {
-            "id": 28,
+            "id": 27,
             "title": "Artificial Condition",
             "subtitle": "",
             "seriesTitle": "The Murderbot Diaries",
@@ -952,7 +952,7 @@
             ]
         },
         {
-            "id": 29,
+            "id": 28,
             "title": "Winners Take All",
             "subtitle": "The Elite Charade of Changing the World",
             "seriesTitle": "",
@@ -986,7 +986,7 @@
             ]
         },
         {
-            "id": 30,
+            "id": 29,
             "title": "Born a Crime",
             "subtitle": "Stories From a South African Childhood",
             "seriesTitle": "",
@@ -1024,7 +1024,7 @@
             ]
         },
         {
-            "id": 31,
+            "id": 30,
             "title": "The Education of an Idealist",
             "subtitle": "A Memoir",
             "seriesTitle": "",
@@ -1059,6 +1059,42 @@
                 "Memoir",
                 "Nonfiction",
                 "Politics and Economics"
+            ]
+        },
+        {
+            "id": 31,
+            "title": "Magic for Liars",
+            "subtitle": "",
+            "seriesTitle": "",
+            "seriesIndex": "",
+            "seriesLength": null,
+            "authors": [
+                "Sarah Gailey"
+            ],
+            "illustrators": [],
+            "translators": [],
+            "pages": "336",
+            "pubYear": 2019,
+            "isbn10": "1250174619",
+            "isbn13": "9781250174611",
+            "extLinks": {
+                "Amazon": "https://www.amazon.com/gp/product/1250174619/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1250174619&SubscriptionId=1MGPYB6YW3HWK55XCGG2",
+                "GoodReads": "https://www.goodreads.com/book/show/41555947-magic-for-liars",
+                "IndieBound": "https://www.indiebound.org/book/9781250174611",
+                "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781250174611",
+                "Library": "https://www.worldcat.org/search?q=9781250174611"
+            },
+            "coverImgFileName": "Gailey-Magic-for-Liars.jpg",
+            "desc": "<i>Magic for Liars</i> is the unlikely mashup of Harry Potter, Mean Girls, and a noir detective mystery. The results is the gripping tale of PI Ivy Gamble's attempt to solve a murder at a high school for magic users. With engaging characters and twists around every corner, I wasn't able to put this one down.",
+            "descAuthor": "Tyler",
+            "ratings": {
+                "Tyler": 5
+            },
+            "tags": [
+                "Fantasy",
+                "Great Cover",
+                "Myster",
+                "Tyler's Fave"
             ]
         }
     ]
