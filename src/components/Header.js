@@ -7,11 +7,15 @@ const Header = (props) => {
     <header className="header">
       <div className="header__title-container">
         <Link to="/">
-          <h1 className="header__title">Tyler's Bookshelf</h1>
+          <img
+            className="header__svg"
+            src={`/header.svg`}
+            alt="Purple Bookshelf"
+          />
         </Link>
-        <p className="header__subtitle">
+        {/* <div className="header__subtitle">
           Reading recommendations for book lovers
-        </p>
+        </div> */}
       </div>
       <nav className="header__nav">
         <NavLink

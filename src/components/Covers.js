@@ -17,7 +17,7 @@ function Covers({ books }) {
 
   let coverArr = books.map((book) => {
     return (
-      <Link to={`/single/${book.id}`}>
+      <Link key={book.id} to={`/single/${book.id}`}>
         <img
           key={book.id}
           className="covers__cover"
