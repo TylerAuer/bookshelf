@@ -10,6 +10,7 @@
     "isotope-layout": "^3.0.6",
     "multiple.js": "0.0.1",
     "node-sass": "^4.13.1",
+    "query-string": "^6.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2",
