@@ -20,14 +20,14 @@ const Header = (props) => {
       <nav className="header__nav">
         <NavLink
           className="header__nav-link"
-          to="/books/covers"
+          to="/covers"
           activeClassName="header__nav-link--active"
         >
           Covers
         </NavLink>
         <NavLink
           className="header__nav-link"
-          to="/books/list"
+          to="/list"
           activeClassName="header__nav-link--active"
         >
           List
