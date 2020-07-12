@@ -1,37 +1,43 @@
 import React, { useState } from 'react';
-import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
+import Filters from './Filters';
 import About from './About';
 import Single from './Single';
 import Covers from './Covers';
 import data from '../data.json';
+import useActiveBooks from '../hooks/useActiveBooks';
+
+// Randomize the order of the books
+// Pass the active query string object components
+// Query String Should be Parsed here asnd passed to Filters, Covers, List and Single
 
 const App = (props) => {
-  const [books, setBooks] = useState(data.books);
+  const activeBooks = useActiveBooks();
+
   return (
     <>
-      <HashRouter>
-        <Header />
-        <Switch>
-          <Route
-            path="/single/:id"
-            render={(props) => {
-              return <Single {...props} books={books} />;
-            }}
-          />
-          <Route
-            path="/books/covers"
-            render={(props) => {
-              return <Covers {...props} books={books} />;
-            }}
-          />
-          <Route path="/about" component={About} />
-          <Route path="/books/list" />
-          <Route path="/">
-            <Redirect to="/books/covers" />
-          </Route>
-        </Switch>
-      </HashRouter>
+      <Header />
+      <Filters books={data.books} />
+      <Switch>
+        <Route
+          path="/single/:id"
+          render={(props) => {
+            return <Single {...props} books={activeBooks} />;
+          }}
+        />
+        <Route
+          path="/covers"
+          render={(props) => {
+            return <Covers {...props} books={activeBooks} />;
+          }}
+        />
+        <Route path="/about" component={About} />
+        <Route path="/list" />
+        <Route path="/">
+          <Redirect to="/covers" />
+        </Route>
+      </Switch>
     </>
   );
 };
