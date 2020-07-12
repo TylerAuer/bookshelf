@@ -30,12 +30,35 @@ const FilterTag = ({ type, value }) => {
       );
     } else if (!queryObject[type].includes(value)) {
       // type exists but value isn't in arr, so add value to the array
-      queryObject[type].push(value);
-      newLocation.search = queryString.stringify(queryObject, {
-        arrayFormat: 'bracket',
-      });
+
+      // Must make a new copy of the arr for [type] or the router
+      // doesn't recognize the location object as new and won't update the
+      // history and therefore doesn't change the state of the app
+      let newTypeArr = [...queryObject[type]];
+      newTypeArr.push(value);
+
+      newLocation.search = queryString.stringify(
+        {
+          ...queryObject,
+          [type]: newTypeArr,
+        },
+        {
+          arrayFormat: 'bracket',
+        }
+      );
+    } else {
+      // there's a match, so remove it
+      let newTypeArr = queryObject[type].filter((val) => val !== value);
+      newLocation.search = queryString.stringify(
+        {
+          ...queryObject,
+          [type]: newTypeArr,
+        },
+        {
+          arrayFormat: 'bracket',
+        }
+      );
     }
-    // there's a match, so remove it
 
     return newLocation;
   };

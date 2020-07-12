@@ -6,7 +6,9 @@ const useQueryObject = () => {
   const location = useLocation();
 
   // Turns query string in URL into object
-  const queryObject = queryString.parse(location.search);
+  const queryObject = queryString.parse(location.search, {
+    arrayFormat: 'bracket',
+  });
 
   // Returns null if there is no query string
   if (!Object.keys(queryObject).length) {
