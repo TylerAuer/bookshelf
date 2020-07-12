@@ -1,55 +1,13 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
+import data from '../data.json';
+import makeListFromArray from '../functions/makeListFromArray';
+import makeStars from '../functions/makeStars';
 import './Single.css';
 
 const BookInfo = ({ data }) => {
-  console.log(data);
-
-  ////////////////////////////////////////////////////////
-  // Author, Illustrator, and Translator Lists
-  ////////////////////////////////////////////////////////
-  const prettyListGenerator = (arr) => {
-    let jsxArr = [];
-    let contributorArr = arr.slice();
-    while (contributorArr.length > 0) {
-      if (contributorArr.length > 2) {
-        jsxArr.push(
-          <React.Fragment>
-            {contributorArr.shift()}
-            <span
-              style={{
-                color: 'black',
-                fontWeight: 'normal',
-              }}
-            >
-              ,{' '}
-            </span>
-          </React.Fragment>
-        );
-      } else if (contributorArr.length === 2) {
-        jsxArr.push(
-          <React.Fragment>
-            {contributorArr.shift()}
-            <span
-              style={{
-                color: 'black',
-                fontWeight: 'normal',
-              }}
-            >
-              {' '}
-              &{' '}
-            </span>
-          </React.Fragment>
-        );
-      } else {
-        jsxArr.push(<React.Fragment>{contributorArr.shift()}</React.Fragment>);
-      }
-    }
-    return jsxArr;
-  };
-
-  const authors = prettyListGenerator(data.authors);
+  // add label and styles to illustrators
   const illustrators = data.illustrators.map((ill) => {
     return (
       <React.Fragment>
@@ -65,6 +23,7 @@ const BookInfo = ({ data }) => {
       </React.Fragment>
     );
   });
+  // add label and styles to translators
   const translators = data.translators.map((trans) => {
     return (
       <React.Fragment>
@@ -80,27 +39,13 @@ const BookInfo = ({ data }) => {
       </React.Fragment>
     );
   });
-  const illAndTrans = prettyListGenerator([...illustrators, ...translators]);
 
-  ////////////////////////////////////////////////////////
-  // Stars for Ratings
-  ////////////////////////////////////////////////////////
-  let stars = [];
-  for (let i = 1; i < 6; i++) {
-    if (i <= data.ratings.Tyler) {
-      stars.push(
-        <span key={i} className="single__star single__star--lit">
-          ★
-        </span>
-      );
-    } else {
-      stars.push(
-        <span key={i} className="single__star single__star--dim">
-          ★
-        </span>
-      );
-    }
-  }
+  // Turn arrays into nice lists with commas and ampersands
+  const authors = makeListFromArray(data.authors);
+  const illAndTrans = makeListFromArray([...illustrators, ...translators]);
+
+  // Generate the styled stars
+  let stars = makeStars(data.ratings.Tyler);
 
   ////////////////////////////////////////////////////////
   // Tags and External Links
@@ -176,12 +121,12 @@ const BookInfo = ({ data }) => {
   );
 };
 
-const Single = ({ books }) => {
+const Single = (props) => {
   let { id } = useParams();
 
   return (
     <div className="container">
-      <BookInfo data={books[parseInt(id) - 1]} />
+      <BookInfo data={data.books[parseInt(id) - 1]} />
       <nav className="single__bottom-nav">
         <Link
           className="single__bottom-nav-btn single__bottom-nav-btn--previous"

@@ -1,0 +1,46 @@
+.list__container {
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.list__book {
+  display: flex;
+  margin-bottom: 2rem;
+  width: 45%;
+}
+
+.list__book--left {
+  float: left;
+  clear: left;
+}
+
+.list__book--right {
+  float: right;
+}
+
+.list__cover {
+  max-width: 10rem;
+  margin-right: 2rem;
+}
+
+.list__details {
+  display: block;
+}
+
+.list__title,
+.list__title:visited {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.list__authors {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.list__stars {
+}

@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
 import Filters from './Filters';
 import About from './About';
 import Single from './Single';
 import Covers from './Covers';
+import List from './List';
 import data from '../data.json';
 import useActiveBooks from '../hooks/useActiveBooks';
 
@@ -26,14 +27,19 @@ const App = (props) => {
             return <Single {...props} books={activeBooks} />;
           }}
         />
+        <Route path="/about" component={About} />
         <Route
           path="/covers"
           render={(props) => {
             return <Covers {...props} books={activeBooks} />;
           }}
         />
-        <Route path="/about" component={About} />
-        <Route path="/list" />
+        <Route
+          path="/list"
+          render={(props) => {
+            return <List {...props} books={activeBooks} />;
+          }}
+        />
         <Route path="/">
           <Redirect to="/covers" />
         </Route>

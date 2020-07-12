@@ -4,7 +4,7 @@ import useQueryObject from './useQueryObject';
 const useActiveBooks = () => {
   const queryObject = useQueryObject();
   const activeBooks = [];
-  console.log(queryObject);
+
   // If there is no query string
   if (!queryObject) {
     // Return all books
