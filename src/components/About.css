@@ -1,0 +1,40 @@
+.about {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.about__title {
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
+.about ul {
+  list-style: none;
+}
+
+.about__fav {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.about__fav-cover {
+  display: inline-block;
+  max-width: 5rem;
+  margin-right: 2rem;
+}
+
+.about__fav-title {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.about__fav-authors {
+  margin-top: 0.8rem;
+}
