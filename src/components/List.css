@@ -1,6 +1,7 @@
 .list__container {
   margin: 0 auto;
   max-width: 90rem;
+  padding: 2rem;
 }
 
 .list__book {
@@ -38,9 +39,45 @@
 
 .list__authors {
   font-size: 2rem;
+  line-height: 1.4;
   font-weight: 600;
   margin-bottom: 0.8rem;
 }
 
 .list__stars {
+}
+
+/* 750px */
+@media only screen and (max-width: 46.875em) {
+  .list__book {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .list__book--left,
+  .list__book--right {
+    float: none;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .list__container {
+    padding: 1rem;
+  }
+
+  .list__book {
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .list__title {
+    font-size: 2rem;
+  }
+  .list__authors {
+    font-size: 1.8rem;
+  }
 }
