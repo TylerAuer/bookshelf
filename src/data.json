@@ -1096,6 +1096,42 @@
                 "Mystery",
                 "Tyler's Fave"
             ]
+        },
+        {
+            "id": 32,
+            "title": "Wool",
+            "subtitle": "",
+            "seriesTitle": "Silo",
+            "seriesIndex": "1",
+            "seriesLength": "3",
+            "authors": [
+                "Hugh Howey"
+            ],
+            "illustrators": [],
+            "translators": [],
+            "pages": "511",
+            "pubYear": 2012,
+            "isbn10": "1476733953",
+            "isbn13": "9781476733951",
+            "extLinks": {
+                "Amazon": "https://www.amazon.com/gp/product/1476733953/",
+                "GoodReads": "https://www.goodreads.com/book/show/17164655-wool",
+                "IndieBound": "https://www.indiebound.org/book/9781476733951",
+                "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781476733951",
+                "Library": "https://www.worldcat.org/search?q=9781476733951"
+            },
+            "coverImgFileName": "Howey-Wool.jpg",
+            "desc": "You <b><i>must<i></b> read <i>Wool</i>. That's all you need to know, really. Frankly, the less you know about this book (really a collection of self-published short stories) the better. Howey has crafted a post-apocalyptic thriller with so many twists and human characters there is no way you will be able to put this down.",
+            "descAuthor": "Tyler",
+            "ratings": {
+                "Tyler": 5
+            },
+            "tags": [
+                "Science Fiction",
+                "Series",
+                "Thriller",
+                "Tyler's Fave"
+            ]
         }
     ]
 }
