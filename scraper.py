@@ -10,7 +10,7 @@ import json
 # Goodreads URL. Must have:
 # ... most popular cover
 # ... ISBN numbers!
-bookUrl = ""
+bookUrl = "https://www.goodreads.com/book/show/724667.The_Gods_Themselves"
 
 # list of lists with str:readers and int:ratings
 readersAndRating = {"Tyler": 3}
@@ -19,7 +19,7 @@ descAuthor = "Tyler"
 desc = ""
 # Amazon doesn't use ISBN so can't generate automatically
 amazonUrl = ""
-seriesLength = ""  # Use None if not series
+seriesLength = None  # Use None if not series
 
 #########
 # Tags
@@ -163,12 +163,12 @@ with open('./src/covers/' + imgName, 'wb') as handler:
 
 
 # Open data file
-with open('./src/data.json', 'r+') as file:
+with open('./src/books.json', 'r+') as file:
     data = json.load(file)
     # Creates new ID number based on count of current books + 1
-    bookID = 1 + len(data['books'])
+    bookID = 1 + len(data)
     # Add new book to dict version of the JSON
-    data['books'].append({
+    data[bookID] = {
         "id": bookID,
         "title": title,
         "subtitle": subtitle,
@@ -194,7 +194,7 @@ with open('./src/data.json', 'r+') as file:
         "descAuthor": descAuthor,
         "ratings": readersAndRating,
         "tags": tags,
-    })
+    }
     # Go to the start of JSON file
     file.seek(0)
     # Dumps the data at the start of the JSON file

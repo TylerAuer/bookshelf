@@ -6,7 +6,6 @@ import About from './About';
 import Single from './Single';
 import Covers from './Covers';
 import List from './List';
-import data from '../data.json';
 import useActiveBooks from '../hooks/useActiveBooks';
 
 // Randomize the order of the books
@@ -19,19 +18,19 @@ const App = (props) => {
   return (
     <>
       <Header />
-      <Filters books={data.books} />
+      <Filters />
       <Switch>
         <Route
           path="/single/:id"
           render={(props) => {
-            return <Single {...props} books={activeBooks} />;
+            return <Single {...props} />;
           }}
         />
         <Route path="/about" component={About} />
         <Route
           path="/covers"
           render={(props) => {
-            return <Covers {...props} books={activeBooks} />;
+            return <Covers {...props} activeBooks={activeBooks} />;
           }}
         />
         <Route

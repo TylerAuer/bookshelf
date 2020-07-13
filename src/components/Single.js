@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
-import data from '../data.json';
+import books from '../books.json';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
 import './Single.css';
 
-const BookInfo = ({ data }) => {
+const BookInfo = ({ book }) => {
   // add label and styles to illustrators
-  const illustrators = data.illustrators.map((ill) => {
+  const illustrators = book.illustrators.map((ill) => {
     return (
       <React.Fragment>
         {ill}{' '}
@@ -24,7 +24,7 @@ const BookInfo = ({ data }) => {
     );
   });
   // add label and styles to translators
-  const translators = data.translators.map((trans) => {
+  const translators = book.translators.map((trans) => {
     return (
       <React.Fragment>
         {trans}{' '}
@@ -41,22 +41,22 @@ const BookInfo = ({ data }) => {
   });
 
   // Turn arrays into nice lists with commas and ampersands
-  const authors = makeListFromArray(data.authors);
+  const authors = makeListFromArray(book.authors);
   const illAndTrans = makeListFromArray([...illustrators, ...translators]);
 
   // Generate the styled stars
-  let stars = makeStars(data.ratings.Tyler);
+  let stars = makeStars(book.ratings.Tyler);
 
   ////////////////////////////////////////////////////////
   // Tags and External Links
   ////////////////////////////////////////////////////////
 
-  const tags = data.tags.map((tag) => {
+  const tags = book.tags.map((tag) => {
     // link to covers with query for the tag
     return (
       <Link
         to={{
-          pathname: '/books/covers',
+          pathname: '/covers',
           search: tag,
         }}
         className="single__tag"
@@ -66,7 +66,7 @@ const BookInfo = ({ data }) => {
     );
   });
 
-  const externalLinks = Object.entries(data.extLinks).map((link) => {
+  const externalLinks = Object.entries(book.extLinks).map((link) => {
     return (
       <a className="single__tag single__tag--external" href={link[1]}>
         {link[0]}
@@ -77,15 +77,15 @@ const BookInfo = ({ data }) => {
   return (
     <div className="single">
       <img
-        src={require(`../covers/${data.coverImgFileName}`)}
-        alt={`Cover of ${data.title}`}
+        src={require(`../covers/${book.coverImgFileName}`)}
+        alt={`Cover of ${book.title}`}
         className="single__cover"
       />
 
       <div className="single__header">
         <div className="single__titles">
-          <div className="single__title">{data.title}</div>
-          <div className="single__subtitle">{data.subtitle}</div>
+          <div className="single__title">{book.title}</div>
+          <div className="single__subtitle">{book.subtitle}</div>
         </div>
         <div className="single__creators">
           <div className="single__authors">{authors}</div>
@@ -94,22 +94,22 @@ const BookInfo = ({ data }) => {
       </div>
 
       <div className="single__body">
-        <div className="single__desc">{ReactHtmlParser(data.desc)}</div>
+        <div className="single__desc">{ReactHtmlParser(book.desc)}</div>
       </div>
 
       <div className="single__footer">
-        {data.pages && (
+        {book.pages && (
           <div className="single__length">
-            <b>Length:</b> {data.pages} pages
+            <b>Length:</b> {book.pages} pages
           </div>
         )}
-        {data.seriesIndex && (
+        {book.seriesIndex && (
           <div className="single__series">
-            <b>Series:</b> {data.seriesIndex} of {data.seriesLength} in{' '}
-            {data.seriesTitle}
+            <b>Series:</b> {book.seriesIndex} of {book.seriesLength} in{' '}
+            {book.seriesTitle}
           </div>
         )}
-        {data.ratings.Tyler && (
+        {book.ratings.Tyler && (
           <div className="single__ratings">
             <b>Rating: {stars}</b>
           </div>
@@ -123,10 +123,9 @@ const BookInfo = ({ data }) => {
 
 const Single = (props) => {
   let { id } = useParams();
-
   return (
     <div className="container">
-      <BookInfo data={data.books.find((book) => book.id === id - 1)} />
+      <BookInfo book={books[id]} />
       <nav className="single__bottom-nav">
         <Link
           className="single__bottom-nav-btn single__bottom-nav-btn--previous"

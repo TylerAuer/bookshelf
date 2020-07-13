@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import data from '../data.json';
+import books from '../books.json';
 import makeListFromArray from '../functions/makeListFromArray';
 import './About.css';
 
@@ -26,13 +26,13 @@ const About = (props) => {
   - iRobot
   */
   const idsOfFavoriteBooks = [18, 9, 31, 32];
-  const listOfFavorites = idsOfFavoriteBooks.map((bookID) => {
-    const book = data.books.find((elem) => elem.id === bookID);
+  const listOfFavorites = idsOfFavoriteBooks.map((id) => {
+    const book = books[id];
     return (
       <li className="about__fav" key={book.id}>
         <Link
           to={{
-            pathname: `/single/${bookID}`,
+            pathname: `/single/${id}`,
             search: location.search,
           }}
         >

@@ -1,22 +1,23 @@
 import React from 'react';
 import FilterTag from './FilterTag';
+import books from '../books.json';
 import './Filters.css';
 
-const Filters = ({ books }) => {
+const Filters = (props) => {
   const listOfYears = [];
   const listOfTags = [];
-  books.forEach((book) => {
+  for (let id in books) {
     // Adds years if not yet in the list
-    if (!listOfYears.includes(book.pubYear)) {
-      listOfYears.push(book.pubYear);
+    if (!listOfYears.includes(books[id].pubYear)) {
+      listOfYears.push(books[id].pubYear);
     }
     // Adds tags if not yet in the list
-    book.tags.forEach((tag) => {
+    books[id].tags.forEach((tag) => {
       if (!listOfTags.includes(tag)) {
         listOfTags.push(tag);
       }
     });
-  });
+  }
   listOfYears.sort().reverse(); // Reverse chronological order
   listOfTags.sort(); // Alphabetical order
 

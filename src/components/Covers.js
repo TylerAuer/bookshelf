@@ -1,9 +1,9 @@
 import React from 'react';
 import Masonry from 'react-masonry-css';
-import './Covers.css';
 import { Link, useLocation } from 'react-router-dom';
+import './Covers.css';
 
-function Covers({ books }) {
+function Covers({ activeBooks }) {
   const location = useLocation();
   const breakpointColumnsObj = {
     default: 9,
@@ -16,7 +16,7 @@ function Covers({ books }) {
     500: 3,
   };
 
-  let coverArr = books.map((book) => {
+  let coverArr = activeBooks.map((book) => {
     return (
       <Link
         key={book.id}
