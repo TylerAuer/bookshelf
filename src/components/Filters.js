@@ -38,16 +38,16 @@ const Filters = ({ books, shuffleBookOrder }) => {
       <div className="filters__tags">{tags}</div>
       <div className="filters__meta">
         <Link
-          className="filters__label filters__label--clear"
+          className="filters__label filters__label--meta"
           to={location.pathname}
         >
-          Clear
+          Clear Filters
         </Link>
         <button
-          className="filters__label filters__label--shuffle-btn"
+          className="filters__label filters__label--meta"
           onClick={shuffleBookOrder}
         >
-          Shuffle
+          Shuffle Books
         </button>
       </div>
     </div>

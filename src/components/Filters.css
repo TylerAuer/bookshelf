@@ -3,6 +3,11 @@
   margin-bottom: 3rem;
 }
 
+.filters__years,
+.filters__tags {
+  margin-bottom: 1rem;
+}
+
 .filters__label {
   font-size: 1.6rem;
   display: inline-block;
@@ -14,7 +19,7 @@
   padding: 0 8px;
   margin: 2px;
   border: 1px solid transparent;
-  transition: all 0.15s;
+  transition: all 0.2s;
 }
 
 .filters__label:hover {
@@ -33,4 +38,21 @@
 .filters__label--tag {
   /* padding: 0.25rem 1.4rem; */
   font-style: italic;
+}
+
+.filters__label--meta {
+  border: 1px solid black;
+  text-transform: uppercase;
+  color: black;
+  background-color: transparent;
+  line-height: 1.7;
+  transition: all 0.2s;
+  padding: 0.25rem 2rem;
+  margin: 0 0.75rem;
+}
+
+.filters__label--meta:hover {
+  border: 1px solid transparent;
+  color: white;
+  background-color: var(--primary);
 }
