@@ -3,6 +3,7 @@
 :root {
   --primary: rgb(110, 6, 155);
   --primary-light: rgb(154, 54, 196);
+  --primary-very-light: rgb(245, 225, 255);
   --secondary: rgb(9, 128, 179);
   --secondary-light: rgb(64, 173, 220);
   --grey-dark: hsla(33, 0%, 10%, 1);

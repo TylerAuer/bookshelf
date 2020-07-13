@@ -162,7 +162,7 @@ const Single = ({ books, activeBookIDs }) => {
       : `/single/${activeBookIDs[currentIndex + 1]}`;
 
   return (
-    <div className="container">
+    <div className="container single">
       <BookInfo book={books[id]} />
       <nav className="single__bottom-nav">
         <Link
