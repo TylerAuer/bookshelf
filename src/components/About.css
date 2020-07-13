@@ -13,6 +13,7 @@
 
 .about ul {
   list-style: none;
+  margin-bottom: 2rem;
 }
 
 .about__fav {
@@ -25,16 +26,15 @@
 .about__fav-cover {
   display: inline-block;
   max-width: 5rem;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .about__fav-title {
   color: var(--primary);
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .about__fav-authors {
-  margin-top: 0.8rem;
 }
