@@ -40,6 +40,10 @@
   font-style: italic;
 }
 
+.filters__meta {
+  margin-top: 2rem;
+}
+
 .filters__label--meta {
   border: 1px solid black;
   text-transform: uppercase;

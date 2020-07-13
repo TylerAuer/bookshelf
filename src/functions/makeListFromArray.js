@@ -6,7 +6,7 @@ const makeListFromArray = (arr) => {
   while (contributorArr.length > 0) {
     if (contributorArr.length > 2) {
       jsxArr.push(
-        <React.Fragment>
+        <React.Fragment key={contributorArr[0]}>
           {contributorArr.shift()}
           <span
             style={{
@@ -20,7 +20,7 @@ const makeListFromArray = (arr) => {
       );
     } else if (contributorArr.length === 2) {
       jsxArr.push(
-        <React.Fragment>
+        <React.Fragment key={contributorArr[0]}>
           {contributorArr.shift()}
           <span
             style={{
@@ -34,7 +34,11 @@ const makeListFromArray = (arr) => {
         </React.Fragment>
       );
     } else {
-      jsxArr.push(<React.Fragment>{contributorArr.shift()}</React.Fragment>);
+      jsxArr.push(
+        <React.Fragment key={contributorArr}>
+          {contributorArr.shift()}
+        </React.Fragment>
+      );
     }
   }
   return jsxArr;

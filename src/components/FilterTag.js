@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import useQueryObject from '../hooks/useQueryObject';
 import queryString from 'query-string';
 
-const FilterTag = ({ type, value }) => {
+const FilterTag = ({ type, value, parent }) => {
   const queryObject = useQueryObject();
   let activeClass = '';
   if (queryObject && queryObject[type] && queryObject[type].includes(value)) {
-    activeClass = 'filters__label--active';
+    activeClass = `${parent}__label--active`;
   }
 
   const generateNewLocation = (location) => {
@@ -65,7 +65,7 @@ const FilterTag = ({ type, value }) => {
 
   return (
     <Link
-      className={`filters__label filters__label--${type} ${activeClass}`}
+      className={`${parent}__label ${parent}__label--${type} ${activeClass}`}
       to={generateNewLocation}
     >
       {value}

@@ -3,6 +3,7 @@ import { Link, useParams, useLocation } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
+import FilterTag from './FilterTag';
 import './Single.css';
 
 const BookInfo = ({ book }) => {
@@ -52,22 +53,12 @@ const BookInfo = ({ book }) => {
 
   const tags = book.tags.map((tag) => {
     // link to covers with query for the tag
-    return (
-      <Link
-        to={{
-          pathname: '/covers',
-          search: tag,
-        }}
-        className="single__tag"
-      >
-        {tag}
-      </Link>
-    );
+    return <FilterTag key={tag} parent="single" type="tag" value={tag} />;
   });
 
   const externalLinks = Object.entries(book.extLinks).map((link) => {
     return (
-      <a className="single__tag single__tag--external" href={link[1]}>
+      <a key={link[0]} className="single__external-tag" href={link[1]}>
         {link[0]}
       </a>
     );

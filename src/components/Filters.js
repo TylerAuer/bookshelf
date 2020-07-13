@@ -25,11 +25,18 @@ const Filters = ({ books, shuffleBookOrder }) => {
 
   const years = listOfYears.map((year) => {
     return (
-      <FilterTag key={`year-${year}`} type="year" value={year.toString()} />
+      <FilterTag
+        key={`year-${year}`}
+        parent="filters"
+        type="year"
+        value={year.toString()}
+      />
     );
   });
   const tags = listOfTags.map((tag) => {
-    return <FilterTag key={`tag-${tag}`} type="tag" value={tag} />;
+    return (
+      <FilterTag key={`tag-${tag}`} parent="filters" type="tag" value={tag} />
+    );
   });
 
   return (
