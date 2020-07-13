@@ -1,8 +1,10 @@
 import React from 'react';
 import './Header.css';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 const Header = (props) => {
+  const location = useLocation();
+
   return (
     <header className="header">
       <div className="header__title-container">
@@ -20,21 +22,30 @@ const Header = (props) => {
       <nav className="header__nav">
         <NavLink
           className="header__nav-link"
-          to="/covers"
+          to={{
+            pathname: '/covers',
+            search: location.search,
+          }}
           activeClassName="header__nav-link--active"
         >
           Covers
         </NavLink>
         <NavLink
           className="header__nav-link"
-          to="/list"
+          to={{
+            pathname: '/list',
+            search: location.search,
+          }}
           activeClassName="header__nav-link--active"
         >
           List
         </NavLink>
         <NavLink
           className="header__nav-link"
-          to="/about"
+          to={{
+            pathname: '/about',
+            search: location.search,
+          }}
           activeClassName="header__nav-link--active"
         >
           About

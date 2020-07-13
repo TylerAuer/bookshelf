@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import books from '../books.json';
 import makeListFromArray from '../functions/makeListFromArray';
 import './About.css';
 
-const About = (props) => {
+const About = ({ books }) => {
   const location = useLocation();
 
   // Books to add once I've reviewed them
