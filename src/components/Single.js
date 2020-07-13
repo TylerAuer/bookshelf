@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useLocation } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
@@ -120,23 +120,54 @@ const BookInfo = ({ book }) => {
   );
 };
 
-const Single = ({ books }) => {
+const Single = ({ books, activeBookIDs }) => {
   let { id } = useParams();
+  const location = useLocation();
+
+  /* If the user changes the filters while on the single page, and the current
+  book is no longer included in the activeBookIDs, then currentIndex === -1.
+
+  This works out nicely because then both the previousBtnLink and nextBtnLink 
+  automatically switch over to the new list of IDs. It can be hard to see why
+  this works out, so watching currentIndex and lastIndex with console.log()
+  can help clarify */
+  const currentIndex = activeBookIDs.indexOf(id);
+  const lastIndex = activeBookIDs.length - 1;
+
+  const disabled =
+    activeBookIDs.length === 1 ? 'single__bottom-nav-btn--disabled' : '';
+
+  const previousBtnLink =
+    currentIndex > 0
+      ? `/single/${activeBookIDs[currentIndex - 1]}`
+      : `/single/${activeBookIDs[lastIndex]}`;
+
+  const nextBtnLink =
+    currentIndex === lastIndex
+      ? `/single/${activeBookIDs[0]}`
+      : `/single/${activeBookIDs[currentIndex + 1]}`;
+
   return (
     <div className="container">
       <BookInfo book={books[id]} />
       <nav className="single__bottom-nav">
         <Link
-          className="single__bottom-nav-btn single__bottom-nav-btn--previous"
+          className={`single__bottom-nav-btn single__bottom-nav-btn--previous ${disabled}`}
           as="button"
-          to={`/single/${id - 1}`}
+          to={{
+            pathname: previousBtnLink,
+            search: location.search,
+          }}
         >
           Previous
         </Link>
         <Link
-          className="single__bottom-nav-btn single__bottom-nav-btn--next"
+          className={`single__bottom-nav-btn single__bottom-nav-btn--next ${disabled}`}
           as="button"
-          to={`/single/${parseInt(id) + 1}`}
+          to={{
+            pathname: nextBtnLink,
+            search: location.search,
+          }}
         >
           Next
         </Link>

@@ -11,7 +11,6 @@ import Covers from './Covers';
 import List from './List';
 
 const App = (props) => {
-  // TODO: MOVE INTO useFilteredBooks since I always want them ordered
   // State for order of books as list of IDs
   const [bookIDOrder, setBookIDOrder] = useState(
     shuffleList(Object.keys(books))
@@ -21,16 +20,28 @@ const App = (props) => {
 
   // Shuffles order the books appear. Passed to filters
   const shuffleBookOrder = () => {
-    console.log('FIRED!');
     setBookIDOrder(shuffleList(Object.keys(books)));
   };
 
   // List of book data in current order that fit the active filters
   // to pass down to components
+  /* 
+  TODO: Can get rid of this if I pass down activeBookIDs and books to 
+  Covers and List. They can then just look up the info they need.
+  */
   const activeBooks = [];
   bookIDOrder.forEach((bookID) => {
     if (filteredBookIDs.includes(bookID)) {
       activeBooks.push(books[bookID]);
+    }
+  });
+
+  // List of book IDs in current order that fit the active filters
+  // to pass to single for Next and Previous BTNs
+  const activeBookIDs = [];
+  bookIDOrder.forEach((bookID) => {
+    if (filteredBookIDs.includes(bookID)) {
+      activeBookIDs.push(bookID);
     }
   });
 
@@ -42,7 +53,9 @@ const App = (props) => {
         <Route
           path="/single/:id"
           render={(props) => {
-            return <Single {...props} books={books} />;
+            return (
+              <Single {...props} books={books} activeBookIDs={activeBookIDs} />
+            );
           }}
         />
         <Route

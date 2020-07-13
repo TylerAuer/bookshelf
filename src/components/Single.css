@@ -102,8 +102,8 @@
   background-color: var(--secondary);
 }
 
-.single__bottom-nav a,
-.single__bottom-nav a:visited {
+.single__bottom-nav-btn,
+.single__bottom-nav-btn:visited {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--primary);
@@ -115,8 +115,8 @@
   margin-top: 3rem;
 }
 
-.single__bottom-nav a:hover,
-.single__bottom-nav a:visited:hover {
+.single__bottom-nav-btn:hover,
+.single__bottom-nav-btn:visited:hover {
   background-color: var(--primary-light);
   color: white;
 }
@@ -126,4 +126,18 @@
 }
 .single__bottom-nav-btn--next {
   float: right;
+}
+
+.single__bottom-nav-btn--disabled,
+.single__bottom-nav-btn--disabled:visited {
+  color: var(--grey-light);
+  border-color: var(--grey-light);
+}
+
+.single__bottom-nav-btn--disabled:hover,
+.single__bottom-nav-btn--disabled:visited:hover {
+  color: var(--grey-light);
+  border-color: var(--grey-light);
+  background-color: white;
+  cursor: not-allowed;
 }
