@@ -8,7 +8,12 @@ const Header = (props) => {
   return (
     <header className="header">
       <div className="header__title-container">
-        <Link to="/">
+        <Link
+          to={{
+            pathname: '/covers',
+            search: location.search,
+          }}
+        >
           <img
             className="header__svg"
             src={`/header.svg`}
