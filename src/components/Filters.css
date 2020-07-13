@@ -5,12 +5,14 @@
 
 .filters__years,
 .filters__tags {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .filters__label {
   font-size: 1.6rem;
-  display: inline-block;
   /* text-transform: uppercase; */
   text-decoration: none;
   cursor: pointer;
@@ -32,11 +34,9 @@
 }
 
 .filters__label--year {
-  /* padding: 0.25rem 1rem; */
 }
 
 .filters__label--tag {
-  /* padding: 0.25rem 1.4rem; */
   font-style: italic;
 }
 
@@ -45,13 +45,14 @@
 }
 
 .filters__label--meta {
+  font-family: inherit;
   border: 1px solid black;
   text-transform: uppercase;
   color: black;
   background-color: transparent;
   line-height: 1.7;
   transition: all 0.2s;
-  padding: 0.25rem 2rem;
+  padding: 0.6rem 1.8rem;
   margin: 0 0.75rem;
 }
 
@@ -59,4 +60,47 @@
   border: 1px solid transparent;
   color: white;
   background-color: var(--primary);
+}
+
+/* 750px */
+@media only screen and (max-width: 46.875em) {
+  .filters__label {
+    border-radius: 2px;
+    margin: 1px;
+  }
+
+  .filters__label--year {
+    padding: 0 0.6rem;
+    line-height: 1.4;
+  }
+
+  .filters__label--tag {
+    padding: 0 2px;
+  }
+
+  .filters__label--meta {
+    padding: 2px 5px;
+    margin: 2px 5px;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .filters__label {
+    font-size: 1.5rem;
+  }
+
+  .filters__label--tag {
+    flex-grow: 1;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .filters__label {
+    font-size: 1.4rem;
+  }
+  .filters__label--year {
+    flex-grow: 1;
+  }
 }

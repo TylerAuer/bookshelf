@@ -44,11 +44,10 @@ const Filters = ({ books, shuffleBookOrder }) => {
       <div className="filters__years">{years}</div>
       <div className="filters__tags">{tags}</div>
       <div className="filters__meta">
-        <Link
-          className="filters__label filters__label--meta"
-          to={location.pathname}
-        >
-          Clear Filters
+        <Link to={location.pathname}>
+          <button className="filters__label filters__label--meta">
+            Clear Filters
+          </button>
         </Link>
         <button
           className="filters__label filters__label--meta"

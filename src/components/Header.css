@@ -48,7 +48,7 @@
 }
 
 /* 450px */
-@media only screen and (max-width: 28.75em) {
+@media only screen and (max-width: 28.125em) {
   .header {
     padding: 1rem;
   }
