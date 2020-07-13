@@ -126,7 +126,7 @@ const Single = (props) => {
 
   return (
     <div className="container">
-      <BookInfo data={data.books[parseInt(id) - 1]} />
+      <BookInfo data={data.books.find((book) => book.id === id - 1)} />
       <nav className="single__bottom-nav">
         <Link
           className="single__bottom-nav-btn single__bottom-nav-btn--previous"
