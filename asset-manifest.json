@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d10b699.chunk.css",
-    "main.js": "/static/js/main.b7f0eecc.chunk.js",
-    "main.js.map": "/static/js/main.b7f0eecc.chunk.js.map",
+    "main.css": "/static/css/main.c846a0e0.chunk.css",
+    "main.js": "/static/js/main.a3dc8412.chunk.js",
+    "main.js.map": "/static/js/main.a3dc8412.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
     "static/js/2.d1984bde.chunk.js": "/static/js/2.d1984bde.chunk.js",
     "static/js/2.d1984bde.chunk.js.map": "/static/js/2.d1984bde.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7c6b1e49fb4027b2c46bb651cd335328.js": "/precache-manifest.7c6b1e49fb4027b2c46bb651cd335328.js",
+    "precache-manifest.af25aabcb08b767319404c837bca84f3.js": "/precache-manifest.af25aabcb08b767319404c837bca84f3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2d10b699.chunk.css.map": "/static/css/main.2d10b699.chunk.css.map",
+    "static/css/main.c846a0e0.chunk.css.map": "/static/css/main.c846a0e0.chunk.css.map",
     "static/js/2.d1984bde.chunk.js.LICENSE.txt": "/static/js/2.d1984bde.chunk.js.LICENSE.txt",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
     "static/js/2.d1984bde.chunk.js",
-    "static/css/main.2d10b699.chunk.css",
-    "static/js/main.b7f0eecc.chunk.js"
+    "static/css/main.c846a0e0.chunk.css",
+    "static/js/main.a3dc8412.chunk.js"
   ]
 }
