@@ -1,32 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import useFilteredBookIDs from '../hooks/useFilteredBookIDs';
+import books from '../books.json';
+import shuffleList from '../functions/shuffleList';
 import Header from './Header';
 import Filters from './Filters';
 import About from './About';
 import Single from './Single';
 import Covers from './Covers';
 import List from './List';
-import useActiveBooks from '../hooks/useActiveBooks';
-
-// Randomize the order of the books
-// Pass the active query string object components
-// Query String Should be Parsed here asnd passed to Filters, Covers, List and Single
 
 const App = (props) => {
-  const activeBooks = useActiveBooks();
+  // TODO: MOVE INTO useFilteredBooks since I always want them ordered
+  // State for order of books as list of IDs
+  const [bookIDOrder, setBookIDOrder] = useState(
+    shuffleList(Object.keys(books))
+  );
+  // State for filtered books as list of IDs
+  const filteredBookIDs = useFilteredBookIDs();
+
+  // Shuffles order the books appear. Passed to filters
+  const shuffleBookOrder = () => {
+    console.log('FIRED!');
+    setBookIDOrder(shuffleList(Object.keys(books)));
+  };
+
+  // List of book data in current order that fit the active filters
+  // to pass down to components
+  const activeBooks = [];
+  bookIDOrder.forEach((bookID) => {
+    if (filteredBookIDs.includes(bookID)) {
+      activeBooks.push(books[bookID]);
+    }
+  });
 
   return (
     <>
       <Header />
-      <Filters />
+      <Filters books={books} shuffleBookOrder={shuffleBookOrder} />
       <Switch>
         <Route
           path="/single/:id"
           render={(props) => {
-            return <Single {...props} />;
+            return <Single {...props} books={books} />;
           }}
         />
-        <Route path="/about" component={About} />
+        <Route
+          path="/about"
+          render={(props) => {
+            return <About {...props} books={books} />;
+          }}
+        />
         <Route
           path="/covers"
           render={(props) => {
@@ -36,9 +60,10 @@ const App = (props) => {
         <Route
           path="/list"
           render={(props) => {
-            return <List {...props} books={activeBooks} />;
+            return <List {...props} activeBooks={activeBooks} />;
           }}
         />
+        ?
         <Route path="/">
           <Redirect to="/covers" />
         </Route>

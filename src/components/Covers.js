@@ -1,10 +1,11 @@
 import React from 'react';
-import Masonry from 'react-masonry-css';
 import { Link, useLocation } from 'react-router-dom';
+import Masonry from 'react-masonry-css';
 import './Covers.css';
 
 function Covers({ activeBooks }) {
   const location = useLocation();
+
   const breakpointColumnsObj = {
     default: 9,
     2200: 9,

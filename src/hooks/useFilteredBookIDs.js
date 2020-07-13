@@ -1,17 +1,15 @@
 import books from '../books.json';
 import useQueryObject from './useQueryObject';
 
-const useActiveBooks = () => {
+// Returns a list of book IDs based on the current active filters
+// If no filters are active, returns all book IDs
+const useFilteredBookIDs = () => {
   const queryObject = useQueryObject();
   const activeBooks = [];
-
   // If there is no query string
   if (!queryObject) {
-    // Return all books
-    for (let id in books) {
-      activeBooks.push(books[id]);
-    }
-    return activeBooks;
+    // Return all book IDs
+    return Object.keys(books);
   }
 
   // TODO: OPTIMIZATION: Right now this runs every time the query string changes
@@ -43,11 +41,11 @@ const useActiveBooks = () => {
     }
 
     if (shouldBookBeAdded) {
-      activeBooks.push(book);
+      activeBooks.push(book.id.toString());
     }
-  };
+  }
 
   return activeBooks;
 };
 
-export default useActiveBooks;
+export default useFilteredBookIDs;

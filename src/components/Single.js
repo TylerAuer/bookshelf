@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
-import books from '../books.json';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
 import './Single.css';
@@ -121,7 +120,7 @@ const BookInfo = ({ book }) => {
   );
 };
 
-const Single = (props) => {
+const Single = ({ books }) => {
   let { id } = useParams();
   return (
     <div className="container">

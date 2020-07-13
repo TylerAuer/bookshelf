@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import FilterTag from './FilterTag';
-import books from '../books.json';
 import './Filters.css';
 
-const Filters = (props) => {
+const Filters = ({ books, shuffleBookOrder }) => {
+  const location = useLocation();
+
   const listOfYears = [];
   const listOfTags = [];
   for (let id in books) {
@@ -34,6 +36,20 @@ const Filters = (props) => {
     <div className="container filters">
       <div className="filters__years">{years}</div>
       <div className="filters__tags">{tags}</div>
+      <div className="filters__meta">
+        <Link
+          className="filters__label filters__label--clear"
+          to={location.pathname}
+        >
+          Clear
+        </Link>
+        <button
+          className="filters__label filters__label--shuffle-btn"
+          onClick={shuffleBookOrder}
+        >
+          Shuffle
+        </button>
+      </div>
     </div>
   );
 };

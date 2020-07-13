@@ -40,8 +40,8 @@ const BookInList = ({ book, index }) => {
   );
 };
 
-const Lists = ({ books }) => {
-  const ListOfBooks = books.map((book, index) => {
+const Lists = ({ activeBooks }) => {
+  const ListOfBooks = activeBooks.map((book, index) => {
     return <BookInList index={index} key={book.id} book={book} />;
   });
 
