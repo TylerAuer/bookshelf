@@ -36,7 +36,7 @@
 }
 
 .single__authors {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   color: var(--primary);
   /* margin: 5px 0px; */
 }
@@ -49,11 +49,11 @@
 
 .single__body {
   margin-bottom: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .single__footer {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .single__star {
@@ -65,6 +65,10 @@
 
 .single__star--dim {
   color: var(--grey-light);
+}
+
+.single__tags-and-links {
+  margin-top: 3rem;
 }
 
 .single__tag-list {

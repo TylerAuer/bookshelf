@@ -97,24 +97,47 @@ const BookInfo = ({ book }) => {
       </div>
 
       <div className="single__footer">
+        {book.ratings.Tyler && (
+          <div className="single__ratings">
+            <b>Rating: </b>
+            {stars}
+          </div>
+        )}
         {book.pages && (
           <div className="single__length">
-            <b>Length:</b> {book.pages} pages
+            <b>Length: </b>
+            {book.pages} pages
           </div>
         )}
         {book.seriesIndex && (
           <div className="single__series">
-            <b>Series:</b> {book.seriesIndex} of {book.seriesLength} in{' '}
-            {book.seriesTitle}
+            <b>Series: </b>
+            {book.seriesIndex} of {book.seriesLength} in {book.seriesTitle}{' '}
+            series
           </div>
         )}
-        {book.ratings.Tyler && (
-          <div className="single__ratings">
-            <b>Rating: {stars}</b>
+        {book.pubYear && (
+          <div className="single__pub-year">
+            <b>Released: </b>
+            {book.pubYear}
           </div>
         )}
-        <div className="single__tag-list">{tags}</div>
-        <div className="single__tag-list">{externalLinks}</div>
+        {book.isbn10 && (
+          <div className="single__pub-info">
+            <b>ISBN-10: </b>
+            {book.isbn10}
+          </div>
+        )}
+        {book.isbn13 && (
+          <div className="single__pub-info">
+            <b>ISBN-13: </b>
+            {book.isbn13}
+          </div>
+        )}
+        <div className="single__tags-and-links">
+          <div className="single__tag-list">{tags}</div>
+          <div className="single__tag-list">{externalLinks}</div>
+        </div>
       </div>
     </div>
   );
