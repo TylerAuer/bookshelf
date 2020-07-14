@@ -1,6 +1,10 @@
-.covers__cover {
+/* .covers__cover {
   width: 100%;
   max-width: 275px;
   height: auto;
   margin: 0px auto;
+} */
+
+.covers__cover {
+  width: 100%;
 }

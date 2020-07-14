@@ -19,6 +19,8 @@
     "react-responsive-modal": "^5.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-stack-grid": "^0.7.1",
+    "react-stonecutter": "^0.3.10",
     "react-transition-group": "^4.4.1",
     "typescript": "^3.8.3"
   },
