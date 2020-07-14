@@ -28,9 +28,9 @@ function Covers({ activeBooks }) {
   return (
     <div className="grid">
       <StackGrid
-        gutterWidth={20}
-        gutterHeight={20}
-        columnWidth={250}
+        gutterWidth={10}
+        gutterHeight={10}
+        columnWidth={150}
         monitorImagesLoaded={true}
         appearDelay={100}
       >
