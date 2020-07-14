@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import StackGrid from 'react-stack-grid';
+import { SizeMe } from 'react-sizeme';
 import './Covers.css';
 
 function Covers({ activeBooks }) {
@@ -27,15 +28,19 @@ function Covers({ activeBooks }) {
 
   return (
     <div className="grid">
-      <StackGrid
-        gutterWidth={10}
-        gutterHeight={10}
-        columnWidth={150}
-        monitorImagesLoaded={true}
-        appearDelay={100}
-      >
-        {listOfCovers}
-      </StackGrid>
+      <SizeMe>
+        {({ size }) => (
+          <StackGrid
+            gutterWidth={10}
+            gutterHeight={10}
+            columnWidth={size.width > 1000 ? 250 : 100}
+            monitorImagesLoaded={true}
+            appearDelay={100}
+          >
+            {listOfCovers}
+          </StackGrid>
+        )}
+      </SizeMe>
     </div>
   );
 }
