@@ -1,6 +1,7 @@
 .about {
   max-width: 80rem;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .about__title {
@@ -14,6 +15,7 @@
 .about ul {
   list-style: none;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
 .about__fav {
@@ -37,4 +39,22 @@
 }
 
 .about__fav-authors {
+}
+
+/* 750px */
+@media only screen and (max-width: 46.875em) {
+  .about {
+    padding: 0 1rem;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .about {
+    padding: 0 5px;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
 }
