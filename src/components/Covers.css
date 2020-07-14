@@ -4,3 +4,35 @@
   height: auto;
   margin: 0px auto;
 }
+
+.covers__cover-appear {
+  transform: rotateX(90deg);
+}
+
+.covers__cover-appear-active {
+  transition: all 5000ms ease-in;
+  transform: none;
+  perspective: 40px;
+}
+
+.covers__cover-enter {
+  transform: rotateZ(90deg);
+  opacity: 0;
+}
+
+.covers__cover-enter-active {
+  top: 0;
+  opacity: 1;
+  transition: all 5000ms ease-in;
+  transform: none;
+  perspective: 40px;
+}
+
+.covers__cover-exit {
+  opacity: 1;
+}
+
+.covers__cover-exit-active {
+  opacity: 0;
+  transition: all 5000ms ease-out;
+}

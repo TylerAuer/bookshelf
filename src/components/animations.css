@@ -1,0 +1,22 @@
+.covers__cover-appear {
+  opacity: 0;
+  transition: opacity 10s ease-in;
+}
+
+.covers__cover-enter {
+  opacity: 0;
+}
+
+.covers__cover-enter-active {
+  opacity: 1;
+  transition: opacity 10s ease-in;
+}
+
+.covers__cover-exit {
+  opacity: 1;
+}
+
+.covers__cover-exit-active {
+  opacity: 0;
+  transition: opacity 10s ease-out;
+}
