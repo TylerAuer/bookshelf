@@ -40,7 +40,7 @@ const Filters = ({ books, shuffleBookOrder }) => {
   });
 
   return (
-    <div className="container filters">
+    <div className="filters">
       <div className="filters__years">{years}</div>
       <div className="filters__tags">{tags}</div>
       <div className="filters__meta">

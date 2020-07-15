@@ -2,6 +2,7 @@
 
 :root {
   --primary: rgb(110, 6, 155);
+  --primary-dark: rgb(49, 0, 70);
   --primary-light: rgb(154, 54, 196);
   --primary-very-light: rgb(245, 225, 255);
   --secondary: rgb(9, 128, 179);
@@ -51,23 +52,4 @@ Layout
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixing */
-  display: -ms-flexbox; /* Not needed if autoprefixing */
-  display: flex;
-  margin-left: -5px; /* gutter size offset */
-  width: auto;
-}
-.my-masonry-grid_column {
-  padding-left: 5px; /* gutter size */
-  background-clip: padding-box;
-}
-
-/* Style your items */
-.my-masonry-grid_column > div {
-  /* change div to reference your elements you put in <Masonry> */
-  background: grey;
-  margin-bottom: 5px;
 }
