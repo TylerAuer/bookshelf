@@ -4,7 +4,8 @@ only be run when the current state of data is backed up.
 */
 
 const fs = require('fs');
-const data = require('./src/data.json');
+const books = require('./src/books.json');
+var sizeOf = require('image-size');
 
 /**
  * Converted data from array of objects into one big object
@@ -16,3 +17,30 @@ const data = require('./src/data.json');
 // }
 // let newDataAsJSON = JSON.stringify(newData, null, 2);
 // fs.writeFileSync('updatedData.json', newDataAsJSON);
+
+/**
+ * Get image dimensions, add height/width ratio to books.json
+ * Used for masonry grid
+ */
+const newData = {};
+for (let book in books) {
+  // get height and width of cover img
+  const imgSize = sizeOf(`./src/covers/${books[book].coverImgFileName}`);
+
+  // add height, width and ratio to object
+  const coverImgInfo = {
+    ...imgSize,
+    heightDividedByWidth: imgSize.height / imgSize.width,
+  };
+
+  // remove unwanted info from object
+  delete coverImgInfo.type;
+  if (coverImgInfo.orientation) {
+    delete coverImgInfo.orientation;
+  }
+
+  newData[book] = { ...books[book], coverImgInfo };
+}
+
+let newDataAsJSON = JSON.stringify(newData, null, 2);
+fs.writeFileSync('updatedData.json', newDataAsJSON);
