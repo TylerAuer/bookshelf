@@ -10,7 +10,7 @@ import json
 # Goodreads URL. Must have:
 # ... most popular cover
 # ... ISBN numbers!
-bookUrl = "https://www.goodreads.com/book/show/724667.The_Gods_Themselves"
+bookUrl = ""
 
 # list of lists with str:readers and int:ratings
 readersAndRating = {"Tyler": 3}
@@ -19,7 +19,7 @@ descAuthor = "Tyler"
 desc = ""
 # Amazon doesn't use ISBN so can't generate automatically
 amazonUrl = ""
-seriesLength = None  # Use None if not series
+seriesLength = None  # Use string ("4") or None if not series
 
 #########
 # Tags
@@ -56,6 +56,7 @@ tags = []
 # tags.append("Short")
 # tags.append("Short Stories")
 # tags.append("Social Science")
+# tags.append("Space")
 # tags.append("Thriller")
 # tags.append("Tyler's Fave")
 # tags.append("Young Adult")
