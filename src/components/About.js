@@ -51,7 +51,7 @@ const About = ({ books }) => {
 
   return (
     <div className="about container">
-      <h2 className="about__title">Hi!</h2>
+      <h2 className="about__title">Hi Friends!</h2>
       <p>
         I'm a former math teacher turned developer who loves to read and share
         books. My reading tastes lean towards Science Fiction, Fantasy, Graphic
