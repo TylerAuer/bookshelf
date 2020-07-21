@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.b691c764.chunk.css",
-    "main.js": "/static/js/main.d8147f98.chunk.js",
-    "main.js.map": "/static/js/main.d8147f98.chunk.js.map",
+    "main.js": "/static/js/main.fe367305.chunk.js",
+    "main.js.map": "/static/js/main.fe367305.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.d1984bde.chunk.js": "/static/js/2.d1984bde.chunk.js",
-    "static/js/2.d1984bde.chunk.js.map": "/static/js/2.d1984bde.chunk.js.map",
+    "static/js/2.1f759eb1.chunk.js": "/static/js/2.1f759eb1.chunk.js",
+    "static/js/2.1f759eb1.chunk.js.map": "/static/js/2.1f759eb1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84be462321afc32734c2e7606735cbea.js": "/precache-manifest.84be462321afc32734c2e7606735cbea.js",
+    "precache-manifest.4fce4d852f32d521a4e936a818b1dda5.js": "/precache-manifest.4fce4d852f32d521a4e936a818b1dda5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b691c764.chunk.css.map": "/static/css/main.b691c764.chunk.css.map",
-    "static/js/2.d1984bde.chunk.js.LICENSE.txt": "/static/js/2.d1984bde.chunk.js.LICENSE.txt",
+    "static/js/2.1f759eb1.chunk.js.LICENSE.txt": "/static/js/2.1f759eb1.chunk.js.LICENSE.txt",
+    "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
     "static/media/Banaji-Blindspot.jpg": "/static/media/Banaji-Blindspot.87457053.jpg",
@@ -45,12 +46,13 @@
     "static/media/Towles-You-Have-Arrived-at-Your-Destination.jpg": "/static/media/Towles-You-Have-Arrived-at-Your-Destination.cb96c282.jpg",
     "static/media/Wells-All-Systems-Red.jpg": "/static/media/Wells-All-Systems-Red.d00ff1ce.jpg",
     "static/media/Wells-Artificial-Condition.jpg": "/static/media/Wells-Artificial-Condition.9803c800.jpg",
+    "static/media/Wolfe-The-Right-Stuff.jpg": "/static/media/Wolfe-The-Right-Stuff.1c985452.jpg",
     "static/media/Wong-Dear-Girls.jpg": "/static/media/Wong-Dear-Girls.3d214917.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.d1984bde.chunk.js",
+    "static/js/2.1f759eb1.chunk.js",
     "static/css/main.b691c764.chunk.css",
-    "static/js/main.d8147f98.chunk.js"
+    "static/js/main.fe367305.chunk.js"
   ]
 }

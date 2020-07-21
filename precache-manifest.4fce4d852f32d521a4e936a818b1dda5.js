@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7c061ee724eedce0187eb5643e5d4db",
+    "revision": "6eeee728d25fcfa2f8ffdfe733a29011",
     "url": "/index.html"
   },
   {
-    "revision": "0ff95f04e7f046c3af87",
+    "revision": "9cab1d353e767b04f94c",
     "url": "/static/css/main.b691c764.chunk.css"
   },
   {
-    "revision": "a05eb463a313814b9fb4",
-    "url": "/static/js/2.d1984bde.chunk.js"
+    "revision": "46652b88805a7cf3d53b",
+    "url": "/static/js/2.1f759eb1.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.d1984bde.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1f759eb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ff95f04e7f046c3af87",
-    "url": "/static/js/main.d8147f98.chunk.js"
+    "revision": "9cab1d353e767b04f94c",
+    "url": "/static/js/main.fe367305.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
     "url": "/static/js/runtime-main.55f9a0ec.js"
+  },
+  {
+    "revision": "221cd85820f31024ea01862f0ca60e1f",
+    "url": "/static/media/Alderman-The-Power.221cd858.jpg"
   },
   {
     "revision": "cfc4883ca22d4652f94f1d942b380b58",
@@ -154,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9803c8005d5a79ff9a1e951eed7c251f",
     "url": "/static/media/Wells-Artificial-Condition.9803c800.jpg"
+  },
+  {
+    "revision": "1c985452f39f5a14e2cabb9fe89a6276",
+    "url": "/static/media/Wolfe-The-Right-Stuff.1c985452.jpg"
   },
   {
     "revision": "3d214917c0f1d7b7397a5e5b63b86cdf",
