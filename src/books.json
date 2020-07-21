@@ -1169,5 +1169,39 @@
             "Science",
             "Space"
         ]
+    },
+    "34": {
+        "id": 34,
+        "title": "The Power",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Naomi Alderman"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "341",
+        "pubYear": 2016,
+        "isbn10": "0670919985",
+        "isbn13": "9780670919987",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0670919985",
+            "GoodReads": "https://www.goodreads.com/book/show/29751398-the-power?from_search=true&from_srp=true&qid=O0q61AJbVd&rank=6",
+            "IndieBound": "https://www.indiebound.org/book/9780670919987",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780670919987",
+            "Library": "https://www.worldcat.org/search?q=9780670919987"
+        },
+        "coverImgFileName": "Alderman-The-Power.jpg",
+        "desc": "Like all great science fiction, < cite > The Power < /cite > is more about the real world than the fantasy world it portrays. Alderman\u2019s novel follows four characters as women suddenly develop the ability to deliver electric shocks through their hands, making them the physically dominate sex. Shocking and insightful, this was instantly one of my all-time favorite works of science fiction.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Science Fiction",
+            "Tyler's Fave"
+        ]
     }
 }
