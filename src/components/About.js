@@ -8,7 +8,6 @@ const About = ({ books }) => {
 
   // Books to add once I've reviewed them
   /*
-  - The Right Stuff
   - The Power
   - Recursion
   - Limits of the Known
@@ -24,7 +23,7 @@ const About = ({ books }) => {
   - In the Heart of the Sea
   - iRobot
   */
-  const idsOfFavoriteBooks = [18, 9, 31, 32];
+  const idsOfFavoriteBooks = [18, 9, 31, 32, 33];
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {
     const book = books[id];
     return (
