@@ -35,7 +35,7 @@ tags = []
 # tags.append("Funny")
 # tags.append("Games")
 # tags.append("Graphic Novel")
-# tags.append("Great Cover")
+# tags.append("Judge this book by it's great cover")
 # tags.append("Historical Fiction")
 # tags.append("Back in my day")
 # tags.append("Left-leaning")
