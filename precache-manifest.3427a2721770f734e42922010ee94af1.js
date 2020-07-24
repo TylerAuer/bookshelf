@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6eeee728d25fcfa2f8ffdfe733a29011",
+    "revision": "e987a0b22461896afea6621b96eb9afa",
     "url": "/index.html"
   },
   {
-    "revision": "9cab1d353e767b04f94c",
+    "revision": "f3d9b6d46588d29ff4da",
     "url": "/static/css/main.b691c764.chunk.css"
   },
   {
-    "revision": "46652b88805a7cf3d53b",
-    "url": "/static/js/2.1f759eb1.chunk.js"
+    "revision": "96d0f6203e3269a173da",
+    "url": "/static/js/2.94288407.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.1f759eb1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.94288407.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cab1d353e767b04f94c",
-    "url": "/static/js/main.fe367305.chunk.js"
+    "revision": "f3d9b6d46588d29ff4da",
+    "url": "/static/js/main.ae9d4755.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "392300b796889af17091bd7051767df9",
     "url": "/static/media/Cixin-The-Three-Body-Problem.392300b7.jpg"
+  },
+  {
+    "revision": "b30bf316bb4751f8caa171e72522f808",
+    "url": "/static/media/Crouch-Recursion.b30bf316.jpg"
   },
   {
     "revision": "8e6ac6977d2ff2a6137c50a09277dcd6",
@@ -130,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c0578fb9444a82ede98d16c5b7eb8e0",
     "url": "/static/media/Pratchett-The-Color-of-Magic.9c0578fb.jpg"
+  },
+  {
+    "revision": "5ad288146cac433fc70c729380baa4ab",
+    "url": "/static/media/Roberts-Limits-of-the-Known.5ad28814.jpg"
   },
   {
     "revision": "d8b6b9add2614d87c58a03e38d4c6a2b",
