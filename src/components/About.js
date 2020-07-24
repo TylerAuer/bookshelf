@@ -2,14 +2,13 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import makeListFromArray from '../functions/makeListFromArray';
 import './About.css';
+import shuffleList from '../functions/shuffleList';
 
 const About = ({ books }) => {
   const location = useLocation();
 
   // Books to add once I've reviewed them
   /*
-  - Recursion
-  - Limits of the Known
   - Born a Crime
   - Homo Deus
   - The Name of the Wind
@@ -22,7 +21,9 @@ const About = ({ books }) => {
   - In the Heart of the Sea
   - iRobot
   */
-  const idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35];
+  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36];
+  shuffleList(idsOfFavoriteBooks);
+
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {
     const book = books[id];
     return (

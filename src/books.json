@@ -1238,5 +1238,43 @@
             "Thriller",
             "Tyler's Fave"
         ]
+    },
+    "36": {
+        "id": 36,
+        "title": "Limits of the Known",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "David  Roberts"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "336",
+        "pubYear": 2018,
+        "isbn10": "0393356590",
+        "isbn13": "9780393356595",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Limits-Known-David-Roberts/dp/0393609863",
+            "GoodReads": "https://www.goodreads.com/book/show/40180026-limits-of-the-known",
+            "IndieBound": "https://www.indiebound.org/book/9780393356595",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780393356595",
+            "Library": "https://www.worldcat.org/search?q=9780393356595"
+        },
+        "coverImgFileName": "Roberts-Limits-of-the-Known.jpg",
+        "desc": "After a lifetime spent documenting adventurers, Roberts reflects on what makes some seek out the dangerous and extreme. The histories of mountaineering, first contact, arctic exploration, and cave diving are fascinating on their own, but the magic of <cite>Limits of the Known</cite> is the way in which Roberts weaves his own adventures and experiences into these stories. This book will overwhelm you with the power of its prose and meditations on what it means to live.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Adventure",
+            "Fascinating",
+            "History",
+            "Memoir",
+            "Nonfiction",
+            "Tyler's Fave"
+        ]
     }
 }

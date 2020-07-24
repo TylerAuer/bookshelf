@@ -27,6 +27,7 @@ seriesLength = None  # Use string ("4") or None if not series
 #  TODO: Systematically plan and clean tags
 # Uncomment to add tags
 tags = []
+# tags.append("Adventure")
 # tags.append("Big Ideas")
 # tags.append("Diverse Authors")
 # tags.append("Fantasy")
