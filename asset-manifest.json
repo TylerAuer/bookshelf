@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b691c764.chunk.css",
-    "main.js": "/static/js/main.ae9d4755.chunk.js",
-    "main.js.map": "/static/js/main.ae9d4755.chunk.js.map",
+    "main.js": "/static/js/main.3d8faf72.chunk.js",
+    "main.js.map": "/static/js/main.3d8faf72.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.94288407.chunk.js": "/static/js/2.94288407.chunk.js",
-    "static/js/2.94288407.chunk.js.map": "/static/js/2.94288407.chunk.js.map",
+    "static/js/2.57e38838.chunk.js": "/static/js/2.57e38838.chunk.js",
+    "static/js/2.57e38838.chunk.js.map": "/static/js/2.57e38838.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3427a2721770f734e42922010ee94af1.js": "/precache-manifest.3427a2721770f734e42922010ee94af1.js",
+    "precache-manifest.6e19494cc683ce7b0a1c9f84cf5fa524.js": "/precache-manifest.6e19494cc683ce7b0a1c9f84cf5fa524.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b691c764.chunk.css.map": "/static/css/main.b691c764.chunk.css.map",
-    "static/js/2.94288407.chunk.js.LICENSE.txt": "/static/js/2.94288407.chunk.js.LICENSE.txt",
+    "static/js/2.57e38838.chunk.js.LICENSE.txt": "/static/js/2.57e38838.chunk.js.LICENSE.txt",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
@@ -21,6 +21,7 @@
     "static/media/Cixin-The-Three-Body-Problem.jpg": "/static/media/Cixin-The-Three-Body-Problem.392300b7.jpg",
     "static/media/Crouch-Recursion.jpg": "/static/media/Crouch-Recursion.b30bf316.jpg",
     "static/media/Davies-The-Storm-Whale.jpg": "/static/media/Davies-The-Storm-Whale.8e6ac697.jpg",
+    "static/media/Doerrfeld-The-Rabbit-Listened.jpg": "/static/media/Doerrfeld-The-Rabbit-Listened.440afdcf.jpg",
     "static/media/Fey-Bossypants.jpg": "/static/media/Fey-Bossypants.79829e55.jpg",
     "static/media/Frank-Light-of-the-Stars.jpg": "/static/media/Frank-Light-of-the-Stars.9a58c0d5.jpg",
     "static/media/Gailey-Magic-for-Liars.jpg": "/static/media/Gailey-Magic-for-Liars.72fd8b75.jpg",
@@ -53,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.94288407.chunk.js",
+    "static/js/2.57e38838.chunk.js",
     "static/css/main.b691c764.chunk.css",
-    "static/js/main.ae9d4755.chunk.js"
+    "static/js/main.3d8faf72.chunk.js"
   ]
 }
