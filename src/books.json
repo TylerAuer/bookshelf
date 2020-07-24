@@ -1276,5 +1276,38 @@
             "Nonfiction",
             "Tyler's Fave"
         ]
+    },
+    "37": {
+        "id": 37,
+        "title": "The Rabbit Listened",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Cori Doerrfeld"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "32",
+        "pubYear": 2018,
+        "isbn10": "073522935X",
+        "isbn13": "9780735229358",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/073522935X",
+            "GoodReads": "https://www.goodreads.com/book/show/35248504-the-rabbit-listened",
+            "IndieBound": "https://www.indiebound.org/book/9780735229358",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780735229358",
+            "Library": "https://www.worldcat.org/search?q=9780735229358"
+        },
+        "coverImgFileName": "Doerrfeld-The-Rabbit-Listened.jpg",
+        "desc": "Doerrfeld\u2019s <cite>The Rabbit Listened</cite> is a beautiful story about how to support someone who is grieving. When Taylor\u2019s huge block sculpture is suddenly destroyed, a parade of animals visit try their best to ease the pain in their own way. The chicken wants to talk, the bear wants to shout, and the snake wants to destroy someone else\u2019s tower, but only the rabbit knows that Taylor just needs someone to listen.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Picture Book"
+        ]
     }
 }
