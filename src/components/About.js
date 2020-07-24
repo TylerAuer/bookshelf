@@ -22,7 +22,7 @@ const About = ({ books }) => {
   - In the Heart of the Sea
   - iRobot
   */
-  const idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34];
+  const idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35];
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {
     const book = books[id];
     return (

@@ -1203,5 +1203,40 @@
             "Science Fiction",
             "Tyler's Fave"
         ]
+    },
+    "35": {
+        "id": 35,
+        "title": "Recursion",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Blake Crouch"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "336",
+        "pubYear": 2019,
+        "isbn10": "1524759783",
+        "isbn13": "9781524759780",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1524759783",
+            "GoodReads": "https://www.goodreads.com/book/show/42046112",
+            "IndieBound": "https://www.indiebound.org/book/9781524759780",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781524759780",
+            "Library": "https://www.worldcat.org/search?q=9781524759780"
+        },
+        "coverImgFileName": "Crouch-Recursion.jpg",
+        "desc": "What begins with a cop investigating a mysterious disease that causes false memories evolves into a mind-bending, time-travel thriller. Crouch is a master of the sci-fi thriller and this, his best work, sucks you right down the rabbit hole.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Science Fiction",
+            "Thriller",
+            "Tyler's Fave"
+        ]
     }
 }
