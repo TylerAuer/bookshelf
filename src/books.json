@@ -66,10 +66,9 @@
             "Tyler": 5
         },
         "tags": [
-            "Science Fiction",
+            "Where we're going we don't need roads",
             "Thriller",
             "Short",
-            "Tyler's Fave",
             "Series"
         ]
     },
@@ -140,7 +139,7 @@
             "Funny",
             "Memoir",
             "Must Listen",
-            "Great Cover"
+            "Judge this book by it's great cover"
         ]
     },
     "5": {
@@ -173,8 +172,7 @@
             "Tyler": 4
         },
         "tags": [
-            "Diverse Authors",
-            "Science Fiction",
+            "Where we're going we don't need roads",
             "Short Stories"
         ]
     },
@@ -208,9 +206,8 @@
             "Tyler": 4
         },
         "tags": [
-            "Diverse Authors",
             "Nonfiction",
-            "Social Science",
+            "It's all in your head",
             "Must Listen"
         ]
     },
@@ -245,7 +242,7 @@
         },
         "tags": [
             "Nonfiction",
-            "History"
+            "Back in my day"
         ]
     },
     "8": {
@@ -312,10 +309,8 @@
             "Tyler": 5
         },
         "tags": [
-            "Diverse Authors",
-            "Science Fiction",
-            "Short Stories",
-            "Tyler's Fave"
+            "Where we're going we don't need roads",
+            "Short Stories"
         ]
     },
     "10": {
@@ -418,7 +413,6 @@
             "Tyler": 4
         },
         "tags": [
-            "Diverse Authors",
             "Fantasy",
             "Short Stories",
             "Series"
@@ -455,8 +449,8 @@
         },
         "tags": [
             "Politics and Economics",
-            "History",
-            "Psychology",
+            "Back in my day",
+            "It's all in your head",
             "Nonfiction",
             "Fascinating"
         ]
@@ -526,7 +520,6 @@
             "Tyler": 3
         },
         "tags": [
-            "Diverse Authors",
             "Graphic Novel",
             "Literary Fiction",
             "Series"
@@ -598,8 +591,7 @@
             "Tyler": 3
         },
         "tags": [
-            "Diverse Authors",
-            "Psychology",
+            "It's all in your head",
             "Big Ideas",
             "Fascinating",
             "Nonfiction"
@@ -637,8 +629,7 @@
         "tags": [
             "Graphic Novel",
             "Young Adult",
-            "Fantasy",
-            "Tyler's Fave"
+            "Fantasy"
         ]
     },
     "19": {
@@ -707,7 +698,7 @@
         "tags": [
             "Picture Book",
             "Out at Sea",
-            "Great Cover"
+            "Judge this book by it's great cover"
         ]
     },
     "21": {
@@ -878,8 +869,8 @@
             "Tyler": 2
         },
         "tags": [
-            "Short Story",
-            "Science Fiction"
+            "Short",
+            "Where we're going we don't need roads"
         ]
     },
     "26": {
@@ -945,7 +936,7 @@
             "Tyler": 3
         },
         "tags": [
-            "Science Fiction",
+            "Where we're going we don't need roads",
             "Series",
             "Short"
         ]
@@ -1015,11 +1006,10 @@
         },
         "tags": [
             "Funny",
-            "History",
+            "Back in my day",
             "Memoir",
             "Must Listen",
-            "Nonfiction",
-            "Tyler's Fave"
+            "Nonfiction"
         ]
     },
     "30": {
@@ -1052,7 +1042,7 @@
             "Tyler": 4
         },
         "tags": [
-            "History",
+            "Back in my day",
             "Left-leaning",
             "Looooong",
             "Memoir",
@@ -1091,9 +1081,8 @@
         },
         "tags": [
             "Fantasy",
-            "Great Cover",
-            "Mystery",
-            "Tyler's Fave"
+            "Judge this book by it's great cover",
+            "Mystery"
         ]
     },
     "32": {
@@ -1126,10 +1115,9 @@
             "Tyler": 5
         },
         "tags": [
-            "Science Fiction",
+            "Where we're going we don't need roads",
             "Series",
-            "Thriller",
-            "Tyler's Fave"
+            "Thriller"
         ]
     },
     "33": {
@@ -1162,8 +1150,8 @@
             "Tyler": 5
         },
         "tags": [
-            "Great Cover",
-            "History",
+            "Judge this book by it's great cover",
+            "Back in my day",
             "Must Listen",
             "Nonfiction",
             "Science",
@@ -1200,8 +1188,7 @@
             "Tyler": 5
         },
         "tags": [
-            "Science Fiction",
-            "Tyler's Fave"
+            "Where we're going we don't need roads"
         ]
     },
     "35": {
@@ -1234,9 +1221,8 @@
             "Tyler": 5
         },
         "tags": [
-            "Science Fiction",
-            "Thriller",
-            "Tyler's Fave"
+            "Where we're going we don't need roads",
+            "Thriller"
         ]
     },
     "36": {
@@ -1271,10 +1257,9 @@
         "tags": [
             "Adventure",
             "Fascinating",
-            "History",
+            "Back in my day",
             "Memoir",
-            "Nonfiction",
-            "Tyler's Fave"
+            "Nonfiction"
         ]
     },
     "37": {
