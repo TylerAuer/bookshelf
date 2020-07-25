@@ -1,6 +1,8 @@
 # Purple Bookshelf
 
-A React application to share books with friends. Uses a masonry-style that I build from scratch.
+A React application to share books with friends. Uses a masonry-style grid that I build from scratch.
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## Technologies
 
