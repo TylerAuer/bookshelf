@@ -1,14 +1,12 @@
 # Purple Bookshelf
 
-A React application to share books with friends.
+A React application to share books with friends. Uses a masonry-style that I build from scratch.
 
 ## Technologies
 
-Built with create-react-app using React-Router and custom hooks. Python to scrape data and JavaScript for data migrations. Automatic deployment through GitHub pages.
+Built with [React](https://reactjs.org/) using [react-router](https://reactrouter.com/web/guides/quick-start), [react-spring](https://www.react-spring.io/). [Python](https://www.python.org/) to scrape data and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for data migrations. Automatic deployment through [gitHub pages](https://pages.github.com/).
 
 ## Potential Enhancements
-
-- **Animations when book covers load** - Not possible in the way that I want with the current implementation of the masonry grid. Because the grid is constructed with columns as `<div>`s, React considers components moved to a new column (ex: after clicking shuffle) to be unmounted and remounted while covers staying in the same column do not change. This causes some of the covers to remount while others do not.
 
 - **Popovers for ratings stars** - When a user mouses over the stars of a rating, it would be nice for a popover to explain the rating system.
 
