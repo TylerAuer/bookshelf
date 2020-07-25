@@ -14,7 +14,7 @@ function Covers({ activeBooks }) {
 
   const columns = 5;
   const columnWidth = Math.floor(gridWidth / columns);
-  const gutter = 30;
+  const gutter = 10;
   const columnHeights = new Array(columns).fill(0);
 
   // Iterate over each cover
@@ -24,14 +24,15 @@ function Covers({ activeBooks }) {
       Math.min(...columnHeights)
     );
     // Use the column index to determine the x coordinate
-    const xOffset = columnWidth * indexOfShortestColumn;
+    const xOffset = columnWidth * indexOfShortestColumn + gutter / 2;
     // Use the column's height to determine the y coordinate
     const yOffset = columnHeights[indexOfShortestColumn];
-    // Calculate the image's height based on the column width
-    const proportionalHeight =
-      columnWidth * book.coverImgInfo.heightDividedByWidth;
+    // Calculate the image's width and height including the gutter
+    const imgWidth = columnWidth - gutter;
+    const imgHeight =
+      (columnWidth - gutter) * book.coverImgInfo.heightDividedByWidth;
     // Add the image's height to the column's previous height
-    columnHeights[indexOfShortestColumn] += proportionalHeight;
+    columnHeights[indexOfShortestColumn] += imgHeight + gutter;
 
     return (
       <div
@@ -47,8 +48,8 @@ function Covers({ activeBooks }) {
           alt={book.title}
           src={require(`../covers/${book.coverImgFileName}`)}
           style={{
-            width: columnWidth,
-            height: proportionalHeight,
+            width: imgWidth,
+            height: imgHeight,
           }}
         />
       </div>
@@ -59,7 +60,7 @@ function Covers({ activeBooks }) {
     <div
       ref={componentRef}
       id="covers__container"
-      style={{ border: 'red 1px solid', position: 'relative' }}
+      style={{ position: 'relative' }}
     >
       {masonryGrid}
     </div>
