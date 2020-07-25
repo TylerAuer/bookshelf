@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useSpring, animated, config } from 'react-spring';
 import makeListFromArray from '../functions/makeListFromArray';
-import './About.css';
 import shuffleList from '../functions/shuffleList';
+import './About.css';
 
 const About = ({ books }) => {
   const location = useLocation();
+  const animations = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: config.molasses,
+  });
 
   // Books to add once I've reviewed them
   /*
@@ -59,7 +65,7 @@ const About = ({ books }) => {
   });
 
   return (
-    <div className="about container">
+    <animated.div className="about container" style={animations}>
       <h2 className="about__title">Hi Friends!</h2>
       <p>
         I'm a former math teacher turned developer who loves to read and share
@@ -115,7 +121,7 @@ const About = ({ books }) => {
         <a href="https://tylerauer.com">portfolio</a> along with other
         full-stack applications. I work hard and like fun!
       </p>
-    </div>
+    </animated.div>
   );
 };
 

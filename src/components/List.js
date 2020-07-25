@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useSpring, animated, config } from 'react-spring';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
 import './List.css';
@@ -41,11 +42,21 @@ const BookInList = ({ book, index }) => {
 };
 
 const Lists = ({ activeBooks }) => {
+  const animations = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: config.molasses,
+  });
+
   const ListOfBooks = activeBooks.map((book, index) => {
     return <BookInList index={index} key={book.id} book={book} />;
   });
 
-  return <div className="list__container">{ListOfBooks}</div>;
+  return (
+    <animated.div className="list__container" style={animations}>
+      {ListOfBooks}
+    </animated.div>
+  );
 };
 
 export default Lists;
