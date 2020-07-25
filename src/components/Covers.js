@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 import useResponsiveDimensions from '../hooks/useResponsiveDimensions';
@@ -7,9 +7,7 @@ function Covers({ activeBooks }) {
   const location = useLocation();
   // Detects dimensions of the masonry container
   const componentRef = useRef();
-  const { width: gridWidth, height: gridHeight } = useResponsiveDimensions(
-    componentRef
-  );
+  const { width: gridWidth } = useResponsiveDimensions(componentRef);
 
   // Before useResponsiveDimension calculates the width, it returns 0
   // This messes with the calculations for xOffset and yOffset below
@@ -20,6 +18,7 @@ function Covers({ activeBooks }) {
     activeBooks = [];
   }
 
+  // Adjust masonry grid based on width of the grid
   // default values
   let columns = 3;
   let gutter = 6;
@@ -77,13 +76,6 @@ function Covers({ activeBooks }) {
       (columnWidth - gutter) * book.coverImgInfo.heightDividedByWidth;
     // Add the image's height to the column's previous height
     columnHeights[indexOfShortestColumn] += imgHeight + gutter;
-
-    if (book.id === 1) {
-      console.log(`
-x: ${xOffset}, y: ${yOffset}
-gridWidth: ${gridWidth}
-      `);
-    }
 
     return {
       id: book.id,
