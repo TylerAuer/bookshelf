@@ -41,7 +41,15 @@ const About = ({ books }) => {
           />
         </Link>
         <div className="about__fav-details">
-          <div className="about__fav-title">{book.title}</div>
+          <Link
+            to={{
+              pathname: `/single/${id}`,
+              search: location.search,
+            }}
+            className="about__fav-title"
+          >
+            {book.title}
+          </Link>
           <div className="about__fav-authors">
             {makeListFromArray(book.authors)}
           </div>
