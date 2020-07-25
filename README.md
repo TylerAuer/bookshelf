@@ -4,7 +4,7 @@ A React application to share books with friends. Uses a masonry-style that I bui
 
 ## Technologies
 
-Built with [React](https://reactjs.org/) using [react-router](https://reactrouter.com/web/guides/quick-start), [react-spring](https://www.react-spring.io/). [Python](https://www.python.org/) to scrape data and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for data migrations. Automatic deployment through [gitHub pages](https://pages.github.com/).
+Built with [React](https://reactjs.org/) using [react-router](https://reactrouter.com/web/guides/quick-start), [react-spring](https://www.react-spring.io/), [Python](https://www.python.org/) to scrape data and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for data migrations. Automatic deployment through [GitHub pages](https://pages.github.com/).
 
 ## Potential Enhancements
 
