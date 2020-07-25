@@ -12,15 +12,6 @@
   margin: 0 auto;
 }
 
-.header__subtitle {
-  display: inline-block;
-  color: var(--primary);
-  font-style: italic;
-  font-size: 2rem;
-  border-bottom: 1.5px solid var(--primary);
-  padding: 2rem;
-}
-
 .header__nav {
   padding: 1rem 0;
   display: flex;
@@ -34,6 +25,7 @@
   margin: 0 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom: 2px solid transparent;
 }
 
 .header__nav-link--active {

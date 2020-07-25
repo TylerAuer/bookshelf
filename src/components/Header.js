@@ -20,9 +20,6 @@ const Header = (props) => {
             alt="Purple Bookshelf"
           />
         </Link>
-        {/* <div className="header__subtitle">
-          Reading recommendations for book lovers
-        </div> */}
       </div>
       <nav className="header__nav">
         <NavLink
