@@ -20,9 +20,45 @@ function Covers({ activeBooks }) {
     activeBooks = [];
   }
 
-  const columns = 7;
+  // default values
+  let columns = 3;
+  let gutter = 6;
+
+  if (gridWidth > 700) {
+    columns = 4;
+    gutter = 8;
+  }
+
+  if (gridWidth > 800) {
+    columns = 5;
+    gutter = 8;
+  }
+
+  if (gridWidth > 1100) {
+    columns = 6;
+    gutter = 12;
+  }
+
+  if (gridWidth > 1500) {
+    columns = 7;
+    gutter = 15;
+  }
+
+  if (gridWidth > 1800) {
+    columns = 8;
+  }
+
+  if (gridWidth > 2000) {
+    columns = 9;
+  }
+
+  if (gridWidth > 2300) {
+    columns = 10;
+  }
+
+  // Responsively set columns and gutter size
+
   const columnWidth = Math.floor(gridWidth / columns);
-  const gutter = 15;
   const columnHeights = new Array(columns).fill(0);
 
   // Creates array of book objects that includes their dimensions & positions
