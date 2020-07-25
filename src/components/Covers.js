@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-//import { useTransition, a } from 'react-spring';
-//import shuffle from '../functions/shuffleList';
+import { useTransition, animated } from 'react-spring';
 import useResponsiveDimensions from '../hooks/useResponsiveDimensions';
 
 function Covers({ activeBooks }) {
@@ -12,13 +11,13 @@ function Covers({ activeBooks }) {
     componentRef
   );
 
-  const columns = 5;
+  const columns = 7;
   const columnWidth = Math.floor(gridWidth / columns);
-  const gutter = 10;
+  const gutter = 15;
   const columnHeights = new Array(columns).fill(0);
 
-  // Iterate over each cover
-  const masonryGrid = activeBooks.map((book) => {
+  // Creates array of book objects that includes their dimensions & positions
+  const booksWithPositionAndDimensions = activeBooks.map((book) => {
     // Find the column with the smallest cumulative height
     const indexOfShortestColumn = columnHeights.indexOf(
       Math.min(...columnHeights)
@@ -33,28 +32,31 @@ function Covers({ activeBooks }) {
       (columnWidth - gutter) * book.coverImgInfo.heightDividedByWidth;
     // Add the image's height to the column's previous height
     columnHeights[indexOfShortestColumn] += imgHeight + gutter;
-
-    return (
-      <div
-        style={{
-          left: `${xOffset}px`,
-          top: `${yOffset}px`,
-          position: 'absolute',
-        }}
-      >
-        <img
-          key={book.id}
-          className="covers__single-cover"
-          alt={book.title}
-          src={require(`../covers/${book.coverImgFileName}`)}
-          style={{
-            width: imgWidth,
-            height: imgHeight,
-          }}
-        />
-      </div>
-    );
+    return {
+      id: book.id,
+      alt: book.title,
+      xOffset: xOffset,
+      yOffset: yOffset,
+      imgWidth: imgWidth,
+      imgHeight: imgHeight,
+      imgFileName: book.coverImgFileName,
+    };
   });
+
+  const transitions = useTransition(
+    booksWithPositionAndDimensions,
+    (book) => book.id,
+    {
+      from: ({ xOffset, yOffset }) => ({ xOffset, yOffset, opacity: 0 }),
+      enter: ({ xOffset, yOffset }) => ({ xOffset, yOffset, opacity: 1 }),
+      update: ({ xOffset, yOffset }) => ({ xOffset, yOffset }),
+      leave: { opacity: 0 },
+      config: { mass: 5, tension: 500, friction: 100 },
+      trail: 10,
+    }
+  );
+
+  console.log(transitions);
 
   return (
     <div
@@ -62,10 +64,54 @@ function Covers({ activeBooks }) {
       id="covers__container"
       style={{ position: 'relative' }}
     >
-      {masonryGrid}
+      {transitions.map(({ item, props, key }) => (
+        <animated.img
+          key={key}
+          src={require(`../covers/${item.imgFileName}`)}
+          style={{
+            opacity: props.opacity,
+            width: item.imgWidth,
+            height: item.imgHeight,
+            left: props.xOffset,
+            top: props.yOffset,
+            position: 'absolute',
+          }}
+        />
+      ))}
     </div>
   );
 }
+
+///////////////////////////////////////////
+// When I had masonry working on my own
+//////////////////////////////////////////
+//
+// return (
+//   <div
+//     style={{
+//       left: `${xOffset}px`,
+//       top: `${yOffset}px`,
+//       position: 'absolute',
+//     }}
+//   >
+//     <img
+//       key={key}
+//       className="covers__single-cover"
+//       alt={item.title}
+//       src={require(`../covers/${item.coverImgFileName}`)}
+//       style={{
+//         ...props,
+//         width: imgWidth,
+//         height: imgHeight,
+//       }}
+//     />
+//   </div>
+// );
+
+////////////////////////////////////
+// Before I began revamping this
+////////////////////////////////////
+//
 //   let coverArr = activeBooks.map((book) => {
 //     return (
 //       <Link
