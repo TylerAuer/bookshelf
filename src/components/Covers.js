@@ -8,22 +8,60 @@ function Covers({ activeBooks }) {
   const location = useLocation();
   // Detects dimensions of the masonry container
   const componentRef = useRef();
-  const { width, height } = useResponsiveDimensions(componentRef);
+  const { width: gridWidth, height: gridHeight } = useResponsiveDimensions(
+    componentRef
+  );
+
+  const columns = 5;
+  const columnWidth = Math.floor(gridWidth / columns);
+  const gutter = 30;
+  const columnHeights = new Array(columns).fill(0);
+
+  // Iterate over each cover
+  const masonryGrid = activeBooks.map((book) => {
+    // Find the column with the smallest cumulative height
+    const indexOfShortestColumn = columnHeights.indexOf(
+      Math.min(...columnHeights)
+    );
+    // Use the column index to determine the x coordinate
+    const xOffset = columnWidth * indexOfShortestColumn;
+    // Use the column's height to determine the y coordinate
+    const yOffset = columnHeights[indexOfShortestColumn];
+    // Calculate the image's height based on the column width
+    const proportionalHeight =
+      columnWidth * book.coverImgInfo.heightDividedByWidth;
+    // Add the image's height to the column's previous height
+    columnHeights[indexOfShortestColumn] += proportionalHeight;
+
+    return (
+      <div
+        style={{
+          left: `${xOffset}px`,
+          top: `${yOffset}px`,
+          position: 'absolute',
+        }}
+      >
+        <img
+          key={book.id}
+          className="covers__single-cover"
+          alt={book.title}
+          src={require(`../covers/${book.coverImgFileName}`)}
+          style={{
+            width: columnWidth,
+            height: proportionalHeight,
+          }}
+        />
+      </div>
+    );
+  });
 
   return (
     <div
       ref={componentRef}
       id="covers__container"
-      style={{ border: 'red 1px solid' }}
+      style={{ border: 'red 1px solid', position: 'relative' }}
     >
-      <div
-        style={{
-          padding: '10px',
-        }}
-      >
-        <p>Ref width: {width}</p>
-        <p>Ref height: {height}</p>
-      </div>
+      {masonryGrid}
     </div>
   );
 }
