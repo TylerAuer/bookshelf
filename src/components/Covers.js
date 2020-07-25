@@ -89,83 +89,28 @@ gridWidth: ${gridWidth}
       style={{ position: 'relative' }}
     >
       {transitions.map(({ item, props, key }) => (
-        <animated.img
-          key={key}
-          src={require(`../covers/${item.imgFileName}`)}
-          style={{
-            width: item.imgWidth,
-            height: item.imgHeight,
-            position: 'absolute',
-            ...props,
+        <Link
+          key={item.id}
+          to={{
+            pathname: `/single/${item.id}`,
+            search: location.search,
           }}
-        />
+        >
+          <animated.img
+            className="covers__cover-image"
+            key={key}
+            src={require(`../covers/${item.imgFileName}`)}
+            style={{
+              width: item.imgWidth,
+              height: item.imgHeight,
+              position: 'absolute',
+              ...props,
+            }}
+          />{' '}
+        </Link>
       ))}
     </div>
   );
 }
-
-///////////////////////////////////////////
-// When I had masonry working on my own
-//////////////////////////////////////////
-//
-// return (
-//   <div
-//     style={{
-//       left: `${xOffset}px`,
-//       top: `${yOffset}px`,
-//       position: 'absolute',
-//     }}
-//   >
-//     <img
-//       key={key}
-//       className="covers__single-cover"
-//       alt={item.title}
-//       src={require(`../covers/${item.coverImgFileName}`)}
-//       style={{
-//         ...props,
-//         width: imgWidth,
-//         height: imgHeight,
-//       }}
-//     />
-//   </div>
-// );
-
-////////////////////////////////////
-// Before I began revamping this
-////////////////////////////////////
-//
-//   let coverArr = activeBooks.map((book) => {
-//     return (
-//       <Link
-//         key={book.id}
-//         to={{
-//           pathname: `/single/${book.id}`,
-//           search: location.search,
-//         }}
-//       >
-//         <img
-//           key={book.id}
-//           className="covers__cover"
-//           alt={book.title}
-//           src={require(`../covers/${book.coverImgFileName}`)}
-//         />
-//       </Link>
-//     );
-//   });
-
-//   return (
-//     // add max-width (2400px) and auto side margins with media query
-//     <div style={{ position: 'relative' }}>
-//       <div style={{ margin: '10px 5px' }}>
-//         <Masonry
-//           breakpointCols={breakpointColumnsObj}
-//           className="my-masonry-grid"
-//           columnClassName="my-masonry-grid_column"
-//         >
-//           {coverArr}
-//         </Masonry>
-//       </div>
-//     </div>
-//   );
 
 export default Covers;
