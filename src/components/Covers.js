@@ -11,6 +11,15 @@ function Covers({ activeBooks }) {
     componentRef
   );
 
+  // Before useResponsiveDimension calculates the width, it returns 0
+  // This messes with the calculations for xOffset and yOffset below
+  // causing the books to animate in a weird way on page load
+  // This if statement prevents the books from rendering until
+  // a width is determined
+  if (gridWidth === 0) {
+    activeBooks = [];
+  }
+
   const columns = 7;
   const columnWidth = Math.floor(gridWidth / columns);
   const gutter = 15;
@@ -32,6 +41,14 @@ function Covers({ activeBooks }) {
       (columnWidth - gutter) * book.coverImgInfo.heightDividedByWidth;
     // Add the image's height to the column's previous height
     columnHeights[indexOfShortestColumn] += imgHeight + gutter;
+
+    if (book.id === 1) {
+      console.log(`
+x: ${xOffset}, y: ${yOffset}
+gridWidth: ${gridWidth}
+      `);
+    }
+
     return {
       id: book.id,
       alt: book.title,
@@ -43,20 +60,27 @@ function Covers({ activeBooks }) {
     };
   });
 
+  // Try using transform instead of top and left?
   const transitions = useTransition(
     booksWithPositionAndDimensions,
     (book) => book.id,
     {
-      from: ({ xOffset, yOffset }) => ({ xOffset, yOffset, opacity: 0 }),
-      enter: ({ xOffset, yOffset }) => ({ xOffset, yOffset, opacity: 1 }),
-      update: ({ xOffset, yOffset }) => ({ xOffset, yOffset }),
-      leave: { opacity: 0 },
+      from: ({ xOffset, yOffset }) => ({
+        left: xOffset,
+        top: yOffset,
+        opacity: 0,
+      }),
+      update: ({ xOffset, yOffset }) => ({
+        left: xOffset,
+        top: yOffset,
+        opacity: 1,
+      }),
+      leave: { height: 0, opacity: 0 },
       config: { mass: 5, tension: 500, friction: 100 },
-      trail: 10,
+      trail: 15,
+      unique: true,
     }
   );
-
-  console.log(transitions);
 
   return (
     <div
@@ -69,11 +93,9 @@ function Covers({ activeBooks }) {
           key={key}
           src={require(`../covers/${item.imgFileName}`)}
           style={{
-            opacity: props.opacity,
+            ...props,
             width: item.imgWidth,
             height: item.imgHeight,
-            left: props.xOffset,
-            top: props.yOffset,
             position: 'absolute',
           }}
         />
