@@ -44,17 +44,26 @@ const Filters = ({ books, shuffleBookOrder }) => {
       <div className="filters__years">{years}</div>
       <div className="filters__tags">{tags}</div>
       <div className="filters__meta">
+        {location.pathname === '/covers' && (
+          <button
+            className="filters__label filters__label--meta"
+            onClick={shuffleBookOrder}
+          >
+            Shuffle Books
+          </button>
+        )}
+        {location.pathname !== '/covers' && (
+          <Link to="/covers">
+            <button className="filters__label filters__label--meta">
+              Back to Covers
+            </button>
+          </Link>
+        )}
         <Link to={location.pathname}>
           <button className="filters__label filters__label--meta">
             Clear Filters
           </button>
         </Link>
-        <button
-          className="filters__label filters__label--meta"
-          onClick={shuffleBookOrder}
-        >
-          Shuffle Books
-        </button>
       </div>
     </div>
   );
