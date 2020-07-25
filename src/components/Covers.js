@@ -70,12 +70,12 @@ gridWidth: ${gridWidth}
         top: yOffset,
         opacity: 0,
       }),
+      enter: { opacity: 1 },
       update: ({ xOffset, yOffset }) => ({
         left: xOffset,
         top: yOffset,
-        opacity: 1,
       }),
-      leave: { height: 0, opacity: 0 },
+      leave: { opacity: 0 },
       config: { mass: 5, tension: 500, friction: 100 },
       trail: 15,
       unique: true,
@@ -93,10 +93,10 @@ gridWidth: ${gridWidth}
           key={key}
           src={require(`../covers/${item.imgFileName}`)}
           style={{
-            ...props,
             width: item.imgWidth,
             height: item.imgHeight,
             position: 'absolute',
+            ...props,
           }}
         />
       ))}
