@@ -2,7 +2,7 @@
 
 A React application to share books with friends. Uses a masonry-style grid that I build from scratch.
 
-![Screenshot of The Purple Bookshelf](https://github.com/TylerAuer/bookshelf/blob/master/site-snapshot.png)
+[![Screenshot of The Purple Bookshelf](https://github.com/TylerAuer/bookshelf/blob/master/site-snapshot.png)](https://books.tylerauer.com)
 
 ## Technologies
 
