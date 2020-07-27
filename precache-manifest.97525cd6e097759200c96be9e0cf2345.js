@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ffd0c6a9154cf7e8814b78e74b7144b",
+    "revision": "354c5d195f56158e5a1866b7a4a509bc",
     "url": "/index.html"
   },
   {
-    "revision": "4a290cc3e7f8c25497af",
+    "revision": "adab3bf9115abd85aab5",
     "url": "/static/css/main.c3e48ea1.chunk.css"
   },
   {
-    "revision": "427d173dc5880dd259bb",
-    "url": "/static/js/2.6ea9a1e0.chunk.js"
+    "revision": "1ebac969bddea4372b17",
+    "url": "/static/js/2.f77014bd.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.6ea9a1e0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f77014bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a290cc3e7f8c25497af",
-    "url": "/static/js/main.9110fbc3.chunk.js"
+    "revision": "adab3bf9115abd85aab5",
+    "url": "/static/js/main.0c5b98e0.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -126,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "506399437cb4a54b47f043dd225d3583",
     "url": "/static/media/Pfeiffer-Un-Trumping-America.50639943.jpg"
+  },
+  {
+    "revision": "cbbd51aefefbe132d286b3ccd332194c",
+    "url": "/static/media/Philbrick-In-the-Heart-of-the-Sea.cbbd51ae.jpg"
   },
   {
     "revision": "b41cf3835f12d659ae8fd8972af2eda3",
