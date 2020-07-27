@@ -53,7 +53,12 @@ const Filters = ({ books, shuffleBookOrder }) => {
           </button>
         )}
         {location.pathname !== '/covers' && (
-          <Link to="/covers">
+          <Link
+            to={{
+              pathname: '/covers',
+              search: location.search,
+            }}
+          >
             <button className="filters__label filters__label--meta">
               Back to Covers
             </button>
