@@ -15,7 +15,6 @@ const About = ({ books }) => {
 
   // Books to add once I've reviewed them
   /*
-  - Born a Crime
   - Homo Deus
   - The Name of the Wind
   - Everybody Lies
@@ -27,7 +26,7 @@ const About = ({ books }) => {
   - In the Heart of the Sea
   - iRobot
   */
-  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36];
+  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36, 29];
   shuffleList(idsOfFavoriteBooks);
 
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {

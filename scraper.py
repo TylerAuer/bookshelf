@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import json
+from PIL import Image
 
 #############
 # Custom Data
@@ -13,7 +14,7 @@ import json
 bookUrl = ""
 
 # list of lists with str:readers and int:ratings
-readersAndRating = {"Tyler": 3}
+readersAndRating = {"Tyler": 5}
 descAuthor = "Tyler"
 # Can include HTML tags like <b> or <cite>
 desc = ""
@@ -24,7 +25,6 @@ seriesLength = None  # Use string ("4") or None if not series
 #########
 # Tags
 #########
-#  TODO: Systematically plan and clean tags
 # Uncomment to add tags
 tags = []
 # tags.append("Adventure")
@@ -152,8 +152,15 @@ imgName = authors[0].split(" ")[-1] + "-" + title.replace(" ", "-") + ".jpg"
 with open('./src/covers/' + imgName, 'wb') as handler:
     handler.write(img_data)
 
-# Reference in JSON output
-
+# Get the height and width of the image
+coverImage = Image.open('./src/covers/' + imgName)
+width, height = coverImage.size
+heightDividedByWidth = height / width
+coverImgInfo = {
+    "width": width,
+    "height": height,
+    "heightDividedByWidth": heightDividedByWidth
+}
 
 #############################
 # Add JSON Data to Book Lists
@@ -193,6 +200,7 @@ with open('./src/books.json', 'r+') as file:
         "descAuthor": descAuthor,
         "ratings": readersAndRating,
         "tags": tags,
+        "coverImgInfo": coverImgInfo
     }
     # Go to the start of JSON file
     file.seek(0)
