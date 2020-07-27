@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "354c5d195f56158e5a1866b7a4a509bc",
+    "revision": "2cb7a4a5d698a0e1cb886d32a8b83093",
     "url": "/index.html"
   },
   {
-    "revision": "adab3bf9115abd85aab5",
+    "revision": "da6cdcd708bcec857c4d",
     "url": "/static/css/main.c3e48ea1.chunk.css"
   },
   {
-    "revision": "1ebac969bddea4372b17",
-    "url": "/static/js/2.f77014bd.chunk.js"
+    "revision": "e464ca0ccefe4b242e2c",
+    "url": "/static/js/2.25abdc45.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.f77014bd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.25abdc45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "adab3bf9115abd85aab5",
-    "url": "/static/js/main.0c5b98e0.chunk.js"
+    "revision": "da6cdcd708bcec857c4d",
+    "url": "/static/js/main.674a52b3.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -142,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c0578fb9444a82ede98d16c5b7eb8e0",
     "url": "/static/media/Pratchett-The-Color-of-Magic.9c0578fb.jpg"
+  },
+  {
+    "revision": "8f9e63985dbe70e0e977545e1bb4c104",
+    "url": "/static/media/Rhodes-The-World-As-It-Is.8f9e6398.jpg"
   },
   {
     "revision": "5ad288146cac433fc70c729380baa4ab",

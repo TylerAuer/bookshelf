@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c3e48ea1.chunk.css",
-    "main.js": "/static/js/main.0c5b98e0.chunk.js",
-    "main.js.map": "/static/js/main.0c5b98e0.chunk.js.map",
+    "main.js": "/static/js/main.674a52b3.chunk.js",
+    "main.js.map": "/static/js/main.674a52b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.f77014bd.chunk.js": "/static/js/2.f77014bd.chunk.js",
-    "static/js/2.f77014bd.chunk.js.map": "/static/js/2.f77014bd.chunk.js.map",
+    "static/js/2.25abdc45.chunk.js": "/static/js/2.25abdc45.chunk.js",
+    "static/js/2.25abdc45.chunk.js.map": "/static/js/2.25abdc45.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97525cd6e097759200c96be9e0cf2345.js": "/precache-manifest.97525cd6e097759200c96be9e0cf2345.js",
+    "precache-manifest.91a2b22d71caa43b32d31f442be1b711.js": "/precache-manifest.91a2b22d71caa43b32d31f442be1b711.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c3e48ea1.chunk.css.map": "/static/css/main.c3e48ea1.chunk.css.map",
-    "static/js/2.f77014bd.chunk.js.LICENSE.txt": "/static/js/2.f77014bd.chunk.js.LICENSE.txt",
+    "static/js/2.25abdc45.chunk.js.LICENSE.txt": "/static/js/2.25abdc45.chunk.js.LICENSE.txt",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
@@ -42,6 +42,7 @@
     "static/media/Pollan-Caffeine.jpg": "/static/media/Pollan-Caffeine.b41cf383.jpg",
     "static/media/Power-The-Education-of-an-Idealist.jpg": "/static/media/Power-The-Education-of-an-Idealist.2e7d136c.jpg",
     "static/media/Pratchett-The-Color-of-Magic.jpg": "/static/media/Pratchett-The-Color-of-Magic.9c0578fb.jpg",
+    "static/media/Rhodes-The-World-As-It-Is.jpg": "/static/media/Rhodes-The-World-As-It-Is.8f9e6398.jpg",
     "static/media/Roberts-Limits-of-the-Known.jpg": "/static/media/Roberts-Limits-of-the-Known.5ad28814.jpg",
     "static/media/Sapkowski-The-Last-Wish.jpg": "/static/media/Sapkowski-The-Last-Wish.d8b6b9ad.jpg",
     "static/media/Schreier-Blood,-Sweat,-and-Pixels.jpg": "/static/media/Schreier-Blood,-Sweat,-and-Pixels.a273acca.jpg",
@@ -55,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.f77014bd.chunk.js",
+    "static/js/2.25abdc45.chunk.js",
     "static/css/main.c3e48ea1.chunk.css",
-    "static/js/main.0c5b98e0.chunk.js"
+    "static/js/main.674a52b3.chunk.js"
   ]
 }
