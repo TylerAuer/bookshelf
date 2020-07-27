@@ -18,15 +18,13 @@ const About = ({ books }) => {
   - Homo Deus
   - The Name of the Wind
   - Everybody Lies
-  - The World as it is
   - Rendezvous with Rama
   - The Golden Compass
   - Blankets
   - Stiches
-  - In the Heart of the Sea
   - iRobot
   */
-  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36, 29];
+  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36, 29, 38, 39];
   shuffleList(idsOfFavoriteBooks);
 
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {
@@ -65,7 +63,7 @@ const About = ({ books }) => {
 
   return (
     <animated.div className="about container" style={animations}>
-      <h2 className="about__title">Hi Friends!</h2>
+      <h2 className="about__title">Hi, Friends!</h2>
       <p>
         I'm a former math teacher turned developer who loves to read and share
         books. My reading tastes lean towards Science Fiction, Fantasy, Graphic
@@ -73,11 +71,6 @@ const About = ({ books }) => {
         number of different genres. I'm a sucker for high concepts and big
         ideas.
       </p>
-      <p>
-        I read 50 to 60 books a year, so I have a lot of favorites. In no
-        particular order:
-      </p>
-      <ul>{listOfFavorites}</ul>
       <h2 className="about__title">How I Read</h2>
       <p>
         I didn't become an avid reader until I finished college. It took a few
@@ -120,6 +113,12 @@ const About = ({ books }) => {
         <a href="https://tylerauer.com">portfolio</a> along with other
         full-stack applications. I work hard and like fun!
       </p>
+      <h2 className="about__title">Favorites</h2>
+      <p>
+        I read 50 to 60 books a year, so I have a lot of favorites. In no
+        particular order:
+      </p>
+      <ul>{listOfFavorites}</ul>
     </animated.div>
   );
 };
