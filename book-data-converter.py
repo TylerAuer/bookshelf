@@ -48,7 +48,6 @@ def processBookJSON(goodreadsURL, amazonUrl, seriesLength, rating, desc, tags):
     if len(titleAndSubtitleList) > 1:
         subtitle = titleAndSubtitleList[1][1:]
 
-    # TODO: Need to remove "," from list
     # Parses authors into authors, illustrators, and translators
     authorsList = soup.find_all("div", class_="authorName__container")
     for author in authorsList:
@@ -108,7 +107,6 @@ def processBookJSON(goodreadsURL, amazonUrl, seriesLength, rating, desc, tags):
     img_data = requests.get(imgUrl).content
     imgName = authors[0].split(" ")[-1] + "-" + \
         title.replace(" ", "-") + ".jpg"
-    # TODO: Switch to "covers" folder when ready to run for real
     with open('./src/covers-test/' + imgName, 'wb') as handler:
         handler.write(img_data)
 
@@ -120,7 +118,6 @@ def processBookJSON(goodreadsURL, amazonUrl, seriesLength, rating, desc, tags):
     # Generate new JSON to add
 
     # Open data file
-    # TODO: Switch to "book-data.json" when ready to run for real
     with open('./src/data.json', 'r+') as f:
         data = json.load(f)
         # Creates new ID number based on count of current books + 1
