@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useParams, useLocation } from 'react-router-dom';
+import { useSpring, animated, config } from 'react-spring';
 import ReactHtmlParser from 'react-html-parser';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
@@ -137,6 +138,11 @@ const BookInfo = ({ book }) => {
 const Single = ({ books, activeBookIDs }) => {
   let { id } = useParams();
   const location = useLocation();
+  const animations = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: config.molasses,
+  });
 
   /* If the user changes the filters while on the single page, and the current
   book is no longer included in the activeBookIDs, then currentIndex === -1.
@@ -162,7 +168,7 @@ const Single = ({ books, activeBookIDs }) => {
       : `/single/${activeBookIDs[currentIndex + 1]}`;
 
   return (
-    <div className="container single">
+    <animated.div style={animations} className="container single">
       <BookInfo book={books[id]} />
       <nav className="single__bottom-nav">
         <Link
@@ -186,7 +192,7 @@ const Single = ({ books, activeBookIDs }) => {
           Next
         </Link>
       </nav>
-    </div>
+    </animated.div>
   );
 };
 
