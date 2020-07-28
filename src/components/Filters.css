@@ -18,15 +18,16 @@
   text-decoration: none;
   cursor: pointer;
   color: black;
-  border-radius: 5px;
-  padding: 0 8px;
-  margin: 2px;
-  border: 1px solid transparent;
+  background-color: var(--grey-very-light);
+  border-radius: 30px;
+  padding: 2px 15px;
+  margin: 4px 4px;
+  border: 2px solid transparent;
   transition: all 0.2s;
 }
 
 .filters__label:hover {
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
 }
 
 .filters__label--active {
@@ -42,7 +43,6 @@
 }
 
 .filters__label--tag {
-  font-style: italic;
 }
 
 .filters__meta {

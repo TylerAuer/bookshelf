@@ -99,7 +99,11 @@ function Covers({ activeBooks }) {
         top: yOffset,
         opacity: 0,
       }),
-      enter: { opacity: 1 },
+      enter: ({ xOffset, yOffset }) => ({
+        left: xOffset,
+        top: yOffset,
+        opacity: 1,
+      }),
       update: ({ xOffset, yOffset }) => ({
         left: xOffset,
         top: yOffset,
