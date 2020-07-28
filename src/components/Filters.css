@@ -77,8 +77,8 @@
   }
 }
 
-/* 450px */
-@media only screen and (max-width: 28.125em) {
+/* 350px */
+@media only screen and (max-width: 21.875em) {
   .filters__label {
     font-size: 1.3rem;
     flex-grow: 1;
