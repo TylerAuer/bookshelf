@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edc0bfbcdfada0de19753e240de24a58",
+    "revision": "d5cf34671397bc2758dc310be1cb6409",
     "url": "/index.html"
   },
   {
-    "revision": "ba595bd07106e3f66180",
+    "revision": "0bc6f6eb429436269b67",
     "url": "/static/css/main.b5140bca.chunk.css"
   },
   {
-    "revision": "e464ca0ccefe4b242e2c",
-    "url": "/static/js/2.25abdc45.chunk.js"
+    "revision": "8f09c734b86ec0c56c1b",
+    "url": "/static/js/2.4c9ed465.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.25abdc45.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4c9ed465.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba595bd07106e3f66180",
-    "url": "/static/js/main.80200801.chunk.js"
+    "revision": "0bc6f6eb429436269b67",
+    "url": "/static/js/main.9dfc04ff.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -88,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Greenberg-The-Encyclopedia-of-Early-Earth.d8387485.jpg"
   },
   {
+    "revision": "c8aeeb20cfc5f2e16085447687d4256a",
+    "url": "/static/media/Harari-Homo-Deus.c8aeeb20.jpg"
+  },
+  {
     "revision": "c7f6dff19393527489910feb6b7bbf11",
     "url": "/static/media/Howey-Wool.c7f6dff1.jpg"
   },
@@ -152,6 +156,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Roberts-Limits-of-the-Known.5ad28814.jpg"
   },
   {
+    "revision": "93118c5df45424fc14783136bf1a8334",
+    "url": "/static/media/Rothfuss-The-Name-of-the-Wind.93118c5d.jpg"
+  },
+  {
     "revision": "d8b6b9add2614d87c58a03e38d4c6a2b",
     "url": "/static/media/Sapkowski-The-Last-Wish.d8b6b9ad.jpg"
   },
@@ -170,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb96c28207d207c590ffc0e94265429d",
     "url": "/static/media/Towles-You-Have-Arrived-at-Your-Destination.cb96c282.jpg"
+  },
+  {
+    "revision": "19732f41a4b85ea2fbc3fccbc8a9c297",
+    "url": "/static/media/Weir-The-Martian.19732f41.jpg"
   },
   {
     "revision": "d00ff1ced75b8bcf75bf6e603df9e1e0",
