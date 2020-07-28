@@ -1642,5 +1642,45 @@
             "height": 470,
             "heightDividedByWidth": 1.4779874213836477
         }
+    },
+    "42": {
+        "id": 42,
+        "title": "The Martian",
+        "subtitle": "",
+        "seriesTitle": "The Martian",
+        "seriesIndex": "1",
+        "seriesLength": null,
+        "authors": [
+            "Andy Weir"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "369",
+        "pubYear": 2012,
+        "isbn10": "0804139024",
+        "isbn13": "9780804139021",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0804139024",
+            "GoodReads": "https://www.goodreads.com/book/show/18007564-the-martian?from_choice=true",
+            "IndieBound": "https://www.indiebound.org/book/9780804139021",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780804139021",
+            "Library": "https://www.worldcat.org/search?q=9780804139021"
+        },
+        "coverImgFileName": "Weir-The-Martian.jpg",
+        "desc": "Stranded on Mars after an accident during a dust storm and assumed dead by NASA, astronaut Mark Watney must use every ounce of his ingenuity to keep himself alive. An instant classic of hard science fiction, < cite > The Martian < /cite > is both gripping and hilarious thanks to Watney\u2019s irreverent sense of humor and ingenuity. This book is for the sarcastic space explorer in all of us!",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Funny",
+            "Where we're going we don't need roads",
+            "Space"
+        ],
+        "coverImgInfo": {
+            "width": 313,
+            "height": 475,
+            "heightDividedByWidth": 1.5175718849840256
+        }
     }
 }

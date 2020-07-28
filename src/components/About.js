@@ -15,10 +15,6 @@ const About = ({ books }) => {
 
   // Books to add once I've reviewed them
   /*
-<<<<<<< HEAD
-  - THe Martian
-=======
->>>>>>> 567ff6c8c145be8aa2fdd345d5ee17f9ebd96e5f
   - Everybody Lies
   - Rendezvous with Rama
   - The Golden Compass
@@ -26,7 +22,22 @@ const About = ({ books }) => {
   - Stiches
   - iRobot
   */
-  let idsOfFavoriteBooks = [18, 9, 31, 32, 33, 34, 35, 36, 29, 38, 39, 40, 41];
+  let idsOfFavoriteBooks = [
+    18,
+    9,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    29,
+    38,
+    39,
+    40,
+    41,
+    42,
+  ];
   shuffleList(idsOfFavoriteBooks);
 
   const listOfFavorites = idsOfFavoriteBooks.map((id) => {
