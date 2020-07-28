@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 import useResponsiveDimensions from '../hooks/useResponsiveDimensions';
+import './Covers.css';
 
 function Covers({ activeBooks }) {
   const location = useLocation();

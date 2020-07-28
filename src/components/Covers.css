@@ -1,0 +1,22 @@
+#covers__container {
+  margin: 35px 30px;
+}
+
+@media only screen and (min-width: 100em) {
+  #covers__container {
+    margin: 35px auto;
+    max-width: 1540px;
+  }
+}
+
+@media only screen and (max-width: 46.875em) {
+  #covers__container {
+    margin: 35px 10px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  #covers__container {
+    margin: 35px 5px;
+  }
+}
