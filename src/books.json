@@ -1647,8 +1647,8 @@
         "id": 42,
         "title": "The Martian",
         "subtitle": "",
-        "seriesTitle": "The Martian",
-        "seriesIndex": "1",
+        "seriesTitle": "",
+        "seriesIndex": "",
         "seriesLength": null,
         "authors": [
             "Andy Weir"
