@@ -1561,5 +1561,86 @@
             "height": 475,
             "heightDividedByWidth": 1.542207792
         }
+    },
+    "40": {
+        "id": 40,
+        "title": "Homo Deus",
+        "subtitle": "A Brief History of Tomorrow",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Yuval Noah Harari"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "448",
+        "pubYear": 2016,
+        "isbn10": "1910701882",
+        "isbn13": "9781910701881",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow-dp-0062464310/dp/0062464310",
+            "GoodReads": "https://www.goodreads.com/book/show/28092870-homo-deus",
+            "IndieBound": "https://www.indiebound.org/book/9781910701881",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781910701881",
+            "Library": "https://www.worldcat.org/search?q=9781910701881"
+        },
+        "coverImgFileName": "Harari-Homo-Deus.jpg",
+        "desc": "The author of <cite>Sapiens</cite> turns his focus to the future in this prescient look at humanity's next few centuries. Harari\u2019s macro view of the evolution of our species and culture is endlessly fascinating as he predicts how our increasing control of our fate will affect society. If you like big ideas, you won\u2019t be able to put any of Harari\u2019s books down. ",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Big Ideas",
+            "Fascinating",
+            "Nonfiction",
+            "Politics and Economics"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 475,
+            "heightDividedByWidth": 1.4937106918238994
+        }
+    },
+    "41": {
+        "id": 41,
+        "title": "The Name of the Wind",
+        "subtitle": "",
+        "seriesTitle": "The Kingkiller Chronicle",
+        "seriesIndex": "1",
+        "seriesLength": "3",
+        "authors": [
+            "Patrick Rothfuss"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "662",
+        "pubYear": 2007,
+        "isbn10": "075640407X",
+        "isbn13": "9780756404079",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/075640407X",
+            "GoodReads": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
+            "IndieBound": "https://www.indiebound.org/book/9780756404079",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780756404079",
+            "Library": "https://www.worldcat.org/search?q=9780756404079"
+        },
+        "coverImgFileName": "Rothfuss-The-Name-of-the-Wind.jpg",
+        "desc": "Like it\u2019s more famous sibling, <cite>A Game of Thrones</cite>, <cite>The Name of the Wind</cite> is a work of masterful world-building with unreliable narration. Yet, unlike Martin\u2019s work, Rothfuss\u2019s (also unfinished) Kingkiller Chronicle trilogy is focused on a single character, the orphan bard turned magician, Kvothe. With human characters and a pace that won\u2019t let you put it down, <cite>The Name of the Wind</cite> is the best work of fantasy I have ever read.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy",
+            "Looooong",
+            "Series"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 470,
+            "heightDividedByWidth": 1.4779874213836477
+        }
     }
 }
