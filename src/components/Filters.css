@@ -71,42 +71,24 @@
 /* 750px */
 @media only screen and (max-width: 46.875em) {
   .filters__label {
-    border-radius: 2px;
-    margin: 1px;
-  }
-
-  .filters__label--year {
-    padding: 0 0.6rem;
-    line-height: 1.4;
-  }
-
-  .filters__label--tag {
-    padding: 0 2px;
-  }
-
-  .filters__label--meta {
-    padding: 2px 5px;
-    margin: 2px 5px;
+    font-size: 1.5rem;
   }
 }
 
 /* 600px */
 @media only screen and (max-width: 37.5em) {
   .filters__label {
-    font-size: 1.5rem;
-  }
-
-  .filters__label--tag {
-    flex-grow: 1;
+    font-size: 1.4rem;
   }
 }
 
 /* 450px */
 @media only screen and (max-width: 28.125em) {
   .filters__label {
-    font-size: 1.4rem;
-  }
-  .filters__label--year {
+    font-size: 1.3rem;
     flex-grow: 1;
+  }
+  .filters__label--meta {
+    margin-bottom: 10px;
   }
 }
