@@ -34,6 +34,10 @@
   background-color: var(--primary);
 }
 
+.filters__label--active:hover {
+  background-color: var(--primary-light);
+}
+
 .filters__label--year {
 }
 
