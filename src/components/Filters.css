@@ -37,6 +37,7 @@
 
 .filters__label--active:hover {
   background-color: var(--primary-light);
+  border: 2px solid var(--primary-dark);
 }
 
 .filters__label--year {
