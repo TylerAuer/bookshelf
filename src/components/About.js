@@ -15,7 +15,10 @@ const About = ({ books }) => {
 
   // Books to add once I've reviewed them
   /*
+<<<<<<< HEAD
   - THe Martian
+=======
+>>>>>>> 567ff6c8c145be8aa2fdd345d5ee17f9ebd96e5f
   - Everybody Lies
   - Rendezvous with Rama
   - The Golden Compass
