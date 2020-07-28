@@ -20,7 +20,7 @@
   color: black;
   background-color: var(--grey-very-light);
   border-radius: 30px;
-  padding: 2px 15px;
+  padding: 1px 15px;
   margin: 4px 4px;
   border: 2px solid transparent;
   transition: all 0.2s;
@@ -37,13 +37,7 @@
 
 .filters__label--active:hover {
   background-color: var(--primary-light);
-  border: 2px solid var(--primary-dark);
-}
-
-.filters__label--year {
-}
-
-.filters__label--tag {
+  border: 2px solid transparent;
 }
 
 .filters__meta {
@@ -52,9 +46,10 @@
 
 .filters__label--meta {
   font-family: inherit;
-  border: 1px solid black;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
   text-transform: uppercase;
-  color: black;
+  color: var(--primary);
   background-color: transparent;
   line-height: 1.7;
   transition: all 0.2s;
@@ -63,7 +58,7 @@
 }
 
 .filters__label--meta:hover {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   color: white;
   background-color: var(--primary);
 }
@@ -87,6 +82,8 @@
   .filters__label {
     font-size: 1.3rem;
     flex-grow: 1;
+    border-radius: 2px;
+    margin: 2px;
   }
   .filters__label--meta {
     margin-bottom: 10px;

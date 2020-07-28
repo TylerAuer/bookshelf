@@ -73,53 +73,56 @@
 }
 
 .single__tags-and-links {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .single__tag-list {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
-.single__label--tag {
+.single__label--tag,
+.single__external-tag {
   display: inline-block;
   margin-bottom: 0.5rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-  background-color: white;
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.75rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
   text-decoration: none;
-  transition: all 0.3s;
+  cursor: pointer;
+  color: black;
+  background-color: var(--grey-very-light);
+  border-radius: 30px;
+  padding: 1px 15px;
+  margin: 4px 2px;
+  border: 2px solid transparent;
+  transition: all 0.2s;
 }
 
 .single__label--tag:hover {
-  background-color: var(--primary-very-light);
+  border: 2px solid var(--primary);
 }
 
 .single__label--active {
   color: white;
-  border: 1px solid transparent;
   background-color: var(--primary);
 }
 
 .single__label--active:hover {
   background-color: var(--primary-light);
+  border: 2px solid transparent;
 }
 
 .single__external-tag,
 .single__external-tag:visited {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  font-size: 1.4rem;
   font-weight: 600;
   color: white;
-  padding: 0.5rem 0.75rem;
   background-color: var(--secondary-light);
-  border-radius: 0.75rem;
-  text-decoration: none;
-  transition: all 0.3s;
+}
+
+.single__external-tag:hover,
+.single__external-tag:visited:hover {
+  font-weight: 600;
+  color: white;
+  background-color: var(--secondary);
 }
 
 .single__label--tag:not(:last-child),
@@ -200,8 +203,15 @@
     font-size: 1.5rem;
   }
 
-  .single__footer {
+  .single__footer,
+  .single__label--tag,
+  .single__external-tag {
     font-size: 1.4rem;
+  }
+
+  .single__label--tag,
+  .single__external-tag {
+    padding: 1px 10px;
   }
 }
 
