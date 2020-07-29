@@ -5,14 +5,16 @@
 }
 
 .filters__years,
-.filters__tags {
+.filters__tags,
+.filters__show-hide {
   margin-bottom: 1.5rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.filters__label {
+.filters__label,
+.filters__show-hide {
   font-size: 1.6rem;
   text-transform: capitalize;
   text-decoration: none;
@@ -26,7 +28,8 @@
   transition: all 0.2s;
 }
 
-.filters__label:hover {
+.filters__label:hover,
+.filters__show-hide:hover {
   border: 2px solid var(--primary);
 }
 
@@ -38,6 +41,16 @@
 .filters__label--active:hover {
   background-color: var(--primary-light);
   border: 2px solid transparent;
+}
+
+.filters__show-hide {
+  background-color: var(--primary);
+  color: white;
+}
+.filters__show-hide:hover {
+  border: 2px solid var(--primary);
+  color: black;
+  background-color: var(--grey-very-light);
 }
 
 .filters__meta {

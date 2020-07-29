@@ -2,12 +2,15 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import FilterTag from './FilterTag';
 import './Filters.css';
+import ShowHideFiltersBtn from './ShowHideFiltersBtn';
+import useQueryObject from '../hooks/useQueryObject';
 
 const Filters = ({ books, shuffleBookOrder }) => {
   const location = useLocation();
+  const queryObj = useQueryObject();
 
-  const listOfYears = [];
-  const listOfTags = [];
+  let listOfYears = [];
+  let listOfTags = [];
   for (let id in books) {
     // Adds years if not yet in the list
     if (!listOfYears.includes(books[id].pubYear)) {
@@ -22,6 +25,42 @@ const Filters = ({ books, shuffleBookOrder }) => {
   }
   listOfYears.sort().reverse(); // Reverse chronological order
   listOfTags.sort(); // Alphabetical order
+
+  const filtersToAlwaysShow = [
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011,
+    2010,
+    'Fantasy',
+    'Fascinating',
+    'Graphic Novel',
+    "Judge this book by it's great cover",
+    'Must Listen',
+    'Nonfiction',
+    'Picture Book',
+    'Politics and Economics',
+    "Where we're going we don't need roads",
+  ];
+
+  if (!queryObj || !queryObj.allFilters) {
+    listOfYears = listOfYears.filter(
+      (year) =>
+        filtersToAlwaysShow.includes(year) ||
+        (queryObj && queryObj.year && queryObj.year.includes(year.toString()))
+    );
+    listOfTags = listOfTags.filter(
+      (tag) =>
+        filtersToAlwaysShow.includes(tag) ||
+        (queryObj && queryObj.tag && queryObj.tag.includes(tag))
+    );
+  }
 
   const years = listOfYears.map((year) => {
     return (
@@ -41,8 +80,11 @@ const Filters = ({ books, shuffleBookOrder }) => {
 
   return (
     <div className="filters">
-      <div className="filters__years">{years}</div>
-      <div className="filters__tags">{tags}</div>
+      <div className="filters__years">
+        {years}
+        {tags}
+        <ShowHideFiltersBtn />
+      </div>
       <div className="filters__meta">
         {location.pathname === '/covers' && (
           <button

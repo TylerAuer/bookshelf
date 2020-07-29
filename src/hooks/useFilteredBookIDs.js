@@ -6,15 +6,18 @@ import useQueryObject from './useQueryObject';
 const useFilteredBookIDs = () => {
   const queryObject = useQueryObject();
   const activeBooks = [];
-  // If there is no query string
-  if (!queryObject) {
+
+  // If there is no query string OR
+  // queryObj doesn't include tag or year
+  if (!queryObject || (!queryObject.tag && !queryObject.year)) {
     // Return all book IDs
     return Object.keys(books);
   }
 
   // TODO: OPTIMIZATION: Right now this runs every time the query string changes
   // Instead I could generate objects with lists of IDs for each filter type
-  // And then I could just grab the relevant IDs everytime that filter is on
+  // And then I could just grab the relevant IDs everytime that filter is on.
+  // This would be a good idea as the number of books and tags grow
   for (let id in books) {
     let book = books[id];
     let shouldBookBeAdded = false;
