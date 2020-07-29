@@ -1722,5 +1722,46 @@
             "height": 285,
             "heightDividedByWidth": 0.8962264150943396
         }
+    },
+    "44": {
+        "id": 44,
+        "title": "I Am Number Four",
+        "subtitle": "",
+        "seriesTitle": "Lorien Legacies",
+        "seriesIndex": "1",
+        "seriesLength": "7",
+        "authors": [
+            "Pittacus Lore"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "440",
+        "pubYear": 2010,
+        "isbn10": "0061969559",
+        "isbn13": "9780061969553",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0061969559",
+            "GoodReads": "https://www.goodreads.com/book/show/7747374-i-am-number-four",
+            "IndieBound": "https://www.indiebound.org/book/9780061969553",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780061969553",
+            "Library": "https://www.worldcat.org/search?q=9780061969553"
+        },
+        "coverImgFileName": "Lore-I-Am-Number-Four.jpg",
+        "desc": "John Smith has been on the run his whole life from a race of aliens determined to murder him. Protected by special magic as an infant, John must survive until his super-powers develop, all the while learning to navigate high school. With a totally original concept and the pace of a thriller, <cite>I am Number Four</cite> is an awesome tale for teens and adults alike.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy",
+            "Where we're going we don't need roads",
+            "Series",
+            "Young Adult"
+        ],
+        "coverImgInfo": {
+            "width": 314,
+            "height": 475,
+            "heightDividedByWidth": 1.5127388535031847
+        }
     }
 }
