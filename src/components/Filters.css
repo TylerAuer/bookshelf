@@ -78,21 +78,24 @@
 
 /* 750px */
 @media only screen and (max-width: 46.875em) {
-  .filters__label {
+  .filters__label,
+  .filters__show-hide {
     font-size: 1.5rem;
   }
 }
 
 /* 600px */
 @media only screen and (max-width: 37.5em) {
-  .filters__label {
+  .filters__label,
+  .filters__show-hide {
     font-size: 1.4rem;
   }
 }
 
 /* 350px */
 @media only screen and (max-width: 21.875em) {
-  .filters__label {
+  .filters__label,
+  .filters__show-hide {
     font-size: 1.3rem;
     flex-grow: 1;
     border-radius: 2px;
