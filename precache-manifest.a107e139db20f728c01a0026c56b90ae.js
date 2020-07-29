@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "032d411799c61a284c41f9b293acd751",
+    "revision": "e5a02366bd352f107f03a2f964260ab7",
     "url": "/index.html"
   },
   {
-    "revision": "f1324f4426503fbea5ef",
+    "revision": "ec27b712da3b753c7981",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "8f09c734b86ec0c56c1b",
-    "url": "/static/js/2.4c9ed465.chunk.js"
+    "revision": "6171ad3693d81aeb2af4",
+    "url": "/static/js/2.049e795a.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.4c9ed465.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.049e795a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1324f4426503fbea5ef",
-    "url": "/static/js/main.a646c5fc.chunk.js"
+    "revision": "ec27b712da3b753c7981",
+    "url": "/static/js/main.0d151d9d.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8745705314797f94c54411ee5a03d2d3",
     "url": "/static/media/Banaji-Blindspot.87457053.jpg"
+  },
+  {
+    "revision": "da6f77ece633b54e0747eb6f8995605b",
+    "url": "/static/media/Becker-Quest.da6f77ec.jpg"
   },
   {
     "revision": "f57edcb435036692273972a4fd6ead8b",
@@ -106,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "420b25185c3a12f3472627d2ee3ce007",
     "url": "/static/media/Lewis-Has-Anyone-Seen-the-President.420b2518.jpg"
+  },
+  {
+    "revision": "0e0eb5e851a4ad73a393a117eed7202a",
+    "url": "/static/media/Lore-I-Am-Number-Four.0e0eb5e8.jpg"
   },
   {
     "revision": "cf42c468fc678050b9c1916f144db206",
