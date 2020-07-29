@@ -1682,5 +1682,45 @@
             "height": 475,
             "heightDividedByWidth": 1.5175718849840256
         }
+    },
+    "43": {
+        "id": 43,
+        "title": "Quest",
+        "subtitle": "",
+        "seriesTitle": "Journey Trilogy",
+        "seriesIndex": "2",
+        "seriesLength": 3,
+        "authors": [
+            "Aaron Becker"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "32",
+        "pubYear": 2014,
+        "isbn10": "0763665959",
+        "isbn13": "9780763665951",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0763665959",
+            "GoodReads": "https://www.goodreads.com/book/show/20708773-quest?ac=1&from_search=true&qid=SAKCC5yMql&rank=3",
+            "IndieBound": "https://www.indiebound.org/book/9780763665951",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780763665951",
+            "Library": "https://www.worldcat.org/search?q=9780763665951"
+        },
+        "coverImgFileName": "Becker-Quest.jpg",
+        "desc": "Aaron Becker\u2019s <cite>Quest</cite> is a magical tale in which a young boy and girl find a door into a magical world where they collect crayons to save a kingdom from invaders. Because <cite>Quest</cite> has no words, you\u2019ll find yourself engaged in rich conversations and storytelling with your child as you discover little details in the beautiful illustrations. While this is the second book in a trilogy, it can be read on its own.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy",
+            "Picture Book",
+            "Series"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 285,
+            "heightDividedByWidth": 0.8962264150943396
+        }
     }
 }

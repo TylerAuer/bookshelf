@@ -23,20 +23,21 @@ const About = ({ books }) => {
   - iRobot
   */
   let idsOfFavoriteBooks = [
-    18,
     9,
+    18,
+    29,
     31,
     32,
     33,
     34,
     35,
     36,
-    29,
     38,
     39,
     40,
     41,
     42,
+    43,
   ];
   shuffleList(idsOfFavoriteBooks);
 
