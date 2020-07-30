@@ -1801,5 +1801,43 @@
             "height": 200,
             "heightDividedByWidth": 1.0471204188481675
         }
+    },
+    "46": {
+        "id": 46,
+        "title": "Where's the Baby?",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Britta Teckentrup"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "32",
+        "pubYear": 2018,
+        "isbn10": "0763699012",
+        "isbn13": "9780763699017",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0763699012",
+            "GoodReads": "https://www.goodreads.com/book/show/35793041-where-s-the-baby",
+            "IndieBound": "https://www.indiebound.org/book/9780763699017",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780763699017",
+            "Library": "https://www.worldcat.org/search?q=9780763699017"
+        },
+        "coverImgFileName": "Teckentrup-Where's-the-Baby.jpg",
+        "desc": "Britta Teckentrup\u2019s series of search books are <cite>Where\u2019s Waldo</cite> style puzzles for younger kids. Beautifully rendered, each page depicts an array of animals where a single baby hides. You might think these would only be fun once, but your child will enjoy reading these over and over even as they memorize where the baby is on each page.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Picture Book"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 411,
+            "heightDividedByWidth": 1.2924528301886793
+        }
     }
 }

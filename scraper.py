@@ -48,6 +48,7 @@ tags = []
 # tags.append("Out at Sea")
 # tags.append("Picture Book")
 # tags.append("Politics and Economics")
+# tags.append("Puzzle")
 # tags.append("It's all in your head")
 # tags.append("Quirky")
 # tags.append("Science")
