@@ -28,6 +28,7 @@ seriesLength = None  # Use string ("4") or None if not series
 # Uncomment to add tags
 tags = []
 # tags.append("Adventure")
+# tags.append("Back in my day")
 # tags.append("Big Ideas")
 # tags.append("Fantasy")
 # tags.append("Fascinating")
@@ -35,9 +36,9 @@ tags = []
 # tags.append("Funny")
 # tags.append("Games")
 # tags.append("Graphic Novel")
-# tags.append("Judge this book by it's great cover")
 # tags.append("Historical Fiction")
-# tags.append("Back in my day")
+# tags.append("It's all in your head")
+# tags.append("Judge this book by it's great cover")
 # tags.append("Left-leaning")
 # tags.append("Literary Fiction")
 # tags.append("Looooong")
@@ -49,16 +50,15 @@ tags = []
 # tags.append("Picture Book")
 # tags.append("Politics and Economics")
 # tags.append("Puzzle")
-# tags.append("It's all in your head")
 # tags.append("Quirky")
 # tags.append("Science")
-# tags.append("Where we're going we don't need roads")
 # tags.append("Series")
 # tags.append("Short")
 # tags.append("Short Stories")
 # tags.append("Space")
 # tags.append("Thriller")
 # tags.append("Young Adult")
+# tags.append("Where we're going we don't need roads")
 
 ####################
 # Variables for JSON

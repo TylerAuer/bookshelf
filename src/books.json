@@ -1839,5 +1839,48 @@
             "height": 411,
             "heightDividedByWidth": 1.2924528301886793
         }
+    },
+    "47": {
+        "id": 47,
+        "title": "The Information",
+        "subtitle": "A History, A Theory, A Flood",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "James Gleick"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "544",
+        "pubYear": 2011,
+        "isbn10": "1400096235",
+        "isbn13": "9781400096237",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Information-History-Theory-Flood-dp-1400096235",
+            "GoodReads": "https://www.goodreads.com/book/show/12279559-the-information",
+            "IndieBound": "https://www.indiebound.org/book/9781400096237",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781400096237",
+            "Library": "https://www.worldcat.org/search?q=9781400096237"
+        },
+        "coverImgFileName": "Gleick-The-Information.jpg",
+        "desc": "In this brilliant book, Gleick unites disparate topics - - DNA, dictionaries, early telephones, and computers to name a few - - by examining their fundamental building block: information. Wide-reaching and fascinating, Gleick\u2019s writing also manages to be accessible. This is definitely a book for the scientifically curious but doesn\u2019t require much prior knowledge to enjoy.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Big Ideas",
+            "Fascinating",
+            "Judge this book by it's great cover",
+            "Back in my day",
+            "Nonfiction",
+            "Science"
+        ],
+        "coverImgInfo": {
+            "width": 307,
+            "height": 475,
+            "heightDividedByWidth": 1.5472312703583062
+        }
     }
 }
