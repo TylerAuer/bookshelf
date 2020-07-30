@@ -1763,5 +1763,43 @@
             "height": 475,
             "heightDividedByWidth": 1.5127388535031847
         }
+    },
+    "45": {
+        "id": 45,
+        "title": "Shh! We Have a Plan",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Chris Haughton"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "48",
+        "pubYear": 2014,
+        "isbn10": "1406342327",
+        "isbn13": "9781406342321",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1406342327",
+            "GoodReads": "https://www.goodreads.com/book/show/18743522-shh-we-have-a-plan?from_search=true&from_srp=true&qid=LJ56QiPfjc&rank=1",
+            "IndieBound": "https://www.indiebound.org/book/9781406342321",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781406342321",
+            "Library": "https://www.worldcat.org/search?q=9781406342321"
+        },
+        "coverImgFileName": "Haughton-Shh-We-Have-a-Plan.jpg",
+        "desc": "I stumbled upon <cite>Shh! We have a Plan</cite> while chasing my daughter around our local library. What a find! Chris Haughton\u2019s beautiful book is the story of four kids who head into the woods to try to catch a bird. With a unique art style and rhythmic writing, this picture book instantly became one of my daughter\u2019s favorites.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Picture Book"
+        ],
+        "coverImgInfo": {
+            "width": 191,
+            "height": 200,
+            "heightDividedByWidth": 1.0471204188481675
+        }
     }
 }
