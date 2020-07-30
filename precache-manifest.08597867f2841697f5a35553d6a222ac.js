@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5a02366bd352f107f03a2f964260ab7",
+    "revision": "e81fa1a5c4c5b65764b994451f21121a",
     "url": "/index.html"
   },
   {
-    "revision": "ec27b712da3b753c7981",
+    "revision": "a038297b9eb1fe31cb4e",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "6171ad3693d81aeb2af4",
-    "url": "/static/js/2.049e795a.chunk.js"
+    "revision": "e5d856b7bbacfaa942f1",
+    "url": "/static/js/2.51816b08.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.049e795a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.51816b08.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec27b712da3b753c7981",
-    "url": "/static/js/main.0d151d9d.chunk.js"
+    "revision": "a038297b9eb1fe31cb4e",
+    "url": "/static/js/main.66ff94ac.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5211026f249913a557622613fb96b41",
     "url": "/static/media/Gladwell-Talking-to-Strangers.d5211026.jpg"
+  },
+  {
+    "revision": "73f7de8f3499cd6c50aa9778f4e9860e",
+    "url": "/static/media/Gleick-The-Information.73f7de8f.jpg"
   },
   {
     "revision": "d838748595bd4940169591f6daa68452",
@@ -182,6 +186,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69c71dd63f9e3cad9d012e6fcd004d05",
     "url": "/static/media/Stevenson-Nimona.69c71dd6.jpg"
+  },
+  {
+    "revision": "b0cda5e672a3d39acd92921d9928782b",
+    "url": "/static/media/Teckentrup-Where's-the-Baby.b0cda5e6.jpg"
   },
   {
     "revision": "cb96c28207d207c590ffc0e94265429d",
