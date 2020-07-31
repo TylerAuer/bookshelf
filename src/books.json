@@ -1922,5 +1922,43 @@
             "height": 400,
             "heightDividedByWidth": 1.509433962264151
         }
+    },
+    "49": {
+        "id": 49,
+        "title": "The Goblin Emperor",
+        "subtitle": "",
+        "seriesTitle": "The Goblin Emperor",
+        "seriesIndex": "1",
+        "seriesLength": null,
+        "authors": [
+            "Katherine Addison"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "446",
+        "pubYear": 2014,
+        "isbn10": "076532699X",
+        "isbn13": "9780765326997",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/076532699X/",
+            "GoodReads": "https://www.goodreads.com/book/show/17910048-the-goblin-emperor?ac=1&from_search=true&qid=lkTQakceD2&rank=1",
+            "IndieBound": "https://www.indiebound.org/book/9780765326997",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780765326997",
+            "Library": "https://www.worldcat.org/search?q=9780765326997"
+        },
+        "coverImgFileName": "Addison-The-Goblin-Emperor.jpg",
+        "desc": "<cite>The Goblin Emperor</cite> is a stand-alone fantasy novel of political intrigue set in a fantasy, steampunk world. Maia, a half-goblin exiled prince is thrust back into royal politics when his father\u2019s steamship crashes killing the king and many of his heirs. Maia must learn to navigate the shifting alliances and political plots of the royal court while struggling to wield power he never thought he\u2019d hold. This is a story for anyone who ever imagined they were a secret prince or princess and would one day rule with grace and kindness.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Fantasy"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 475,
+            "heightDividedByWidth": 1.4937106918238994
+        }
     }
 }
