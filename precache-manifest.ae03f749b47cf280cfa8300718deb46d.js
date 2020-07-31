@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e81fa1a5c4c5b65764b994451f21121a",
+    "revision": "643857de7ff0d110ae444c6462ab1891",
     "url": "/index.html"
   },
   {
-    "revision": "a038297b9eb1fe31cb4e",
+    "revision": "2b23d2ac0d8f685ec1a4",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "e5d856b7bbacfaa942f1",
-    "url": "/static/js/2.51816b08.chunk.js"
+    "revision": "6088befc6c82a7f94633",
+    "url": "/static/js/2.ce25c041.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.51816b08.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ce25c041.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a038297b9eb1fe31cb4e",
-    "url": "/static/js/main.66ff94ac.chunk.js"
+    "revision": "2b23d2ac0d8f685ec1a4",
+    "url": "/static/js/main.e9660755.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
     "url": "/static/js/runtime-main.55f9a0ec.js"
+  },
+  {
+    "revision": "2092d406cf5a014f04b36f0bcb81ff23",
+    "url": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg"
   },
   {
     "revision": "221cd85820f31024ea01862f0ca60e1f",
@@ -104,6 +108,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Howey-Wool.c7f6dff1.jpg"
   },
   {
+    "revision": "784f7de67f5cc96082cd442dccbaea6e",
+    "url": "/static/media/Kendi-How-to-Be-an-Antiracist.784f7de6.jpg"
+  },
+  {
     "revision": "9003d29701db31f2a2bf89e373e61e5d",
     "url": "/static/media/Klein-Why-We're-Polarized.9003d297.jpg"
   },
@@ -182,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f9e65593212b5fb23a923681c298b13f",
     "url": "/static/media/Small-Home-After-Dark.f9e65593.jpg"
+  },
+  {
+    "revision": "c12006fdceeef3b287470da37e0b0060",
+    "url": "/static/media/Small-Stitches.c12006fd.jpg"
   },
   {
     "revision": "69c71dd63f9e3cad9d012e6fcd004d05",

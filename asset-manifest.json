@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.66ff94ac.chunk.js",
-    "main.js.map": "/static/js/main.66ff94ac.chunk.js.map",
+    "main.js": "/static/js/main.e9660755.chunk.js",
+    "main.js.map": "/static/js/main.e9660755.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.51816b08.chunk.js": "/static/js/2.51816b08.chunk.js",
-    "static/js/2.51816b08.chunk.js.map": "/static/js/2.51816b08.chunk.js.map",
+    "static/js/2.ce25c041.chunk.js": "/static/js/2.ce25c041.chunk.js",
+    "static/js/2.ce25c041.chunk.js.map": "/static/js/2.ce25c041.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.08597867f2841697f5a35553d6a222ac.js": "/precache-manifest.08597867f2841697f5a35553d6a222ac.js",
+    "precache-manifest.ae03f749b47cf280cfa8300718deb46d.js": "/precache-manifest.ae03f749b47cf280cfa8300718deb46d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.51816b08.chunk.js.LICENSE.txt": "/static/js/2.51816b08.chunk.js.LICENSE.txt",
+    "static/js/2.ce25c041.chunk.js.LICENSE.txt": "/static/js/2.ce25c041.chunk.js.LICENSE.txt",
+    "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
@@ -32,6 +33,7 @@
     "static/media/Greenberg-The-Encyclopedia-of-Early-Earth.jpg": "/static/media/Greenberg-The-Encyclopedia-of-Early-Earth.d8387485.jpg",
     "static/media/Harari-Homo-Deus.jpg": "/static/media/Harari-Homo-Deus.c8aeeb20.jpg",
     "static/media/Howey-Wool.jpg": "/static/media/Howey-Wool.c7f6dff1.jpg",
+    "static/media/Kendi-How-to-Be-an-Antiracist.jpg": "/static/media/Kendi-How-to-Be-an-Antiracist.784f7de6.jpg",
     "static/media/Klein-Why-We're-Polarized.jpg": "/static/media/Klein-Why-We're-Polarized.9003d297.jpg",
     "static/media/Larson-In-the-Garden-of-Beasts.jpg": "/static/media/Larson-In-the-Garden-of-Beasts.e953a800.jpg",
     "static/media/Lewis-Has-Anyone-Seen-the-President.jpg": "/static/media/Lewis-Has-Anyone-Seen-the-President.420b2518.jpg",
@@ -52,6 +54,7 @@
     "static/media/Sapkowski-The-Last-Wish.jpg": "/static/media/Sapkowski-The-Last-Wish.d8b6b9ad.jpg",
     "static/media/Schreier-Blood,-Sweat,-and-Pixels.jpg": "/static/media/Schreier-Blood,-Sweat,-and-Pixels.a273acca.jpg",
     "static/media/Small-Home-After-Dark.jpg": "/static/media/Small-Home-After-Dark.f9e65593.jpg",
+    "static/media/Small-Stitches.jpg": "/static/media/Small-Stitches.c12006fd.jpg",
     "static/media/Stevenson-Nimona.jpg": "/static/media/Stevenson-Nimona.69c71dd6.jpg",
     "static/media/Teckentrup-Where's-the-Baby.jpg": "/static/media/Teckentrup-Where's-the-Baby.b0cda5e6.jpg",
     "static/media/Towles-You-Have-Arrived-at-Your-Destination.jpg": "/static/media/Towles-You-Have-Arrived-at-Your-Destination.cb96c282.jpg",
@@ -63,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.51816b08.chunk.js",
+    "static/js/2.ce25c041.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.66ff94ac.chunk.js"
+    "static/js/main.e9660755.chunk.js"
   ]
 }
