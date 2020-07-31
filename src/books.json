@@ -1999,5 +1999,45 @@
             "height": 416,
             "heightDividedByWidth": 1.3081761006289307
         }
+    },
+    "51": {
+        "id": 51,
+        "title": "The Electric State",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Simon St\u00e5lenhag"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "144",
+        "pubYear": 2017,
+        "isbn10": "1501181416",
+        "isbn13": "9781501181412",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1501181416/",
+            "GoodReads": "https://www.goodreads.com/book/show/38642323-the-electric-state",
+            "IndieBound": "https://www.indiebound.org/book/9781501181412",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781501181412",
+            "Library": "https://www.worldcat.org/search?q=9781501181412"
+        },
+        "coverImgFileName": "St\u00e5lenhag-The-Electric-State.jpg",
+        "desc": "<cite> The Electric State </cite> is a set of incredible digital paintings collected into a dystopian story of consumerism. Set in the American Southwest and on the coast of California, Simon St\u00e5lenhag\u2019s third collection of paintings is his most beautiful and unlike anything you\u2019ve read or seen before.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy",
+            "Graphic Novel",
+            "Judge me by my cover"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 286,
+            "heightDividedByWidth": 0.89937106918239
+        }
     }
 }
