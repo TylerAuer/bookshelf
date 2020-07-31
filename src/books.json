@@ -1882,5 +1882,45 @@
             "height": 475,
             "heightDividedByWidth": 1.5472312703583062
         }
+    },
+    "48": {
+        "id": 48,
+        "title": "How to Be an Antiracist",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Ibram X. Kendi"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "305",
+        "pubYear": 2019,
+        "isbn10": "0525509283",
+        "isbn13": "9780525509288",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0525509283/",
+            "GoodReads": "https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist",
+            "IndieBound": "https://www.indiebound.org/book/9780525509288",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780525509288",
+            "Library": "https://www.worldcat.org/search?q=9780525509288"
+        },
+        "coverImgFileName": "Kendi-How-to-Be-an-Antiracist.jpg",
+        "desc": "Ibram X. Kendi\u2019s <cite> How to Be an Antiracist </cite> shatters the illusion of \u201ccolor blindness\u201d through which so many have learned to opt out of conversations about race. In its place, Kendi constructs a foundation for how to exist in systematically racist society. Definitions and clear explanations are interwoven with reflections on Kendi\u2019s own personal growth and realizations of biases. Powerful and accessible, this book is a must read for all.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Back in my day",
+            "Diversity, Equity, & Inclusion",
+            "Politics and Economics"
+        ],
+        "coverImgInfo": {
+            "width": 265,
+            "height": 400,
+            "heightDividedByWidth": 1.509433962264151
+        }
     }
 }
