@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "643857de7ff0d110ae444c6462ab1891",
+    "revision": "c05ac3c5364cc5266ae89301be8c3caa",
     "url": "/index.html"
   },
   {
-    "revision": "2b23d2ac0d8f685ec1a4",
+    "revision": "5c90e6375069641e099e",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "6088befc6c82a7f94633",
-    "url": "/static/js/2.ce25c041.chunk.js"
+    "revision": "058a1184578bdafc5fd6",
+    "url": "/static/js/2.428cfc4f.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.ce25c041.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.428cfc4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b23d2ac0d8f685ec1a4",
-    "url": "/static/js/main.e9660755.chunk.js"
+    "revision": "5c90e6375069641e099e",
+    "url": "/static/js/main.81f171d2.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -198,6 +198,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69c71dd63f9e3cad9d012e6fcd004d05",
     "url": "/static/media/Stevenson-Nimona.69c71dd6.jpg"
+  },
+  {
+    "revision": "54c6e945c7b3f6c71629c8af9021e262",
+    "url": "/static/media/Stålenhag-The-Electric-State.54c6e945.jpg"
   },
   {
     "revision": "b0cda5e672a3d39acd92921d9928782b",
