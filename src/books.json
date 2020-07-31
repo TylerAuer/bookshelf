@@ -1960,5 +1960,44 @@
             "height": 475,
             "heightDividedByWidth": 1.4937106918238994
         }
+    },
+    "50": {
+        "id": 50,
+        "title": "Stitches",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "David Small"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "329",
+        "pubYear": 2009,
+        "isbn10": "0393068579",
+        "isbn13": "9780393068573",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0393068579/",
+            "GoodReads": "https://www.goodreads.com/book/show/6407014-stitches",
+            "IndieBound": "https://www.indiebound.org/book/9780393068573",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780393068573",
+            "Library": "https://www.worldcat.org/search?q=9780393068573"
+        },
+        "coverImgFileName": "Small-Stitches.jpg",
+        "desc": "<cite>Stitches</cite> is the haunting and beautiful memoir of author/illustrator David Small\u2019s childhood. Small\u2019s father, a Detroit physician, tries to treat his son\u2019s respiratory disease with powerful doses of radiation causing his health to deteriorate further. With emotive, atmospheric art and moving writing, this is the book to share with those who think graphic novels are just comic books for adults.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Graphic Novel",
+            "Memoir"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 416,
+            "heightDividedByWidth": 1.3081761006289307
+        }
     }
 }
