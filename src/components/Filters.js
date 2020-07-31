@@ -35,7 +35,7 @@ const Filters = ({ books, shuffleBookOrder }) => {
     2015,
     'Fantasy',
     'Graphic Novel',
-    "Judge this book by it's great cover",
+    'Judge me by my cover',
     'Must Listen',
     'Nonfiction',
     'Picture Book',
