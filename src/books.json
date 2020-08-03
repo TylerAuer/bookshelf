@@ -2039,5 +2039,47 @@
             "height": 286,
             "heightDividedByWidth": 0.89937106918239
         }
+    },
+    "52": {
+        "id": 52,
+        "title": "Everybody Lies",
+        "subtitle": "Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Seth Stephens-Davidowitz",
+            "Steven Pinker"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "338",
+        "pubYear": 2017,
+        "isbn10": "0062390856",
+        "isbn13": "9780062390851",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0062390856/",
+            "GoodReads": "https://www.goodreads.com/book/show/28512671-everybody-lies?from_search=true&from_srp=true&qid=x5evQjTbrc&rank=1",
+            "IndieBound": "https://www.indiebound.org/book/9780062390851",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780062390851",
+            "Library": "https://www.worldcat.org/search?q=9780062390851"
+        },
+        "coverImgFileName": "Stephens-Davidowitz-Everybody-Lies.jpg",
+        "desc": "Much of what we know of people\u2019s opinions comes from surveys and polling where people tell others what they think. The titular problem, of course, is that <cite>Everybody Lies</cite>. Seth Stephens-Davidowitz works around this subterfuge by looking at semi-anonymized data sets. Using search engines like Google as a window, he is able to glean shocking patterns in people's politics, sexual preferences, and more. This book is a fascinating and often hilarious investigation for any curious data nerd.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fascinating",
+            "Funny",
+            "Nonfiction",
+            "Politics and Economics"
+        ],
+        "coverImgInfo": {
+            "width": 314,
+            "height": 475,
+            "heightDividedByWidth": 1.5127388535031847
+        }
     }
 }
