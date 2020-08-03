@@ -15,11 +15,8 @@ const About = ({ books }) => {
 
   // Books to add once I've reviewed them
   /*
-  - Everybody Lies
-  - Rendezvous with Rama
   - The Golden Compass
   - Blankets
-  - Stiches
   - iRobot
   */
   let idsOfFavoriteBooks = [
@@ -40,6 +37,7 @@ const About = ({ books }) => {
     43,
     50,
     51,
+    53,
   ];
   shuffleList(idsOfFavoriteBooks);
 

@@ -2081,5 +2081,47 @@
             "height": 475,
             "heightDividedByWidth": 1.5127388535031847
         }
+    },
+    "53": {
+        "id": 53,
+        "title": "Rendezvous with Rama",
+        "subtitle": "",
+        "seriesTitle": "Rama",
+        "seriesIndex": "1",
+        "seriesLength": "4",
+        "authors": [
+            "Arthur C. Clarke"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "245",
+        "pubYear": 1973,
+        "isbn10": "0553287893",
+        "isbn13": "9780553287899",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Rendezvous-Rama-Arthur-C-Clarke/dp/0358380227",
+            "GoodReads": "https://www.goodreads.com/book/show/774928.Rendezvous_with_Rama",
+            "IndieBound": "https://www.indiebound.org/book/9780553287899",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780553287899",
+            "Library": "https://www.worldcat.org/search?q=9780553287899"
+        },
+        "coverImgFileName": "Clarke-Rendezvous-with-Rama.jpg",
+        "desc": "<cite>Rendezvous with Rama</cite> is my favorite book from my favorite author in my favorite sub-genre. It's a thrilling mystery in which astronauts are sent to explore an odd cylindrical object that is found hurtling into the solar system. Clarke is a master of hard science fiction that is grounded in scientific principles and acutely aware of the flaws and humanity of every character. Clarke\u2019s books are all immensely re-readable and this is one I know I\u2019ll return to many times.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Big Ideas",
+            "Mystery",
+            "Series",
+            "Space",
+            "Where we're going we don't need roads"
+        ],
+        "coverImgInfo": {
+            "width": 289,
+            "height": 475,
+            "heightDividedByWidth": 1.643598615916955
+        }
     }
 }
