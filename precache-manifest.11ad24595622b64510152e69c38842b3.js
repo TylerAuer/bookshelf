@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98983c30ccbb7162e071ab41e3847a4c",
+    "revision": "d85a8ec7442c2f8241c6e3cc026395a4",
     "url": "/index.html"
   },
   {
-    "revision": "dd0b938606264f96e5ad",
+    "revision": "d7d2a6c864214e96111b",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "058a1184578bdafc5fd6",
-    "url": "/static/js/2.428cfc4f.chunk.js"
+    "revision": "b2c3bd2a0672cd4436e6",
+    "url": "/static/js/2.ec35313e.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.428cfc4f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ec35313e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd0b938606264f96e5ad",
-    "url": "/static/js/main.1d81953a.chunk.js"
+    "revision": "d7d2a6c864214e96111b",
+    "url": "/static/js/main.4649176c.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -194,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c12006fdceeef3b287470da37e0b0060",
     "url": "/static/media/Small-Stitches.c12006fd.jpg"
+  },
+  {
+    "revision": "51f381ef28840fd30d9a1cdbbd1d9b30",
+    "url": "/static/media/Stephens-Davidowitz-Everybody-Lies.51f381ef.jpg"
   },
   {
     "revision": "69c71dd63f9e3cad9d012e6fcd004d05",

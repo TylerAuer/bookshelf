@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.1d81953a.chunk.js",
-    "main.js.map": "/static/js/main.1d81953a.chunk.js.map",
+    "main.js": "/static/js/main.4649176c.chunk.js",
+    "main.js.map": "/static/js/main.4649176c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.428cfc4f.chunk.js": "/static/js/2.428cfc4f.chunk.js",
-    "static/js/2.428cfc4f.chunk.js.map": "/static/js/2.428cfc4f.chunk.js.map",
+    "static/js/2.ec35313e.chunk.js": "/static/js/2.ec35313e.chunk.js",
+    "static/js/2.ec35313e.chunk.js.map": "/static/js/2.ec35313e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5989372c351331edb394bcd4bcf00b1c.js": "/precache-manifest.5989372c351331edb394bcd4bcf00b1c.js",
+    "precache-manifest.11ad24595622b64510152e69c38842b3.js": "/precache-manifest.11ad24595622b64510152e69c38842b3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.428cfc4f.chunk.js.LICENSE.txt": "/static/js/2.428cfc4f.chunk.js.LICENSE.txt",
+    "static/js/2.ec35313e.chunk.js.LICENSE.txt": "/static/js/2.ec35313e.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -55,6 +55,7 @@
     "static/media/Schreier-Blood,-Sweat,-and-Pixels.jpg": "/static/media/Schreier-Blood,-Sweat,-and-Pixels.a273acca.jpg",
     "static/media/Small-Home-After-Dark.jpg": "/static/media/Small-Home-After-Dark.f9e65593.jpg",
     "static/media/Small-Stitches.jpg": "/static/media/Small-Stitches.c12006fd.jpg",
+    "static/media/Stephens-Davidowitz-Everybody-Lies.jpg": "/static/media/Stephens-Davidowitz-Everybody-Lies.51f381ef.jpg",
     "static/media/Stevenson-Nimona.jpg": "/static/media/Stevenson-Nimona.69c71dd6.jpg",
     "static/media/Stålenhag-The-Electric-State.jpg": "/static/media/Stålenhag-The-Electric-State.54c6e945.jpg",
     "static/media/Teckentrup-Where's-the-Baby.jpg": "/static/media/Teckentrup-Where's-the-Baby.b0cda5e6.jpg",
@@ -67,8 +68,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.428cfc4f.chunk.js",
+    "static/js/2.ec35313e.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.1d81953a.chunk.js"
+    "static/js/main.4649176c.chunk.js"
   ]
 }
