@@ -17,6 +17,7 @@ const About = ({ books }) => {
   /*
   - The Golden Compass
   - Blankets
+  - Dark Matter
   - iRobot
   */
   let idsOfFavoriteBooks = [

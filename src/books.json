@@ -2123,5 +2123,44 @@
             "height": 475,
             "heightDividedByWidth": 1.643598615916955
         }
+    },
+    "54": {
+        "id": 54,
+        "title": "Goodbye Summer, Hello Autumn",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Kenard Pak"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "32",
+        "pubYear": 2016,
+        "isbn10": "1627794158",
+        "isbn13": "9781627794152",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1627794158/",
+            "GoodReads": "https://www.goodreads.com/book/show/25774391-goodbye-summer-hello-autumn",
+            "IndieBound": "https://www.indiebound.org/book/9781627794152",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781627794152",
+            "Library": "https://www.worldcat.org/search?q=9781627794152"
+        },
+        "coverImgFileName": "Pak-Goodbye-Summer,-Hello-Autumn.jpg",
+        "desc": "The first in Kenard Park\u2019s series of changing seasons books, <cite>Goodbye Summer, Hello Autumn</cite> is a beautifully illustrated story of a girl observing the small, quaint changes that come as summer slides into fall. Park's books are extremely popular in my home where my oldest loves spotting all of the little details in the drawings.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Nature",
+            "Picture Book"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 247,
+            "heightDividedByWidth": 0.7767295597484277
+        }
     }
 }
