@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.4649176c.chunk.js",
-    "main.js.map": "/static/js/main.4649176c.chunk.js.map",
+    "main.js": "/static/js/main.e8998c5e.chunk.js",
+    "main.js.map": "/static/js/main.e8998c5e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.ec35313e.chunk.js": "/static/js/2.ec35313e.chunk.js",
-    "static/js/2.ec35313e.chunk.js.map": "/static/js/2.ec35313e.chunk.js.map",
+    "static/js/2.788ec891.chunk.js": "/static/js/2.788ec891.chunk.js",
+    "static/js/2.788ec891.chunk.js.map": "/static/js/2.788ec891.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.11ad24595622b64510152e69c38842b3.js": "/precache-manifest.11ad24595622b64510152e69c38842b3.js",
+    "precache-manifest.3e676aa5406f299684c7cb4403b347aa.js": "/precache-manifest.3e676aa5406f299684c7cb4403b347aa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.ec35313e.chunk.js.LICENSE.txt": "/static/js/2.ec35313e.chunk.js.LICENSE.txt",
+    "static/js/2.788ec891.chunk.js.LICENSE.txt": "/static/js/2.788ec891.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -38,11 +38,13 @@
     "static/media/Larson-In-the-Garden-of-Beasts.jpg": "/static/media/Larson-In-the-Garden-of-Beasts.e953a800.jpg",
     "static/media/Lewis-Has-Anyone-Seen-the-President.jpg": "/static/media/Lewis-Has-Anyone-Seen-the-President.420b2518.jpg",
     "static/media/Lore-I-Am-Number-Four.jpg": "/static/media/Lore-I-Am-Number-Four.0e0eb5e8.jpg",
+    "static/media/Love-Julián-Is-a-Mermaid.jpg": "/static/media/Love-Julián-Is-a-Mermaid.aff1b9e6.jpg",
     "static/media/Lutes-Berlin,-Vol.-1.jpg": "/static/media/Lutes-Berlin,-Vol.-1.cf42c468.jpg",
     "static/media/Martin-Fire-&-Blood.jpg": "/static/media/Martin-Fire-&-Blood.811aa3c8.jpg",
     "static/media/Moon-Daytripper.jpg": "/static/media/Moon-Daytripper.455e985c.jpg",
     "static/media/Morgenstern-The-Night-Circus.jpg": "/static/media/Morgenstern-The-Night-Circus.09701acb.jpg",
     "static/media/Noah-Born-a-Crime.jpg": "/static/media/Noah-Born-a-Crime.bd9cbfcd.jpg",
+    "static/media/Pak-Goodbye-Summer,-Hello-Autumn.jpg": "/static/media/Pak-Goodbye-Summer,-Hello-Autumn.e2dccb41.jpg",
     "static/media/Pfeiffer-Un-Trumping-America.jpg": "/static/media/Pfeiffer-Un-Trumping-America.50639943.jpg",
     "static/media/Philbrick-In-the-Heart-of-the-Sea.jpg": "/static/media/Philbrick-In-the-Heart-of-the-Sea.cbbd51ae.jpg",
     "static/media/Pollan-Caffeine.jpg": "/static/media/Pollan-Caffeine.b41cf383.jpg",
@@ -68,8 +70,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.ec35313e.chunk.js",
+    "static/js/2.788ec891.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.4649176c.chunk.js"
+    "static/js/main.e8998c5e.chunk.js"
   ]
 }

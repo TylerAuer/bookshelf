@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d85a8ec7442c2f8241c6e3cc026395a4",
+    "revision": "dc5b79a8dc970fc0e64c083ca88e29cc",
     "url": "/index.html"
   },
   {
-    "revision": "d7d2a6c864214e96111b",
+    "revision": "21bb2e3cfe2718d140ad",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "b2c3bd2a0672cd4436e6",
-    "url": "/static/js/2.ec35313e.chunk.js"
+    "revision": "4dea14e327eb1c69580c",
+    "url": "/static/js/2.788ec891.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.ec35313e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.788ec891.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7d2a6c864214e96111b",
-    "url": "/static/js/main.4649176c.chunk.js"
+    "revision": "21bb2e3cfe2718d140ad",
+    "url": "/static/js/main.e8998c5e.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -128,6 +128,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Lore-I-Am-Number-Four.0e0eb5e8.jpg"
   },
   {
+    "revision": "aff1b9e6ee32a9b9970b0d7437211387",
+    "url": "/static/media/Love-Julián-Is-a-Mermaid.aff1b9e6.jpg"
+  },
+  {
     "revision": "cf42c468fc678050b9c1916f144db206",
     "url": "/static/media/Lutes-Berlin,-Vol.-1.cf42c468.jpg"
   },
@@ -146,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd9cbfcd922bcabb9882b1b31f433976",
     "url": "/static/media/Noah-Born-a-Crime.bd9cbfcd.jpg"
+  },
+  {
+    "revision": "e2dccb41f6049e207c7d9b7ebc60a1dd",
+    "url": "/static/media/Pak-Goodbye-Summer,-Hello-Autumn.e2dccb41.jpg"
   },
   {
     "revision": "506399437cb4a54b47f043dd225d3583",
