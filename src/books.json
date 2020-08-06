@@ -2162,5 +2162,41 @@
             "height": 247,
             "heightDividedByWidth": 0.7767295597484277
         }
+    },
+    "55": {
+        "id": 55,
+        "title": "Juli\u00e1n Is a Mermaid",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Jessica    Love"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "80",
+        "pubYear": 2018,
+        "isbn10": "0763690457",
+        "isbn13": "9780763690458",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0763690457/",
+            "GoodReads": "https://www.goodreads.com/book/show/26532714-juli-n-is-a-mermaid",
+            "IndieBound": "https://www.indiebound.org/book/9780763690458",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780763690458",
+            "Library": "https://www.worldcat.org/search?q=9780763690458"
+        },
+        "coverImgFileName": "Love-Juli\u00e1n-Is-a-Mermaid.jpg",
+        "desc": "When Juli\u00e1n observes three women dressed up in costume on the train ride home, he becomes determined to transform himself into a mermaid. Dragging down curtains and pulling plants out of their pot to form a costume doesn\u2019t make his abela happy, but her response is warm and understanding. A touching story with beautiful pastel washes, <cite>Juli\u00e1n Is a Mermaid</cite> is a wonderful, modern picture book.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 294,
+            "heightDividedByWidth": 0.9245283018867925
+        }
     }
 }
