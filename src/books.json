@@ -2192,7 +2192,9 @@
         "ratings": {
             "Tyler": 4
         },
-        "tags": [],
+        "tags": [
+            "Picture Book"
+        ],
         "coverImgInfo": {
             "width": 318,
             "height": 294,
