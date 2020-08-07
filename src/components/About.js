@@ -13,13 +13,6 @@ const About = ({ books }) => {
     config: config.molasses,
   });
 
-  // Books to add once I've reviewed them
-  /*
-  - The Golden Compass
-  - Blankets
-  - Dark Matter
-  - iRobot
-  */
   let idsOfFavoriteBooks = [
     9,
     18,
