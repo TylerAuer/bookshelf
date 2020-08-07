@@ -2200,5 +2200,84 @@
             "height": 294,
             "heightDividedByWidth": 0.9245283018867925
         }
+    },
+    "56": {
+        "id": 56,
+        "title": "Why We Sleep",
+        "subtitle": "Unlocking the Power of Sleep and Dreams",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Matthew Walker"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "368",
+        "pubYear": 2017,
+        "isbn10": "",
+        "isbn13": "",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/",
+            "GoodReads": "https://www.goodreads.com/book/show/34466963-why-we-sleep",
+            "IndieBound": "https://www.indiebound.org/book/",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=",
+            "Library": "https://www.worldcat.org/search?q="
+        },
+        "coverImgFileName": "Walker-Why-We-Sleep.jpg",
+        "desc": "Matthew Walker has written a thorough and convincing argument for the importance of sleep to our health and happiness. As a sleep scientist from UC Berkeley, Walker is able to articulate the crucial role sleep plays in the maintenance of our bodies and mind. Of particular note are the surprisingly powerful effects of limited sleep -- on par with drunkenness -- and the simple but effective ways one can change their habits and improve the quality of their sleep. <cite>Why We Sleep</cite> dragged a bit but was still powerful enough to change my daily habits in a way that stuck.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 3
+        },
+        "tags": [
+            "Fascinating",
+            "It's all in your head",
+            "Nonfiction",
+            "Science"
+        ],
+        "coverImgInfo": {
+            "width": 312,
+            "height": 475,
+            "heightDividedByWidth": 1.5224358974358974
+        }
+    },
+    "57": {
+        "id": 57,
+        "title": "World War Z",
+        "subtitle": "An Oral History of the Zombie War",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Max Brooks"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "342",
+        "pubYear": 2006,
+        "isbn10": "0307346609",
+        "isbn13": "9780307346605",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0307346609/",
+            "GoodReads": "https://www.goodreads.com/book/show/8908.World_War_Z",
+            "IndieBound": "https://www.indiebound.org/book/9780307346605",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780307346605",
+            "Library": "https://www.worldcat.org/search?q=9780307346605"
+        },
+        "coverImgFileName": "Brooks-World-War-Z.jpg",
+        "desc": "Zombies, of course, aren\u2019t a new idea. Countless movies and books, many great, already populate this subgenre. Yet, Brooks\u2019 <cite> World War Z </cite> still manages to feel fresh and inventive. Some of that comes from the format: an oral history from a wide range of characters spanning the globe. But, there\u2019s also Brooks\u2019 talent for grounding fantastical events in the realities of human politics and emotions. The interviews skip across the globe from nuclear submarines in the Pacific to Antarctica to the Iranian-Pakistani border, and each character is engaging if not a tad kitsch on occasion. The magic of this book is the world Brooks constructs on top of modern geopolitics making it one I will read again and again.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 469,
+            "heightDividedByWidth": 1.4748427672955975
+        }
     }
 }
