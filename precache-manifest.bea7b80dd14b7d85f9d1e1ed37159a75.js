@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc5b79a8dc970fc0e64c083ca88e29cc",
+    "revision": "99fc3e88fa6260197c0b2e6eda5757d3",
     "url": "/index.html"
   },
   {
-    "revision": "21bb2e3cfe2718d140ad",
+    "revision": "984bc2bd105333876581",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "4dea14e327eb1c69580c",
-    "url": "/static/js/2.788ec891.chunk.js"
+    "revision": "e7afdf191bad3d3f4753",
+    "url": "/static/js/2.07312cc4.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.788ec891.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.07312cc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21bb2e3cfe2718d140ad",
-    "url": "/static/js/main.e8998c5e.chunk.js"
+    "revision": "984bc2bd105333876581",
+    "url": "/static/js/main.6f0821ee.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da6f77ece633b54e0747eb6f8995605b",
     "url": "/static/media/Becker-Quest.da6f77ec.jpg"
+  },
+  {
+    "revision": "33d1f15d9558a7e1f4b176f364f2fef2",
+    "url": "/static/media/Brooks-World-War-Z.33d1f15d.jpg"
   },
   {
     "revision": "f57edcb435036692273972a4fd6ead8b",
@@ -222,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb96c28207d207c590ffc0e94265429d",
     "url": "/static/media/Towles-You-Have-Arrived-at-Your-Destination.cb96c282.jpg"
+  },
+  {
+    "revision": "163779c8ea44406e3b3f223dd1166a42",
+    "url": "/static/media/Walker-Why-We-Sleep.163779c8.jpg"
   },
   {
     "revision": "19732f41a4b85ea2fbc3fccbc8a9c297",

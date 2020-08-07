@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.e8998c5e.chunk.js",
-    "main.js.map": "/static/js/main.e8998c5e.chunk.js.map",
+    "main.js": "/static/js/main.6f0821ee.chunk.js",
+    "main.js.map": "/static/js/main.6f0821ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.788ec891.chunk.js": "/static/js/2.788ec891.chunk.js",
-    "static/js/2.788ec891.chunk.js.map": "/static/js/2.788ec891.chunk.js.map",
+    "static/js/2.07312cc4.chunk.js": "/static/js/2.07312cc4.chunk.js",
+    "static/js/2.07312cc4.chunk.js.map": "/static/js/2.07312cc4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e676aa5406f299684c7cb4403b347aa.js": "/precache-manifest.3e676aa5406f299684c7cb4403b347aa.js",
+    "precache-manifest.bea7b80dd14b7d85f9d1e1ed37159a75.js": "/precache-manifest.bea7b80dd14b7d85f9d1e1ed37159a75.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.788ec891.chunk.js.LICENSE.txt": "/static/js/2.788ec891.chunk.js.LICENSE.txt",
+    "static/js/2.07312cc4.chunk.js.LICENSE.txt": "/static/js/2.07312cc4.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
     "static/media/Asimov-The-Gods-Themselves.jpg": "/static/media/Asimov-The-Gods-Themselves.c1252915.jpg",
     "static/media/Banaji-Blindspot.jpg": "/static/media/Banaji-Blindspot.87457053.jpg",
     "static/media/Becker-Quest.jpg": "/static/media/Becker-Quest.da6f77ec.jpg",
+    "static/media/Brooks-World-War-Z.jpg": "/static/media/Brooks-World-War-Z.33d1f15d.jpg",
     "static/media/Chiang-Exhalation.jpg": "/static/media/Chiang-Exhalation.f57edcb4.jpg",
     "static/media/Chiang-Stories-of-Your-Life-and-Others.jpg": "/static/media/Chiang-Stories-of-Your-Life-and-Others.e4349ed6.jpg",
     "static/media/Cixin-The-Three-Body-Problem.jpg": "/static/media/Cixin-The-Three-Body-Problem.392300b7.jpg",
@@ -62,6 +63,7 @@
     "static/media/Stålenhag-The-Electric-State.jpg": "/static/media/Stålenhag-The-Electric-State.54c6e945.jpg",
     "static/media/Teckentrup-Where's-the-Baby.jpg": "/static/media/Teckentrup-Where's-the-Baby.b0cda5e6.jpg",
     "static/media/Towles-You-Have-Arrived-at-Your-Destination.jpg": "/static/media/Towles-You-Have-Arrived-at-Your-Destination.cb96c282.jpg",
+    "static/media/Walker-Why-We-Sleep.jpg": "/static/media/Walker-Why-We-Sleep.163779c8.jpg",
     "static/media/Weir-The-Martian.jpg": "/static/media/Weir-The-Martian.19732f41.jpg",
     "static/media/Wells-All-Systems-Red.jpg": "/static/media/Wells-All-Systems-Red.d00ff1ce.jpg",
     "static/media/Wells-Artificial-Condition.jpg": "/static/media/Wells-Artificial-Condition.9803c800.jpg",
@@ -70,8 +72,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.788ec891.chunk.js",
+    "static/js/2.07312cc4.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.e8998c5e.chunk.js"
+    "static/js/main.6f0821ee.chunk.js"
   ]
 }
