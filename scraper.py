@@ -12,14 +12,14 @@ from PIL import Image
 # ... most popular cover
 # ... ISBN numbers!
 bookUrl = ""
+# Amazon doesn't use ISBN so can't generate automatically
+amazonUrl = ""
 
 # list of lists with str:readers and int:ratings
 readersAndRating = {"Tyler": 5}
 descAuthor = "Tyler"
 # Can include HTML tags like <b> or <cite>
 desc = ""
-# Amazon doesn't use ISBN so can't generate automatically
-amazonUrl = ""
 seriesLength = None  # Use string ("4") or None if not series
 
 #########
@@ -51,7 +51,6 @@ tags = []
 # tags.append("Out at Sea")
 # tags.append("Picture Book")
 # tags.append("Politics and Economics")
-# tags.append("Puzzle")
 # tags.append("Quirky")
 # tags.append("Science")
 # tags.append("Series")
