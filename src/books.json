@@ -2279,5 +2279,46 @@
             "height": 469,
             "heightDividedByWidth": 1.4748427672955975
         }
+    },
+    "58": {
+        "id": 58,
+        "title": "Algorithms to Live By",
+        "subtitle": "The Computer Science of Human Decisions",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Brian Christian",
+            "Tom  Griffiths"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "368",
+        "pubYear": 2016,
+        "isbn10": "1627790365",
+        "isbn13": "9781627790369",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1627790365/",
+            "GoodReads": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
+            "IndieBound": "https://www.indiebound.org/book/9781627790369",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781627790369",
+            "Library": "https://www.worldcat.org/search?q=9781627790369"
+        },
+        "coverImgFileName": "Christian-Algorithms-to-Live-By.jpg",
+        "desc": "Brian Christian and Tom Griffiths have assembled a computer scientist\u2019s version of <cite>Freakonomics</cite> in their sciency and sort-of-self-help book: <cite>Algorithms to Live By</cite>. The authors manage to uncover connections between algorithms and psychology that are surprisingly insightful and engaging. While there\u2019s something here for everyone, the mathematically and technologically inclined are going to enjoy this one the most.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "It's all in your head",
+            "Nonfiction",
+            "Science"
+        ],
+        "coverImgInfo": {
+            "width": 265,
+            "height": 400,
+            "heightDividedByWidth": 1.509433962264151
+        }
     }
 }
