@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99fc3e88fa6260197c0b2e6eda5757d3",
+    "revision": "172f67ed312acdd04115889f72aa3c91",
     "url": "/index.html"
   },
   {
-    "revision": "984bc2bd105333876581",
+    "revision": "f1b3ec69b89341ff5e21",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "e7afdf191bad3d3f4753",
-    "url": "/static/js/2.07312cc4.chunk.js"
+    "revision": "9c7ad1ef6436322cb2c5",
+    "url": "/static/js/2.f567d5dd.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.07312cc4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f567d5dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "984bc2bd105333876581",
-    "url": "/static/js/main.6f0821ee.chunk.js"
+    "revision": "f1b3ec69b89341ff5e21",
+    "url": "/static/js/main.c87341aa.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4349ed60887ae67c50f777a1b11b9ee",
     "url": "/static/media/Chiang-Stories-of-Your-Life-and-Others.e4349ed6.jpg"
+  },
+  {
+    "revision": "7e8c6d20c3f9062a66a6992e28f4c917",
+    "url": "/static/media/Christian-Algorithms-to-Live-By.7e8c6d20.jpg"
   },
   {
     "revision": "392300b796889af17091bd7051767df9",
