@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.c87341aa.chunk.js",
-    "main.js.map": "/static/js/main.c87341aa.chunk.js.map",
+    "main.js": "/static/js/main.55ac5192.chunk.js",
+    "main.js.map": "/static/js/main.55ac5192.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.f567d5dd.chunk.js": "/static/js/2.f567d5dd.chunk.js",
-    "static/js/2.f567d5dd.chunk.js.map": "/static/js/2.f567d5dd.chunk.js.map",
+    "static/js/2.13db8df7.chunk.js": "/static/js/2.13db8df7.chunk.js",
+    "static/js/2.13db8df7.chunk.js.map": "/static/js/2.13db8df7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a832b0e1d4fa23c1b3b0847ad53ab22a.js": "/precache-manifest.a832b0e1d4fa23c1b3b0847ad53ab22a.js",
+    "precache-manifest.a59554658595b1f1ffc5891fc7496364.js": "/precache-manifest.a59554658595b1f1ffc5891fc7496364.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.f567d5dd.chunk.js.LICENSE.txt": "/static/js/2.f567d5dd.chunk.js.LICENSE.txt",
+    "static/js/2.13db8df7.chunk.js.LICENSE.txt": "/static/js/2.13db8df7.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -23,6 +23,7 @@
     "static/media/Chiang-Stories-of-Your-Life-and-Others.jpg": "/static/media/Chiang-Stories-of-Your-Life-and-Others.e4349ed6.jpg",
     "static/media/Christian-Algorithms-to-Live-By.jpg": "/static/media/Christian-Algorithms-to-Live-By.7e8c6d20.jpg",
     "static/media/Cixin-The-Three-Body-Problem.jpg": "/static/media/Cixin-The-Three-Body-Problem.392300b7.jpg",
+    "static/media/Crouch-Dark-Matter.jpg": "/static/media/Crouch-Dark-Matter.a5709939.jpg",
     "static/media/Crouch-Recursion.jpg": "/static/media/Crouch-Recursion.b30bf316.jpg",
     "static/media/Davies-The-Storm-Whale.jpg": "/static/media/Davies-The-Storm-Whale.8e6ac697.jpg",
     "static/media/Doerrfeld-The-Rabbit-Listened.jpg": "/static/media/Doerrfeld-The-Rabbit-Listened.440afdcf.jpg",
@@ -73,8 +74,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.f567d5dd.chunk.js",
+    "static/js/2.13db8df7.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.c87341aa.chunk.js"
+    "static/js/main.55ac5192.chunk.js"
   ]
 }
