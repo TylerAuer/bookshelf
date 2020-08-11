@@ -2320,5 +2320,45 @@
             "height": 400,
             "heightDividedByWidth": 1.509433962264151
         }
+    },
+    "59": {
+        "id": 59,
+        "title": "Dark Matter",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Blake Crouch"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "342",
+        "pubYear": 2016,
+        "isbn10": "1101904224",
+        "isbn13": "9781101904220",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1101904224/",
+            "GoodReads": "https://www.goodreads.com/book/show/27833670-dark-matter",
+            "IndieBound": "https://www.indiebound.org/book/9781101904220",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781101904220",
+            "Library": "https://www.worldcat.org/search?q=9781101904220"
+        },
+        "coverImgFileName": "Crouch-Dark-Matter.jpg",
+        "desc": "<cite>Dark Matter</cite> is a fast-paced science fiction thriller about Jason Dessen, a college professor who is abducted while walking home one chilly Chicago evening. But Dessen realizes this isn\u2019t a typical kidnapping when, after being knocked unconscious, he is greeted by scientists welcoming him back to a life that only vaguely resembles his own. As Dessen tries to find a way back to his family, his experiences make him question his understanding of fate and the verisimilitude of his world.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Judge me by my cover",
+            "Thriller",
+            "Where we're going we don't need roads"
+        ],
+        "coverImgInfo": {
+            "width": 313,
+            "height": 475,
+            "heightDividedByWidth": 1.5175718849840256
+        }
     }
 }
