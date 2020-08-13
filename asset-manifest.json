@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.55ac5192.chunk.js",
-    "main.js.map": "/static/js/main.55ac5192.chunk.js.map",
+    "main.js": "/static/js/main.37972ac1.chunk.js",
+    "main.js.map": "/static/js/main.37972ac1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.13db8df7.chunk.js": "/static/js/2.13db8df7.chunk.js",
-    "static/js/2.13db8df7.chunk.js.map": "/static/js/2.13db8df7.chunk.js.map",
+    "static/js/2.cff5d823.chunk.js": "/static/js/2.cff5d823.chunk.js",
+    "static/js/2.cff5d823.chunk.js.map": "/static/js/2.cff5d823.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a59554658595b1f1ffc5891fc7496364.js": "/precache-manifest.a59554658595b1f1ffc5891fc7496364.js",
+    "precache-manifest.b1acdcdddb93427e62c034101ba5be9d.js": "/precache-manifest.b1acdcdddb93427e62c034101ba5be9d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.13db8df7.chunk.js.LICENSE.txt": "/static/js/2.13db8df7.chunk.js.LICENSE.txt",
+    "static/js/2.cff5d823.chunk.js.LICENSE.txt": "/static/js/2.cff5d823.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -27,6 +27,7 @@
     "static/media/Crouch-Recursion.jpg": "/static/media/Crouch-Recursion.b30bf316.jpg",
     "static/media/Davies-The-Storm-Whale.jpg": "/static/media/Davies-The-Storm-Whale.8e6ac697.jpg",
     "static/media/Doerrfeld-The-Rabbit-Listened.jpg": "/static/media/Doerrfeld-The-Rabbit-Listened.440afdcf.jpg",
+    "static/media/Ellenberg-How-Not-to-Be-Wrong.jpg": "/static/media/Ellenberg-How-Not-to-Be-Wrong.1a75d971.jpg",
     "static/media/Fey-Bossypants.jpg": "/static/media/Fey-Bossypants.79829e55.jpg",
     "static/media/Frank-Light-of-the-Stars.jpg": "/static/media/Frank-Light-of-the-Stars.9a58c0d5.jpg",
     "static/media/Gailey-Magic-for-Liars.jpg": "/static/media/Gailey-Magic-for-Liars.72fd8b75.jpg",
@@ -74,8 +75,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.13db8df7.chunk.js",
+    "static/js/2.cff5d823.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.55ac5192.chunk.js"
+    "static/js/main.37972ac1.chunk.js"
   ]
 }

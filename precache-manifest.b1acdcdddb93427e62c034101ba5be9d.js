@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9154a6658ccf36d86f8686a5e968d2d",
+    "revision": "eb645967aa021118699afb84445f91bf",
     "url": "/index.html"
   },
   {
-    "revision": "31a76f1103749c731f47",
+    "revision": "ca48e6e185eb453d27d0",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "66f6fe919cfd9339da8c",
-    "url": "/static/js/2.13db8df7.chunk.js"
+    "revision": "fc5f3923438d690e4780",
+    "url": "/static/js/2.cff5d823.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.13db8df7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cff5d823.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31a76f1103749c731f47",
-    "url": "/static/js/main.55ac5192.chunk.js"
+    "revision": "ca48e6e185eb453d27d0",
+    "url": "/static/js/main.37972ac1.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "440afdcf586a1463091e5038042949c0",
     "url": "/static/media/Doerrfeld-The-Rabbit-Listened.440afdcf.jpg"
+  },
+  {
+    "revision": "1a75d9711c334509c5cb8267e70e6f3c",
+    "url": "/static/media/Ellenberg-How-Not-to-Be-Wrong.1a75d971.jpg"
   },
   {
     "revision": "79829e55ec296be02bd4ab41fd8bf5d7",
