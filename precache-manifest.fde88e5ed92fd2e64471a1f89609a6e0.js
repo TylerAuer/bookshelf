@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb645967aa021118699afb84445f91bf",
+    "revision": "4775b706313eb816ea7dd1bc657bf53e",
     "url": "/index.html"
   },
   {
-    "revision": "ca48e6e185eb453d27d0",
+    "revision": "1cf1b000090b3a0f3d09",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "fc5f3923438d690e4780",
-    "url": "/static/js/2.cff5d823.chunk.js"
+    "revision": "2bc73274555d73011dbf",
+    "url": "/static/js/2.c703554c.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.cff5d823.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c703554c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca48e6e185eb453d27d0",
-    "url": "/static/js/main.37972ac1.chunk.js"
+    "revision": "1cf1b000090b3a0f3d09",
+    "url": "/static/js/main.79c1d18d.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -202,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93118c5df45424fc14783136bf1a8334",
     "url": "/static/media/Rothfuss-The-Name-of-the-Wind.93118c5d.jpg"
+  },
+  {
+    "revision": "0152b21e3a3674b32a70430eac2f5189",
+    "url": "/static/media/Sanderson-The-Final-Empire.0152b21e.jpg"
   },
   {
     "revision": "d8b6b9add2614d87c58a03e38d4c6a2b",

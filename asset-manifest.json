@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.37972ac1.chunk.js",
-    "main.js.map": "/static/js/main.37972ac1.chunk.js.map",
+    "main.js": "/static/js/main.79c1d18d.chunk.js",
+    "main.js.map": "/static/js/main.79c1d18d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.cff5d823.chunk.js": "/static/js/2.cff5d823.chunk.js",
-    "static/js/2.cff5d823.chunk.js.map": "/static/js/2.cff5d823.chunk.js.map",
+    "static/js/2.c703554c.chunk.js": "/static/js/2.c703554c.chunk.js",
+    "static/js/2.c703554c.chunk.js.map": "/static/js/2.c703554c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b1acdcdddb93427e62c034101ba5be9d.js": "/precache-manifest.b1acdcdddb93427e62c034101ba5be9d.js",
+    "precache-manifest.fde88e5ed92fd2e64471a1f89609a6e0.js": "/precache-manifest.fde88e5ed92fd2e64471a1f89609a6e0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.cff5d823.chunk.js.LICENSE.txt": "/static/js/2.cff5d823.chunk.js.LICENSE.txt",
+    "static/js/2.c703554c.chunk.js.LICENSE.txt": "/static/js/2.c703554c.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -57,6 +57,7 @@
     "static/media/Rhodes-The-World-As-It-Is.jpg": "/static/media/Rhodes-The-World-As-It-Is.8f9e6398.jpg",
     "static/media/Roberts-Limits-of-the-Known.jpg": "/static/media/Roberts-Limits-of-the-Known.5ad28814.jpg",
     "static/media/Rothfuss-The-Name-of-the-Wind.jpg": "/static/media/Rothfuss-The-Name-of-the-Wind.93118c5d.jpg",
+    "static/media/Sanderson-The-Final-Empire.jpg": "/static/media/Sanderson-The-Final-Empire.0152b21e.jpg",
     "static/media/Sapkowski-The-Last-Wish.jpg": "/static/media/Sapkowski-The-Last-Wish.d8b6b9ad.jpg",
     "static/media/Schreier-Blood,-Sweat,-and-Pixels.jpg": "/static/media/Schreier-Blood,-Sweat,-and-Pixels.a273acca.jpg",
     "static/media/Small-Home-After-Dark.jpg": "/static/media/Small-Home-After-Dark.f9e65593.jpg",
@@ -75,8 +76,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.cff5d823.chunk.js",
+    "static/js/2.c703554c.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.37972ac1.chunk.js"
+    "static/js/main.79c1d18d.chunk.js"
   ]
 }
