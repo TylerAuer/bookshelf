@@ -2399,5 +2399,45 @@
             "height": 475,
             "heightDividedByWidth": 1.5127388535031847
         }
+    },
+    "61": {
+        "id": 61,
+        "title": "The Final Empire",
+        "subtitle": "",
+        "seriesTitle": "Mistborn",
+        "seriesIndex": "1",
+        "seriesLength": 6,
+        "authors": [
+            "Brandon Sanderson"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "541",
+        "pubYear": 2006,
+        "isbn10": "076531178X",
+        "isbn13": "9780765311788",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/076531178X/",
+            "GoodReads": "https://www.goodreads.com/book/show/68428.The_Final_Empire",
+            "IndieBound": "https://www.indiebound.org/book/9780765311788",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780765311788",
+            "Library": "https://www.worldcat.org/search?q=9780765311788"
+        },
+        "coverImgFileName": "Sanderson-The-Final-Empire.jpg",
+        "desc": "The first book in the expansive (and still growing) Cosmere Universe, <cite>The Final Empire</cite> launches the <cite>Mistborn</cite> trilogy which follows Vin, a street urchin who discovers she has magical abilities. <cite>Mistborn</cite> is known for its exceptionally designed magic system where Allomancers consume small amounts of metals which they can later \u201cburn\u201d to gain temporary abilities. The mix of powers provided by burning metals leads to incredibly inventive fight scenes and creative abilities. While often marked as for young adults, these books are gritty enough for adults to enjoy as well.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fantasy",
+            "Looooong",
+            "Young Adult"
+        ],
+        "coverImgInfo": {
+            "width": 312,
+            "height": 475,
+            "heightDividedByWidth": 1.5224358974358974
+        }
     }
 }
