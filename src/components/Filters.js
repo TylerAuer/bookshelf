@@ -39,6 +39,7 @@ const Filters = ({ books, shuffleBookOrder }) => {
     'Must Listen',
     'Nonfiction',
     'Picture Book',
+    'Math & Science',
     "Where we're going we don't need roads",
   ];
 

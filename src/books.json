@@ -630,7 +630,7 @@
             "Tyler": 2
         },
         "tags": [
-            "Science",
+            "Math & Science",
             "Space",
             "Big Ideas"
         ],
@@ -1314,7 +1314,7 @@
             "Back in my day",
             "Must Listen",
             "Nonfiction",
-            "Science",
+            "Math & Science",
             "Space"
         ],
         "coverImgInfo": {
@@ -1875,7 +1875,7 @@
             "Judge me by my cover",
             "Back in my day",
             "Nonfiction",
-            "Science"
+            "Math & Science"
         ],
         "coverImgInfo": {
             "width": 307,
@@ -2234,7 +2234,7 @@
             "Fascinating",
             "It's all in your head",
             "Nonfiction",
-            "Science"
+            "Math & Science"
         ],
         "coverImgInfo": {
             "width": 312,
@@ -2313,7 +2313,7 @@
         "tags": [
             "It's all in your head",
             "Nonfiction",
-            "Science"
+            "Math & Science"
         ],
         "coverImgInfo": {
             "width": 265,
@@ -2359,6 +2359,45 @@
             "width": 313,
             "height": 475,
             "heightDividedByWidth": 1.5175718849840256
+        }
+    },
+    "60": {
+        "id": 60,
+        "title": "How Not to Be Wrong",
+        "subtitle": "The Power of Mathematical Thinking",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Jordan Ellenberg"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "480",
+        "pubYear": 2014,
+        "isbn10": "1594205221",
+        "isbn13": "9781594205224",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1594205221/",
+            "GoodReads": "https://www.goodreads.com/book/show/18693884-how-not-to-be-wrong",
+            "IndieBound": "https://www.indiebound.org/book/9781594205224",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781594205224",
+            "Library": "https://www.worldcat.org/search?q=9781594205224"
+        },
+        "coverImgFileName": "Ellenberg-How-Not-to-Be-Wrong.jpg",
+        "desc": "\u201cMathematics is the extension of common sense by other means\u201d. That\u2019s the foundation of Jordan Ellenberg\u2019s engaging tour of the ways in which mathematics can help us understand our world. Focusing not just on how math helps us but also how it is often misused and misunderstood, Ellenberg looks at airports, obesity studies, bullet holes in airplanes, Facebook, lotteries, and more. If you never loved math but are curious about what you might have missed, this isn\u2019t a bad place to begin.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Math & Science",
+            "Nonfiction"
+        ],
+        "coverImgInfo": {
+            "width": 314,
+            "height": 475,
+            "heightDividedByWidth": 1.5127388535031847
         }
     }
 }
