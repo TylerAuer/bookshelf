@@ -2484,5 +2484,44 @@
             "height": 412,
             "heightDividedByWidth": 1.2955974842767295
         }
+    },
+    "63": {
+        "id": 63,
+        "title": "Devolution",
+        "subtitle": "A Firsthand Account of the Rainier Sasquatch Massacre",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Max Brooks"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "286",
+        "pubYear": 2020,
+        "isbn10": "1984826786",
+        "isbn13": "9781984826787",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/1984826786/",
+            "GoodReads": "https://www.goodreads.com/book/show/52454426-devolution",
+            "IndieBound": "https://www.indiebound.org/book/9781984826787",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9781984826787",
+            "Library": "https://www.worldcat.org/search?q=9781984826787"
+        },
+        "coverImgFileName": "Brooks-Devolution.jpg",
+        "desc": "After Mount Rainier erupts, an isolated green commune must survive on their own in the mountains of the Pacific Northwest. But just as they come together, they discover something terrible is hunting them from the surrounding forest. Told through the diaries of Kate Holland, <cite>Devolution</cite> is a fantasy-horror story in which humans realize that bigfoot really does exist.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Fantasy",
+            "Thriller"
+        ],
+        "coverImgInfo": {
+            "width": 265,
+            "height": 400,
+            "heightDividedByWidth": 1.509433962264151
+        }
     }
 }
