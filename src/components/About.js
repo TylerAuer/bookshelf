@@ -32,6 +32,7 @@ const About = ({ books }) => {
     51,
     53,
     57,
+    62,
   ];
   shuffleList(idsOfFavoriteBooks);
 

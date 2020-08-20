@@ -2439,5 +2439,50 @@
             "height": 475,
             "heightDividedByWidth": 1.5224358974358974
         }
+    },
+    "62": {
+        "id": 62,
+        "title": "What If?",
+        "subtitle": "Serious Scientific Answers to Absurd Hypothetical Questions",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Randall Munroe"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "303",
+        "pubYear": 2014,
+        "isbn10": "0544272994",
+        "isbn13": "9780544272996",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0544272994",
+            "GoodReads": "https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-to-absurd-hypothetical-questions",
+            "IndieBound": "https://www.indiebound.org/book/9780544272996",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780544272996",
+            "Library": "https://www.worldcat.org/search?q=9780544272996"
+        },
+        "coverImgFileName": "Munroe-What-If-Serious-Scientific-Answers-to-Absurd-Hypothetical-Questions.jpg",
+        "desc": "From Randall Munroe, author of the hugely popular webcomic <a href=`https://xkcd.com/`>xkcd</a>, comes <cite>What If?</cite>, a book full of very serious answers to very silly questions. Using his NASA engineering background, Munroe dives deep into the science behind important questions like: What if everyone had only one soulmate?, What would happen if a drain opened up at the bottom of the deepest part of the ocean?, and Can you build a jetpack out of machine guns? Munroe has a gift for taking an absurd question to its logical extreme, often resulting in something big blowing up or near extinction for the human race.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Fascinating",
+            "Funny",
+            "Judge me by my cover",
+            "Math & Science",
+            "Nature",
+            "Nonfiction",
+            "Quirky",
+            "Space"
+        ],
+        "coverImgInfo": {
+            "width": 318,
+            "height": 412,
+            "heightDividedByWidth": 1.2955974842767295
+        }
     }
 }
