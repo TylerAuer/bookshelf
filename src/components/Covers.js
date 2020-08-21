@@ -110,7 +110,7 @@ function Covers({ activeBooks }) {
       }),
       leave: { opacity: 0 },
       config: { mass: 5, tension: 500, friction: 100 },
-      trail: 15,
+      trail: 10,
       unique: true,
     }
   );
