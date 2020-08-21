@@ -6,8 +6,6 @@ const ShowHideFiltersBtn = (props) => {
   const location = useLocation();
   const queryObj = useQueryObject();
 
-  console.log(queryObj);
-
   const btnText = queryObj && queryObj.allFilters ? 'Show Fewer' : 'Show More';
   let newQueryString;
 
