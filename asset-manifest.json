@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.2ff8d692.chunk.js",
-    "main.js.map": "/static/js/main.2ff8d692.chunk.js.map",
+    "main.js": "/static/js/main.4d8a46ec.chunk.js",
+    "main.js.map": "/static/js/main.4d8a46ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.ddea5405.chunk.js": "/static/js/2.ddea5405.chunk.js",
-    "static/js/2.ddea5405.chunk.js.map": "/static/js/2.ddea5405.chunk.js.map",
+    "static/js/2.da29f472.chunk.js": "/static/js/2.da29f472.chunk.js",
+    "static/js/2.da29f472.chunk.js.map": "/static/js/2.da29f472.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.828d8c45b6459513345ddb019539b737.js": "/precache-manifest.828d8c45b6459513345ddb019539b737.js",
+    "precache-manifest.20c85250722365f476da1212035f3791.js": "/precache-manifest.20c85250722365f476da1212035f3791.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.ddea5405.chunk.js.LICENSE.txt": "/static/js/2.ddea5405.chunk.js.LICENSE.txt",
+    "static/js/2.da29f472.chunk.js.LICENSE.txt": "/static/js/2.da29f472.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -40,6 +40,7 @@
     "static/media/Howey-Wool.jpg": "/static/media/Howey-Wool.c7f6dff1.jpg",
     "static/media/Kendi-How-to-Be-an-Antiracist.jpg": "/static/media/Kendi-How-to-Be-an-Antiracist.784f7de6.jpg",
     "static/media/Klein-Why-We're-Polarized.jpg": "/static/media/Klein-Why-We're-Polarized.9003d297.jpg",
+    "static/media/Krakauer-Into-Thin-Air.jpg": "/static/media/Krakauer-Into-Thin-Air.6a80bc0f.jpg",
     "static/media/Larson-In-the-Garden-of-Beasts.jpg": "/static/media/Larson-In-the-Garden-of-Beasts.e953a800.jpg",
     "static/media/Lewis-Has-Anyone-Seen-the-President.jpg": "/static/media/Lewis-Has-Anyone-Seen-the-President.420b2518.jpg",
     "static/media/Lore-I-Am-Number-Four.jpg": "/static/media/Lore-I-Am-Number-Four.0e0eb5e8.jpg",
@@ -50,6 +51,7 @@
     "static/media/Morgenstern-The-Night-Circus.jpg": "/static/media/Morgenstern-The-Night-Circus.09701acb.jpg",
     "static/media/Munroe-What-If-Serious-Scientific-Answers-to-Absurd-Hypothetical-Questions.jpg": "/static/media/Munroe-What-If-Serious-Scientific-Answers-to-Absurd-Hypothetical-Questions.852cce9b.jpg",
     "static/media/Noah-Born-a-Crime.jpg": "/static/media/Noah-Born-a-Crime.bd9cbfcd.jpg",
+    "static/media/O'Neil-Weapons-of-Math-Destruction.jpg": "/static/media/O'Neil-Weapons-of-Math-Destruction.b24ae6bf.jpg",
     "static/media/Pak-Goodbye-Summer,-Hello-Autumn.jpg": "/static/media/Pak-Goodbye-Summer,-Hello-Autumn.e2dccb41.jpg",
     "static/media/Pfeiffer-Un-Trumping-America.jpg": "/static/media/Pfeiffer-Un-Trumping-America.50639943.jpg",
     "static/media/Philbrick-In-the-Heart-of-the-Sea.jpg": "/static/media/Philbrick-In-the-Heart-of-the-Sea.cbbd51ae.jpg",
@@ -78,8 +80,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.ddea5405.chunk.js",
+    "static/js/2.da29f472.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.2ff8d692.chunk.js"
+    "static/js/main.4d8a46ec.chunk.js"
   ]
 }

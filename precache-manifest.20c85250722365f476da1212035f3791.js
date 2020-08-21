@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "968d5e64b583f5ca0cea40ffeb018c66",
+    "revision": "5c8d2737717b964855ef40f831bf040c",
     "url": "/index.html"
   },
   {
-    "revision": "d86b391bb669fe999044",
+    "revision": "cde6e0d351e991b101f6",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "81aa9ce2e3866510c944",
-    "url": "/static/js/2.ddea5405.chunk.js"
+    "revision": "4021add9bf9045c61972",
+    "url": "/static/js/2.da29f472.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.ddea5405.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.da29f472.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d86b391bb669fe999044",
-    "url": "/static/js/main.2ff8d692.chunk.js"
+    "revision": "cde6e0d351e991b101f6",
+    "url": "/static/js/main.4d8a46ec.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -136,6 +136,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Klein-Why-We're-Polarized.9003d297.jpg"
   },
   {
+    "revision": "6a80bc0f60724b30eb3b23f513f27962",
+    "url": "/static/media/Krakauer-Into-Thin-Air.6a80bc0f.jpg"
+  },
+  {
     "revision": "e953a800d57a2a7202a96f11c02e32c4",
     "url": "/static/media/Larson-In-the-Garden-of-Beasts.e953a800.jpg"
   },
@@ -174,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd9cbfcd922bcabb9882b1b31f433976",
     "url": "/static/media/Noah-Born-a-Crime.bd9cbfcd.jpg"
+  },
+  {
+    "revision": "b24ae6bf4ce851e9010389354e6d6c41",
+    "url": "/static/media/O'Neil-Weapons-of-Math-Destruction.b24ae6bf.jpg"
   },
   {
     "revision": "e2dccb41f6049e207c7d9b7ebc60a1dd",
