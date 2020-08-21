@@ -2523,5 +2523,84 @@
             "height": 400,
             "heightDividedByWidth": 1.509433962264151
         }
+    },
+    "64": {
+        "id": 64,
+        "title": "Weapons of Math Destruction",
+        "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Cathy O'Neil"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "259",
+        "pubYear": 2016,
+        "isbn10": "0553418815",
+        "isbn13": "9780553418811",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0553418815/",
+            "GoodReads": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
+            "IndieBound": "https://www.indiebound.org/book/9780553418811",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780553418811",
+            "Library": "https://www.worldcat.org/search?q=9780553418811"
+        },
+        "coverImgFileName": "O'Neil-Weapons-of-Math-Destruction.jpg",
+        "desc": "Big data and algorithms have dueling roles in the zeitgeist. They are either the bridge to a utopia with limitless growth and happier lives or an unyielding evil that must be exorcised from the world. It is, of course, not that simple. Algorithms can be incredibly useful and powerful, but only when used thoughtfully. In <cite>Weapons of Math Destruction</cite>, Cathy O\u2019Neil expertly articulates <em>how</em> to tell the difference between algorithms that are good and those that will inevitably be biased and harmful.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 4
+        },
+        "tags": [
+            "Diversity, Equity, & Inclusion",
+            "Math & Science",
+            "Nonfiction"
+        ],
+        "coverImgInfo": {
+            "width": 267,
+            "height": 400,
+            "heightDividedByWidth": 1.4981273408239701
+        }
+    },
+    "65": {
+        "id": 65,
+        "title": "Into Thin Air",
+        "subtitle": "A Personal Account of the Mount Everest Disaster",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Jon Krakauer"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "368",
+        "pubYear": 1997,
+        "isbn10": "0385494785",
+        "isbn13": "9780385494786",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/0385494785",
+            "GoodReads": "https://www.goodreads.com/book/show/1898.Into_Thin_Air",
+            "IndieBound": "https://www.indiebound.org/book/9780385494786",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780385494786",
+            "Library": "https://www.worldcat.org/search?q=9780385494786"
+        },
+        "coverImgFileName": "Krakauer-Into-Thin-Air.jpg",
+        "desc": "Every year, hundreds of climbers attempt to summit Mt. Everest, the roof of the world. Some are expert mountaineers, but most have little experience, relying on the support of a team of guides and sherpas to help them reach the summit. Making their way to the \u201cdeath zone\u201d above 8000 meteres, where the lack of oxygen wreaks havoc on their bodies and minds, climbers push themselves to the summit only to discover a surprise storm is bearing down upon them. Told by Jon Krakauer, an experienced climber and adventure writer, who happened to be embedded with an expedition at the time, <cite>Into Thin Air</cite> is the story of death and survival during one of the deadliest years on the mountain.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Adventure",
+            "Nonfiction"
+        ],
+        "coverImgInfo": {
+            "width": 272,
+            "height": 400,
+            "heightDividedByWidth": 1.4705882352941178
+        }
     }
 }
