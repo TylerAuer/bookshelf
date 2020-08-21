@@ -13,3 +13,8 @@ Built with [React](https://reactjs.org/) using [react-router](https://reactroute
 - **Popovers for ratings stars** - When a user mouses over the stars of a rating, it would be nice for a popover to explain the rating system.
 
 - **Restyle filters** - Possibly use pills or other common UI. Group years together and only display some of the filters at first with a Show More option.
+
+## Commands
+`npm start` - Run locally
+
+`npm run deploy` - Rebuilds and deploys application
