@@ -79,6 +79,7 @@ seriesIndex = ""
 ##############################
 # Collect relavent information
 ##############################
+print('Getting book info from GoodReads...')
 page = requests.get(bookUrl)
 soup = BeautifulSoup(page.content, 'html.parser')
 # Contains pub year and pub date
@@ -144,7 +145,7 @@ for child in descListRows:
 ##########################
 # Save Cover IMG to folder
 ##########################
-
+print('Saving cover image...')
 # Cover IMG URL
 imgUrl = soup.find(id="coverImage")['src']
 
@@ -154,6 +155,7 @@ imgName = authors[0].split(" ")[-1] + "-" + title.replace(" ", "-") + ".jpg"
 with open('./src/covers/' + imgName, 'wb') as handler:
     handler.write(img_data)
 
+print('Calculating cover image dimensions and ratios...')
 # Get the height and width of the image
 coverImage = Image.open('./src/covers/' + imgName)
 width, height = coverImage.size
@@ -169,7 +171,7 @@ coverImgInfo = {
 #############################
 # Generate new JSON to add
 
-
+print('Adding {title} to books.json...')
 # Open data file
 with open('./src/books.json', 'r+') as file:
     data = json.load(file)
@@ -212,3 +214,5 @@ with open('./src/books.json', 'r+') as file:
     # Though this shouldn't be necessary, I've left it here as a reference
     # in case this approach is used in the future
     file.truncate()
+
+print('Done! {title} was assigned an ID of {bookID} in case you want to add it to your favorite list on the About page')
