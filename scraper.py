@@ -171,7 +171,7 @@ coverImgInfo = {
 #############################
 # Generate new JSON to add
 
-print('Adding {title} to books.json...')
+print(f'Adding {title} to books.json...')
 # Open data file
 with open('./src/books.json', 'r+') as file:
     data = json.load(file)
@@ -215,4 +215,6 @@ with open('./src/books.json', 'r+') as file:
     # in case this approach is used in the future
     file.truncate()
 
-print('Done! {title} was assigned an ID of {bookID} in case you want to add it to your favorite list on the About page')
+print('Done!')
+print(
+    f'Given ID: {bookID} in case you want to add it to your favorite list on the About page')
