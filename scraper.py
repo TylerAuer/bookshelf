@@ -151,7 +151,13 @@ imgUrl = soup.find(id="coverImage")['src']
 
 # Save to covers folder
 img_data = requests.get(imgUrl).content
-imgName = authors[0].split(" ")[-1] + "-" + title.replace(" ", "-") + ".jpg"
+
+print(title)
+titleWithoutPunctuationOrSpaces = title.replace(
+    " ", "-").replace("!", "").replace(".", "").replace("?", "")
+print(title)
+imgName = authors[0].split(" ")[-1] + "-" + \
+    titleWithoutPunctuationOrSpaces + ".jpg"
 with open('./src/covers/' + imgName, 'wb') as handler:
     handler.write(img_data)
 
