@@ -1,11 +1,14 @@
 import books from '../books.json';
 import useQueryObject from './useQueryObject';
+import useTagAndYearMaps from './useTagAndYearMaps';
 
-// Returns a list of book IDs based on the current active filters
-// If no filters are active, returns all book IDs
+// Finds bookIds of books that should be displayed based on the query string
+// which shows the filters being applied
+//
+// Defaults to all books if no filters / query string exists
 const useFilteredBookIDs = () => {
   const queryObject = useQueryObject();
-  const activeBooks = [];
+  const { yearMap, tagMap } = useTagAndYearMaps();
 
   // If there is no query string OR
   // queryObj doesn't include tag or year
@@ -14,41 +17,26 @@ const useFilteredBookIDs = () => {
     return Object.keys(books);
   }
 
-  // TODO: OPTIMIZATION: Right now this runs every time the query string changes
-  // Instead I could generate objects with lists of IDs for each filter type
-  // And then I could just grab the relevant IDs everytime that filter is on.
-  // This would be a good idea as the number of books and tags grow
-  for (let id in books) {
-    let book = books[id];
-    let shouldBookBeAdded = false;
+  // Filters are selected so get book IDs that are needed
+  let idsOfBooksToShow = new Set();
 
-    // check if year matches
-    if (queryObject.year) {
-      // for each year in the query
-      queryObject.year.forEach((year) => {
-        // if the year in the query matches the publishing year
-        if (book.pubYear === parseInt(year)) {
-          shouldBookBeAdded = true;
-        }
+  if (queryObject.year) {
+    queryObject.year.forEach((year) => {
+      yearMap[year].forEach((bookId) => {
+        idsOfBooksToShow.add(bookId.toString());
       });
-    }
-    // check if tag matches
-    if (queryObject.tag) {
-      // for each tag in query
-      book.tags.forEach((tag) => {
-        // if the book shares the tag
-        if (queryObject.tag.includes(tag)) {
-          shouldBookBeAdded = true;
-        }
-      });
-    }
-
-    if (shouldBookBeAdded) {
-      activeBooks.push(book.id.toString());
-    }
+    });
   }
 
-  return activeBooks;
+  if (queryObject.tag) {
+    queryObject.tag.forEach((tag) => {
+      tagMap[tag].forEach((bookId) => {
+        idsOfBooksToShow.add(bookId.toString());
+      });
+    });
+  }
+
+  return [...idsOfBooksToShow];
 };
 
 export default useFilteredBookIDs;

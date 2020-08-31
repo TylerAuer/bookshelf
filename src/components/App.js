@@ -29,6 +29,9 @@ const App = (props) => {
   TODO: Can get rid of this if I pass down activeBookIDs and books to 
   Covers and List. They can then just look up the info they need.
   */
+
+  console.log(filteredBookIDs);
+
   const activeBooks = [];
   bookIDOrder.forEach((bookID) => {
     if (filteredBookIDs.includes(bookID)) {
