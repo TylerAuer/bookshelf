@@ -12,16 +12,12 @@ import List from './List';
 
 const App = () => {
   // State for order of books as list of IDs
+  // Must be separated out so that it doesn't change when the filters change
   const [bookIDOrder, setBookIDOrder] = useState(
     shuffleList(Object.keys(books))
   );
-  // State for filtered books as list of IDs
-  const filteredBookIDs = useFilteredBookIDs();
-
-  // Triggers a shuffle of the book IDs. Passed to filters
-  const shuffleBookOrder = () => {
-    setBookIDOrder(shuffleList(Object.keys(books)));
-  };
+  // State for filtered books as list of ID
+  const { filteredBookIDs, yearMap, tagMap } = useFilteredBookIDs();
 
   // List of book IDs in current order that fit the active filters
   // to pass to single for Next and Previous BTNs
@@ -32,10 +28,19 @@ const App = () => {
     }
   });
 
+  // Triggers a shuffle of the book IDs. Passed to filters
+  const shuffleBookOrder = () => {
+    setBookIDOrder(shuffleList(Object.keys(books)));
+  };
+
   return (
     <>
       <Header />
-      <Filters books={books} shuffleBookOrder={shuffleBookOrder} />
+      <Filters
+        yearMap={yearMap}
+        tagMap={tagMap}
+        shuffleBookOrder={shuffleBookOrder}
+      />
       <Switch>
         <Route
           path="/single/:id"

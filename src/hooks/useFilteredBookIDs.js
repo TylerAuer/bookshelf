@@ -14,16 +14,17 @@ const useFilteredBookIDs = () => {
   // queryObj doesn't include tag or year
   if (!queryObject || (!queryObject.tag && !queryObject.year)) {
     // Return all book IDs
-    return Object.keys(books);
+    let filteredBookIDs = Object.keys(books);
+    return { filteredBookIDs, yearMap, tagMap };
   }
 
   // Filters are selected so get book IDs that are needed
-  let idsOfBooksToShow = new Set();
+  let filteredBookIDs = new Set();
 
   if (queryObject.year) {
     queryObject.year.forEach((year) => {
       yearMap[year].forEach((bookId) => {
-        idsOfBooksToShow.add(bookId.toString());
+        filteredBookIDs.add(bookId.toString());
       });
     });
   }
@@ -31,12 +32,13 @@ const useFilteredBookIDs = () => {
   if (queryObject.tag) {
     queryObject.tag.forEach((tag) => {
       tagMap[tag].forEach((bookId) => {
-        idsOfBooksToShow.add(bookId.toString());
+        filteredBookIDs.add(bookId.toString());
       });
     });
   }
 
-  return [...idsOfBooksToShow];
+  filteredBookIDs = [...filteredBookIDs];
+  return { filteredBookIDs, yearMap, tagMap };
 };
 
 export default useFilteredBookIDs;

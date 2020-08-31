@@ -5,34 +5,27 @@ import './Filters.css';
 import ShowHideFiltersBtn from './ShowHideFiltersBtn';
 import useQueryObject from '../hooks/useQueryObject';
 
-const Filters = ({ books, shuffleBookOrder }) => {
+const Filters = ({ yearMap, tagMap, shuffleBookOrder }) => {
   const location = useLocation();
   const queryObj = useQueryObject();
 
-  let listOfYears = [];
-  let listOfTags = [];
-  for (let id in books) {
-    // Adds years if not yet in the list
-    if (!listOfYears.includes(books[id].pubYear)) {
-      listOfYears.push(books[id].pubYear);
-    }
-    // Adds tags if not yet in the list
-    books[id].tags.forEach((tag) => {
-      if (!listOfTags.includes(tag)) {
-        listOfTags.push(tag);
-      }
-    });
-  }
+  // Use the maps to make list of years and tags
+  let listOfYears = Object.keys(yearMap);
+  let listOfTags = Object.keys(tagMap);
+
+  // Sort the years and tags
   listOfYears.sort().reverse(); // Reverse chronological order
   listOfTags.sort(); // Alphabetical order
 
+  // Unless a user clicks the "Show More Button", only the filters below
+  // and any active filters are shown
   const filtersToAlwaysShow = [
-    2020,
-    2019,
-    2018,
-    2017,
-    2016,
-    2015,
+    '2020',
+    '2019',
+    '2018',
+    '2017',
+    '2016',
+    '2015',
     'Fantasy',
     'Graphic Novel',
     'Judge me by my cover',
@@ -43,6 +36,7 @@ const Filters = ({ books, shuffleBookOrder }) => {
     "Where we're going we don't need roads",
   ];
 
+  // Handle the case where no filters are applied and show more is NOT selected
   if (!queryObj || !queryObj.allFilters) {
     listOfYears = listOfYears.filter(
       (year) =>
