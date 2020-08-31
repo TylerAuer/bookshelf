@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.90830738.chunk.css",
-    "main.js": "/static/js/main.ca5a3a24.chunk.js",
-    "main.js.map": "/static/js/main.ca5a3a24.chunk.js.map",
+    "main.js": "/static/js/main.d76646dc.chunk.js",
+    "main.js.map": "/static/js/main.d76646dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f9a0ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f9a0ec.js.map",
-    "static/js/2.3af5b3ce.chunk.js": "/static/js/2.3af5b3ce.chunk.js",
-    "static/js/2.3af5b3ce.chunk.js.map": "/static/js/2.3af5b3ce.chunk.js.map",
+    "static/js/2.1f6deb72.chunk.js": "/static/js/2.1f6deb72.chunk.js",
+    "static/js/2.1f6deb72.chunk.js.map": "/static/js/2.1f6deb72.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1c746e05fe8fb03dd22cd84f07b3c636.js": "/precache-manifest.1c746e05fe8fb03dd22cd84f07b3c636.js",
+    "precache-manifest.ce9110a51c94c3df84c5ba8999788065.js": "/precache-manifest.ce9110a51c94c3df84c5ba8999788065.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.90830738.chunk.css.map": "/static/css/main.90830738.chunk.css.map",
-    "static/js/2.3af5b3ce.chunk.js.LICENSE.txt": "/static/js/2.3af5b3ce.chunk.js.LICENSE.txt",
+    "static/js/2.1f6deb72.chunk.js.LICENSE.txt": "/static/js/2.1f6deb72.chunk.js.LICENSE.txt",
     "static/media/Addison-The-Goblin-Emperor.jpg": "/static/media/Addison-The-Goblin-Emperor.2092d406.jpg",
     "static/media/Alderman-The-Power.jpg": "/static/media/Alderman-The-Power.221cd858.jpg",
     "static/media/Andreae-Giraffes-Can't-Dance.jpg": "/static/media/Andreae-Giraffes-Can't-Dance.cfc4883c.jpg",
@@ -58,6 +58,7 @@
     "static/media/Pollan-Caffeine.jpg": "/static/media/Pollan-Caffeine.b41cf383.jpg",
     "static/media/Power-The-Education-of-an-Idealist.jpg": "/static/media/Power-The-Education-of-an-Idealist.2e7d136c.jpg",
     "static/media/Pratchett-The-Color-of-Magic.jpg": "/static/media/Pratchett-The-Color-of-Magic.9c0578fb.jpg",
+    "static/media/Ralston-Between-a-Rock-and-a-Hard-Place.jpg": "/static/media/Ralston-Between-a-Rock-and-a-Hard-Place.1feda0d1.jpg",
     "static/media/Rhodes-The-World-As-It-Is.jpg": "/static/media/Rhodes-The-World-As-It-Is.8f9e6398.jpg",
     "static/media/Roberts-Limits-of-the-Known.jpg": "/static/media/Roberts-Limits-of-the-Known.5ad28814.jpg",
     "static/media/Rothfuss-The-Name-of-the-Wind.jpg": "/static/media/Rothfuss-The-Name-of-the-Wind.93118c5d.jpg",
@@ -80,8 +81,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55f9a0ec.js",
-    "static/js/2.3af5b3ce.chunk.js",
+    "static/js/2.1f6deb72.chunk.js",
     "static/css/main.90830738.chunk.css",
-    "static/js/main.ca5a3a24.chunk.js"
+    "static/js/main.d76646dc.chunk.js"
   ]
 }

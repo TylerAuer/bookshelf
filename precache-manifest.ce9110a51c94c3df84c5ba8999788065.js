@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc90cc9f9fc775028e2f42cf1cc6e52f",
+    "revision": "681e31820b92ad173c95d029f5e9479b",
     "url": "/index.html"
   },
   {
-    "revision": "1eadf0474046cf8e3c14",
+    "revision": "b375bd1eae3b58aa8d08",
     "url": "/static/css/main.90830738.chunk.css"
   },
   {
-    "revision": "947aefbb2e30e46d158b",
-    "url": "/static/js/2.3af5b3ce.chunk.js"
+    "revision": "fb3729d12183fca48ffd",
+    "url": "/static/js/2.1f6deb72.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/static/js/2.3af5b3ce.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1f6deb72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1eadf0474046cf8e3c14",
-    "url": "/static/js/main.ca5a3a24.chunk.js"
+    "revision": "b375bd1eae3b58aa8d08",
+    "url": "/static/js/main.d76646dc.chunk.js"
   },
   {
     "revision": "cd89c03487898447f6e4",
@@ -206,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c0578fb9444a82ede98d16c5b7eb8e0",
     "url": "/static/media/Pratchett-The-Color-of-Magic.9c0578fb.jpg"
+  },
+  {
+    "revision": "1feda0d198d27576de2961ce4dd5134c",
+    "url": "/static/media/Ralston-Between-a-Rock-and-a-Hard-Place.1feda0d1.jpg"
   },
   {
     "revision": "8f9e63985dbe70e0e977545e1bb4c104",
