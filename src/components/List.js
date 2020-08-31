@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useSpring, animated, config } from 'react-spring';
 import makeListFromArray from '../functions/makeListFromArray';
 import makeStars from '../functions/makeStars';
+import books from '../books.json';
 import './List.css';
 
 const BookInList = ({ book, index }) => {
@@ -41,14 +42,15 @@ const BookInList = ({ book, index }) => {
   );
 };
 
-const Lists = ({ activeBooks }) => {
+const Lists = ({ activeBookIDs }) => {
   const animations = useSpring({
     opacity: 1,
     from: { opacity: 0 },
     config: config.molasses,
   });
 
-  const ListOfBooks = activeBooks.map((book, index) => {
+  const ListOfBooks = activeBookIDs.map((bookId, index) => {
+    const book = books[bookId];
     return <BookInList index={index} key={book.id} book={book} />;
   });
 

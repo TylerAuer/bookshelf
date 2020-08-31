@@ -2,9 +2,10 @@ import React, { useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 import useResponsiveDimensions from '../hooks/useResponsiveDimensions';
+import books from '../books.json';
 import './Covers.css';
 
-function Covers({ activeBooks }) {
+function Covers({ activeBookIDs }) {
   const location = useLocation();
   // Detects dimensions of the masonry container
   const componentRef = useRef();
@@ -14,9 +15,9 @@ function Covers({ activeBooks }) {
   // This messes with the calculations for xOffset and yOffset below
   // causing the books to animate in a weird way on page load
   // This if statement prevents the books from rendering until
-  // a width is determined
+  // a width is determined and avoids the weird animation effect
   if (gridWidth === 0) {
-    activeBooks = [];
+    activeBookIDs = [];
   }
 
   // Adjust masonry grid based on width of the grid
@@ -62,19 +63,26 @@ function Covers({ activeBooks }) {
   const columnHeights = new Array(columns).fill(0);
 
   // Creates array of book objects that includes their dimensions & positions
-  const booksWithPositionAndDimensions = activeBooks.map((book) => {
+  const booksWithPositionAndDimensions = activeBookIDs.map((bookID) => {
+    // Looks up the book info from the book.json file
+    const book = books[bookID];
+
     // Find the column with the smallest cumulative height
     const indexOfShortestColumn = columnHeights.indexOf(
       Math.min(...columnHeights)
     );
+
     // Use the column index to determine the x coordinate
     const xOffset = columnWidth * indexOfShortestColumn + gutter / 2;
+
     // Use the column's height to determine the y coordinate
     const yOffset = columnHeights[indexOfShortestColumn];
+
     // Calculate the image's width and height including the gutter
     const imgWidth = columnWidth - gutter;
     const imgHeight =
       (columnWidth - gutter) * book.coverImgInfo.heightDividedByWidth;
+
     // Add the image's height to the column's previous height
     columnHeights[indexOfShortestColumn] += imgHeight + gutter;
 
