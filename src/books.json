@@ -2602,5 +2602,44 @@
             "height": 400,
             "heightDividedByWidth": 1.4705882352941178
         }
+    },
+    "66": {
+        "id": 66,
+        "title": "Between a Rock and a Hard Place",
+        "subtitle": "",
+        "seriesTitle": "",
+        "seriesIndex": "",
+        "seriesLength": null,
+        "authors": [
+            "Aron Ralston"
+        ],
+        "illustrators": [],
+        "translators": [],
+        "pages": "368",
+        "pubYear": 2004,
+        "isbn10": "074349282X",
+        "isbn13": "9780743492829",
+        "extLinks": {
+            "Amazon": "https://www.amazon.com/gp/product/074349282X/",
+            "GoodReads": "https://www.goodreads.com/book/show/166562.Between_a_Rock_and_a_Hard_Place",
+            "IndieBound": "https://www.indiebound.org/book/9780743492829",
+            "AbeBooks": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&kn=&an=&tn=&isbn=9780743492829",
+            "Library": "https://www.worldcat.org/search?q=9780743492829"
+        },
+        "coverImgFileName": "Ralston-Between-a-Rock-and-a-Hard-Place.jpg",
+        "desc": "Even if you\u2019ve never once been to a park, you\u2019ve likely heard of Aron Ralston\u2019s unbelievable survival story. Alone in a rarely visited section of Canyonlands National Park, Ralston was downclimbing in a slot canyon when a chockstone broke loose, pinballing him down the canyon and pinning his arm against the sandstone wall, trapping him in the remote wilderness with no hope of rescue. As an experienced outdoorsman and member of a wilderness rescue team, Ralston knew his situation was dire. And, as the days passed and dehydration set in, he came to the realization that his only chance of survival was to do the unthinkable and cut off his own arm.",
+        "descAuthor": "Tyler",
+        "ratings": {
+            "Tyler": 5
+        },
+        "tags": [
+            "Adventure",
+            "Memoir"
+        ],
+        "coverImgInfo": {
+            "width": 308,
+            "height": 475,
+            "heightDividedByWidth": 1.5422077922077921
+        }
     }
 }
